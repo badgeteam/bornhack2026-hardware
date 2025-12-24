@@ -655,6 +655,10 @@
     [
       "6b9e027f-7f51-40c0-a70e-149da1361e88",
       "RGB_LED"
+    ],
+    [
+      "e6648a5e-ca85-44cb-9ebe-5d2e890e6ff0",
+      "sx1262"
     ]
   ],
   "text_variables": {}
