@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "d907b3b0-0bf9-4427-9283-40ff17b450eb")
 	(paper "A4")
+	(title_block
+		(title "Bornhack 2026")
+		(rev "0.1")
+		(company "Badge.Team")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers
@@ -1202,7 +1207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17d0d491-e6f5-4d6d-9366-97533eb8e21b")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR033"
 			(at 58.42 81.28 0)
 			(effects
 				(font
@@ -1252,7 +1257,7 @@
 		(instances
 			(project ""
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/333d98a8-e6a2-433c-bb9c-6f407290c160"
-					(reference "#PWR07")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -1589,7 +1594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1f58ead-94e9-42cc-b6a3-2054da7df2d8")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR034"
 			(at 76.2 81.28 0)
 			(effects
 				(font
@@ -1639,7 +1644,7 @@
 		(instances
 			(project "bornhack2026-hardware"
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/333d98a8-e6a2-433c-bb9c-6f407290c160"
-					(reference "#PWR026")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -1655,7 +1660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6342735-6d93-4b81-abf3-112bacccfb09")
-		(property "Reference" "R8"
+		(property "Reference" "R5"
 			(at 60.96 71.1199 0)
 			(effects
 				(font
@@ -1718,7 +1723,7 @@
 		(instances
 			(project ""
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/333d98a8-e6a2-433c-bb9c-6f407290c160"
-					(reference "R8")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -1829,7 +1834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed0a6935-592d-4f8a-8506-d42cee87ad38")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR036"
 			(at 114.3 81.28 0)
 			(effects
 				(font
@@ -1879,7 +1884,7 @@
 		(instances
 			(project "bornhack2026-hardware"
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/333d98a8-e6a2-433c-bb9c-6f407290c160"
-					(reference "#PWR034")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -1895,7 +1900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3ea0fc9-5117-42ef-bf9f-725d3c6fb111")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR035"
 			(at 107.95 81.28 0)
 			(effects
 				(font
@@ -1945,7 +1950,7 @@
 		(instances
 			(project "bornhack2026-hardware"
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/333d98a8-e6a2-433c-bb9c-6f407290c160"
-					(reference "#PWR033")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)

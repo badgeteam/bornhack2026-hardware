@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "ad55e715-bbc9-4a66-89f2-ff6f2210c459")
 	(paper "A4")
+	(title_block
+		(title "Bornhack 2026")
+		(rev "0.1")
+		(company "Badge.Team")
+	)
 	(lib_symbols
 		(symbol "Device:R_Small"
 			(pin_numbers
@@ -723,7 +728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2137e6cb-6f16-46fc-811a-26c012f70b95")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 55.88 53.34 90)
 			(effects
 				(font
@@ -784,7 +789,7 @@
 		(instances
 			(project ""
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/6b9e027f-7f51-40c0-a70e-149da1361e88"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -800,7 +805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad91372a-8250-4b7f-a9f8-2da29a04370b")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 97.79 53.34 90)
 			(effects
 				(font
@@ -861,7 +866,7 @@
 		(instances
 			(project "bornhack2026-hardware"
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/6b9e027f-7f51-40c0-a70e-149da1361e88"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -877,7 +882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1793051-f1d2-47e5-9605-3374b08e6275")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 97.79 60.96 90)
 			(effects
 				(font
@@ -938,7 +943,7 @@
 		(instances
 			(project "bornhack2026-hardware"
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/6b9e027f-7f51-40c0-a70e-149da1361e88"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
