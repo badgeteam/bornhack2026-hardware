@@ -1861,6 +1861,12 @@
 		(uuid "96ae2a10-d054-4460-acc1-ae5d348a08dc")
 	)
 	(junction
+		(at 44.45 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b81a2f9a-0e05-4079-9ceb-6a0eef23624c")
+	)
+	(junction
 		(at 232.41 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1877,12 +1883,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7cc1e41-9acc-4419-b504-d18c523232ad")
-	)
-	(junction
-		(at 46.99 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c858acb0-58bf-4dfb-b959-e9d0aaf63fa0")
 	)
 	(junction
 		(at 163.83 78.74)
@@ -2296,6 +2296,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 99.06) (xy 46.99 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70e150da-19d7-411d-9d56-7f2ccecd7b26")
+	)
+	(wire
+		(pts
 			(xy 232.41 105.41) (xy 240.03 105.41)
 		)
 		(stroke
@@ -2396,7 +2406,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 93.98) (xy 46.99 99.06)
+			(xy 44.45 93.98) (xy 44.45 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2516,7 +2526,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 93.98) (xy 83.82 93.98)
+			(xy 44.45 93.98) (xy 83.82 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2646,7 +2656,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 99.06) (xy 46.99 99.06)
+			(xy 40.64 99.06) (xy 44.45 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3068,10 +3078,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0a60584c-53df-41e7-8677-749d3ea7354e")
 		(property "Reference" "L5"
-			(at 49.53 93.98 90)
+			(at 49.53 97.028 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3079,7 +3088,7 @@
 			)
 		)
 		(property "Value" "15uH"
-			(at 49.53 96.52 90)
+			(at 49.53 100.584 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3156,7 +3165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 250.19 91.44 0)
 			(effects
 				(font
@@ -3165,7 +3174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/53065-0402CG3R6C500NT/C52052"
 			(at 250.19 91.44 0)
 			(effects
 				(font
@@ -3175,6 +3184,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 250.19 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52052"
 			(at 250.19 91.44 0)
 			(effects
 				(font
@@ -3757,7 +3775,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "1nF"
 			(at 234.95 111.7662 0)
 			(effects
 				(font
@@ -3766,7 +3784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 232.41 110.49 0)
 			(effects
 				(font
@@ -3775,7 +3793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1875-0402B102K500NT/C1523"
 			(at 232.41 110.49 0)
 			(effects
 				(font
@@ -3785,6 +3803,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 232.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1523"
 			(at 232.41 110.49 0)
 			(effects
 				(font
@@ -3904,7 +3931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 40.64 106.68 0)
 			(effects
 				(font
@@ -3913,7 +3940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1975-CL10B474KA8NNNC/C1623"
 			(at 40.64 106.68 0)
 			(effects
 				(font
@@ -3923,6 +3950,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 40.64 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1623"
 			(at 40.64 106.68 0)
 			(effects
 				(font
@@ -4105,7 +4141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 158.75 68.58 0)
 			(effects
 				(font
@@ -4114,7 +4150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/478910-CL05C470JB51PNC/C472454"
 			(at 158.75 68.58 0)
 			(effects
 				(font
@@ -4125,6 +4161,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 158.75 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C472454"
+			(at 158.75 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4390,7 +4435,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 266.7 91.44 0)
 			(effects
 				(font
@@ -4399,7 +4444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/53065-0402CG3R6C500NT/C52052"
 			(at 266.7 91.44 0)
 			(effects
 				(font
@@ -4409,6 +4454,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 266.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52052"
 			(at 266.7 91.44 0)
 			(effects
 				(font
@@ -4591,7 +4645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 152.4 68.58 0)
 			(effects
 				(font
@@ -4600,7 +4654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1974-CL10B473KB8NNNC/C1622"
 			(at 152.4 68.58 0)
 			(effects
 				(font
@@ -4611,6 +4665,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 152.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1622"
+			(at 152.4 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4793,7 +4856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 228.6 66.04 0)
 			(effects
 				(font
@@ -4802,7 +4865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1875-0402B102K500NT/C1523"
 			(at 228.6 66.04 0)
 			(effects
 				(font
@@ -4812,6 +4875,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 228.6 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1523"
 			(at 228.6 66.04 0)
 			(effects
 				(font
@@ -5420,7 +5492,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 245.11 86.36 0)
 			(effects
 				(font
@@ -5429,7 +5501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/478910-CL05C470JB51PNC/C472454"
 			(at 245.11 86.36 0)
 			(effects
 				(font
@@ -5440,6 +5512,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 245.11 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C472454"
+			(at 245.11 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
