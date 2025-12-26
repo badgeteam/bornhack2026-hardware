@@ -1,0 +1,1004 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "7a3b4119-9db8-4844-9074-a740ffa7a3ef")
+	(paper "A4")
+	(title_block
+		(title "Bornhack 2026")
+		(rev "0.1")
+		(company "Badge.Team")
+	)
+	(lib_symbols)
+	(text "Based On Tamagotchi Buttons:\nhttps://tamagotchicrossing.com/tamagotchi/yasashii/log1/yasashiibuttons.jpg"
+		(exclude_from_sim no)
+		(at 75.438 19.304 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c41f5715-572b-47c6-9c49-448389348ae9")
+	)
+	(junction
+		(at 55.88 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10d13dce-e08f-4e67-af40-a2b1ace1798b")
+	)
+	(junction
+		(at 55.88 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98efffae-dee2-452a-afdd-8463721f6d7f")
+	)
+	(junction
+		(at 55.88 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bef75ff-65f8-4d09-a6a2-ec7d0ef796da")
+	)
+	(junction
+		(at 55.88 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9eee7e60-f7f4-4927-bda6-efa4b3b9a5d6")
+	)
+	(junction
+		(at 55.88 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa71f121-378e-4d6b-9d70-3d5dd0583c72")
+	)
+	(junction
+		(at 55.88 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab3ea628-71cf-41a5-bd48-c013b64942f3")
+	)
+	(junction
+		(at 55.88 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5d42424-baf6-465a-9bf6-6e3bdc42e78f")
+	)
+	(junction
+		(at 55.88 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fabdda72-2f34-47eb-9f21-9bb37fe28b41")
+	)
+	(wire
+		(pts
+			(xy 55.88 114.3) (xy 58.42 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11f3055b-0d7f-49da-94e7-b03da11ebbe1")
+	)
+	(wire
+		(pts
+			(xy 55.88 53.34) (xy 55.88 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16bcbfb0-d892-4676-9d90-d3f1dba7e635")
+	)
+	(wire
+		(pts
+			(xy 87.63 104.14) (xy 99.06 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1926cf5e-55e3-4d0e-b750-cba9a07c5dfd")
+	)
+	(wire
+		(pts
+			(xy 55.88 114.3) (xy 55.88 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "201404c9-a98c-48ef-bc6c-61c7b1ce3ba7")
+	)
+	(wire
+		(pts
+			(xy 55.88 104.14) (xy 58.42 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21cf78fc-a262-4ae6-8cab-68d971cb086d")
+	)
+	(wire
+		(pts
+			(xy 87.63 63.5) (xy 99.06 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "256dca4f-ce20-41ba-94eb-48f9dc3fb9fb")
+	)
+	(wire
+		(pts
+			(xy 55.88 83.82) (xy 58.42 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31f7f926-bee4-40d0-944a-79ab4d68cc60")
+	)
+	(wire
+		(pts
+			(xy 87.63 53.34) (xy 99.06 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36ba82f3-82e6-400a-b5c9-f4d6286aca98")
+	)
+	(wire
+		(pts
+			(xy 87.63 124.46) (xy 99.06 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44e2b292-98e6-4435-b515-66da5695c10d")
+	)
+	(wire
+		(pts
+			(xy 55.88 46.99) (xy 55.88 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59fe2eff-9b84-4c9f-b580-2321a5d04a73")
+	)
+	(wire
+		(pts
+			(xy 87.63 73.66) (xy 99.06 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ca537b1-81cb-460e-b913-1d2b40391ba6")
+	)
+	(wire
+		(pts
+			(xy 55.88 83.82) (xy 55.88 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60b84631-fcad-44b0-989c-0d03c0ff8f33")
+	)
+	(wire
+		(pts
+			(xy 55.88 134.62) (xy 58.42 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69a4d332-8498-4ad8-a385-ce118202a498")
+	)
+	(wire
+		(pts
+			(xy 87.63 114.3) (xy 99.06 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f76d2c9-f4a3-486d-83fa-8fc0fa6e6ee3")
+	)
+	(wire
+		(pts
+			(xy 55.88 53.34) (xy 58.42 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7edcf988-87b3-4d69-abeb-bc16deb8c0d3")
+	)
+	(wire
+		(pts
+			(xy 55.88 63.5) (xy 58.42 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f04fb4f-99b5-4012-af96-88aa26a471e4")
+	)
+	(wire
+		(pts
+			(xy 87.63 93.98) (xy 99.06 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "932f85f3-0113-4622-9af4-975de1f8aaab")
+	)
+	(wire
+		(pts
+			(xy 55.88 124.46) (xy 58.42 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "936b4531-49c8-4c31-b0b7-bfa667e79f9c")
+	)
+	(wire
+		(pts
+			(xy 87.63 134.62) (xy 99.06 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1c9730d-1627-4ad5-9005-7fc7177f470a")
+	)
+	(wire
+		(pts
+			(xy 55.88 124.46) (xy 55.88 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b96508cc-767e-4d79-ab28-d0fa4eeb2c98")
+	)
+	(wire
+		(pts
+			(xy 55.88 104.14) (xy 55.88 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d339f11d-35bc-4010-9a3d-5945ba5466fb")
+	)
+	(wire
+		(pts
+			(xy 87.63 83.82) (xy 99.06 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d985b721-e27a-4581-bada-860ded3cf825")
+	)
+	(wire
+		(pts
+			(xy 55.88 63.5) (xy 55.88 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfa6824c-8358-455f-911e-3b979a509acf")
+	)
+	(wire
+		(pts
+			(xy 55.88 93.98) (xy 55.88 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebce5cac-b97e-4312-b8f9-ff2cbb66be6e")
+	)
+	(wire
+		(pts
+			(xy 55.88 73.66) (xy 55.88 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2b8be15-4d03-4bc5-a884-1df33d132d42")
+	)
+	(wire
+		(pts
+			(xy 55.88 93.98) (xy 58.42 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3412227-9840-4c3a-ae31-53377d70fcec")
+	)
+	(wire
+		(pts
+			(xy 55.88 73.66) (xy 58.42 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fde838b8-f7bb-462e-ad7b-be7de2a1297a")
+	)
+	(hierarchical_label "BTN_CANCEL"
+		(shape output)
+		(at 99.06 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0bdb25ca-f7df-4f6b-aeea-dbd6d0c0cac8")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 55.88 46.99 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21c05d0f-1428-4743-a6b6-8a4f45d56d7a")
+	)
+	(hierarchical_label "BTN_MEAL"
+		(shape output)
+		(at 99.06 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c7c1f35-0b5d-412e-99f2-90d97c8682cf")
+	)
+	(hierarchical_label "BTN_MED_DIS"
+		(shape output)
+		(at 99.06 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47e6f02d-7d73-4d29-a685-3bddffa27b73")
+	)
+	(hierarchical_label "BTN_RESET"
+		(shape output)
+		(at 99.06 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53d90df9-0813-478e-8bd8-69b985269483")
+	)
+	(hierarchical_label "BTN_TOILET"
+		(shape output)
+		(at 99.06 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "55d1101c-6ce6-4b1a-9889-4c692315cbe5")
+	)
+	(hierarchical_label "BTN_LIGHTS"
+		(shape output)
+		(at 99.06 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6fa1fb69-ac62-4e20-9d61-7b7cbc0c94ca")
+	)
+	(hierarchical_label "BTN_SELECT"
+		(shape output)
+		(at 99.06 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7e926b3-93e4-43c9-8111-0f91f22ec5be")
+	)
+	(hierarchical_label "BTN_STATS"
+		(shape output)
+		(at 99.06 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e878c69f-2988-4b44-9ec3-21e7260b73a4")
+	)
+	(hierarchical_label "BTN_SNACKS"
+		(shape output)
+		(at 99.06 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e96374df-3e8d-4854-adad-cfdb7b17b030")
+	)
+	(sheet
+		(at 58.42 111.76)
+		(size 29.21 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1c8ff3e2-2f4f-4cda-9ba0-6180b9389fcf")
+		(property "Sheetname" "STATS"
+			(at 58.42 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gen_button.kicad_sch"
+			(at 58.42 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 58.42 114.3 180)
+			(uuid "ba5359f9-97d4-4831-8579-55b39b35b33c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN_OUT" output
+			(at 87.63 114.3 0)
+			(uuid "a8e3683c-3b9f-4b32-b2ae-2b6495025238")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "bornhack2026-hardware"
+				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/1f4fc1c2-c6dd-4c37-a48b-5ed4d54351cc"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 50.8)
+		(size 29.21 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "226789dd-c696-45c4-96c5-c7a5d92148eb")
+		(property "Sheetname" "RESET"
+			(at 58.42 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gen_button.kicad_sch"
+			(at 58.42 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 58.42 53.34 180)
+			(uuid "c5738b6b-74a3-44c1-bdb3-0bb4b0733d75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN_OUT" output
+			(at 87.63 53.34 0)
+			(uuid "dbbe863b-683f-4df5-a6a3-def5e1bdea9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "bornhack2026-hardware"
+				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/1f4fc1c2-c6dd-4c37-a48b-5ed4d54351cc"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 101.6)
+		(size 29.21 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "388f31d4-eb5f-444f-b721-36e3eb3ac7fd")
+		(property "Sheetname" "LIGHTS"
+			(at 58.42 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gen_button.kicad_sch"
+			(at 58.42 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 58.42 104.14 180)
+			(uuid "14c8bf48-cec0-4ab7-bdf5-35d94652951a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN_OUT" output
+			(at 87.63 104.14 0)
+			(uuid "b53dfcbc-0033-469f-86e8-212bee391b16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "bornhack2026-hardware"
+				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/1f4fc1c2-c6dd-4c37-a48b-5ed4d54351cc"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 132.08)
+		(size 29.21 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "62b8fb51-fa99-487d-8ffd-9acc3ff5ffd7")
+		(property "Sheetname" "CANCEL"
+			(at 58.42 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gen_button.kicad_sch"
+			(at 58.42 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 58.42 134.62 180)
+			(uuid "7f8d6cf4-1258-44a5-b1bc-267808fb3ddb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN_OUT" output
+			(at 87.63 134.62 0)
+			(uuid "e4447ff9-98ff-48d9-83dc-1577820c2941")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "bornhack2026-hardware"
+				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/1f4fc1c2-c6dd-4c37-a48b-5ed4d54351cc"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 81.28)
+		(size 29.21 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "76feefb0-eecb-4e68-be3f-437d9c0218bd")
+		(property "Sheetname" "MEDICINE_DISCIPLINE"
+			(at 58.42 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gen_button.kicad_sch"
+			(at 58.42 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 58.42 83.82 180)
+			(uuid "5e2fc0ff-2b0b-44d3-a7d8-57e28dcda2f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN_OUT" output
+			(at 87.63 83.82 0)
+			(uuid "517c7dd1-7f7e-4b3b-ba41-39d9cb6d2099")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "bornhack2026-hardware"
+				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/1f4fc1c2-c6dd-4c37-a48b-5ed4d54351cc"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 71.12)
+		(size 29.21 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a0d8777c-f640-40a2-81c9-41b0bad380fd")
+		(property "Sheetname" "GAMES_SNACKS"
+			(at 58.42 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gen_button.kicad_sch"
+			(at 58.42 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 58.42 73.66 180)
+			(uuid "7bf2f374-298e-4b99-af5a-3a2ae03de546")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN_OUT" output
+			(at 87.63 73.66 0)
+			(uuid "ccab485f-5299-4b8d-b459-02c655b42eaa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "bornhack2026-hardware"
+				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/1f4fc1c2-c6dd-4c37-a48b-5ed4d54351cc"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 121.92)
+		(size 29.21 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b546cf1c-99f0-406e-b30e-bca34362d495")
+		(property "Sheetname" "SELECT"
+			(at 58.42 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gen_button.kicad_sch"
+			(at 58.42 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 58.42 124.46 180)
+			(uuid "85effcb4-b964-478c-9883-371293988898")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN_OUT" output
+			(at 87.63 124.46 0)
+			(uuid "cac68ce3-546f-4488-8b7a-ca6d2df2517f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "bornhack2026-hardware"
+				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/1f4fc1c2-c6dd-4c37-a48b-5ed4d54351cc"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 91.44)
+		(size 29.21 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "db62785b-07c7-49c0-8737-437f813264da")
+		(property "Sheetname" "TOILET"
+			(at 58.42 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gen_button.kicad_sch"
+			(at 58.42 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 58.42 93.98 180)
+			(uuid "dac53fb6-92ba-4c0d-b780-c16364e55168")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN_OUT" output
+			(at 87.63 93.98 0)
+			(uuid "26cb7f0e-33cc-42ea-8cd5-9717626f23d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "bornhack2026-hardware"
+				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/1f4fc1c2-c6dd-4c37-a48b-5ed4d54351cc"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 60.96)
+		(size 29.21 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e9b7ca2d-62c6-49f0-9abe-89336bb8d577")
+		(property "Sheetname" "MEAL"
+			(at 58.42 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gen_button.kicad_sch"
+			(at 58.42 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 58.42 63.5 180)
+			(uuid "2e655795-c375-4a5a-a93f-cb7243905c8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN_OUT" output
+			(at 87.63 63.5 0)
+			(uuid "fda6d709-e78c-443a-a903-4985f1ae275a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "bornhack2026-hardware"
+				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/1f4fc1c2-c6dd-4c37-a48b-5ed4d54351cc"
+					(page "3")
+				)
+			)
+		)
+	)
+)

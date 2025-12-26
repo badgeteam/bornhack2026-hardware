@@ -666,6 +666,10 @@
       "NRF52840_MCU"
     ],
     [
+      "e9b7ca2d-62c6-49f0-9abe-89336bb8d577",
+      "MEAL"
+    ],
+    [
       "333d98a8-e6a2-433c-bb9c-6f407290c160",
       "POWER"
     ],
@@ -684,6 +688,42 @@
     [
       "90853474-a0e8-4c32-9bb2-223cb1f08aa7",
       "NFC Antenna"
+    ],
+    [
+      "1f4fc1c2-c6dd-4c37-a48b-5ed4d54351cc",
+      "INPUT"
+    ],
+    [
+      "226789dd-c696-45c4-96c5-c7a5d92148eb",
+      "RESET"
+    ],
+    [
+      "a0d8777c-f640-40a2-81c9-41b0bad380fd",
+      "GAMES_SNACKS"
+    ],
+    [
+      "76feefb0-eecb-4e68-be3f-437d9c0218bd",
+      "MEDICINE_DISCIPLINE"
+    ],
+    [
+      "db62785b-07c7-49c0-8737-437f813264da",
+      "TOILET"
+    ],
+    [
+      "388f31d4-eb5f-444f-b721-36e3eb3ac7fd",
+      "LIGHTS"
+    ],
+    [
+      "1c8ff3e2-2f4f-4cda-9ba0-6180b9389fcf",
+      "STATS"
+    ],
+    [
+      "b546cf1c-99f0-406e-b30e-bca34362d495",
+      "SELECT"
+    ],
+    [
+      "62b8fb51-fa99-487d-8ffd-9acc3ff5ffd7",
+      "CANCEL"
     ]
   ],
   "text_variables": {}

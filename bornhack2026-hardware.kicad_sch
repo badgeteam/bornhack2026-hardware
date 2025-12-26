@@ -2781,6 +2781,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 36.83 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b7e1dc1-5f97-472b-9fa5-de4fa9e91755")
+		(property "Reference" "#PWR074"
+			(at 36.83 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 36.83 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 36.83 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6dc4594a-8d6b-4dd1-a9c0-2eb67977c024")
+		)
+		(instances
+			(project "bornhack2026-hardware"
+				(path "/23bf5400-d19c-445b-8744-b63ebcca303d"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_TVS")
 		(at 87.63 24.13 0)
 		(mirror y)
@@ -3129,6 +3195,148 @@
 		)
 	)
 	(sheet
+		(at 24.13 135.89)
+		(size 29.845 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1f4fc1c2-c6dd-4c37-a48b-5ed4d54351cc")
+		(property "Sheetname" "INPUT"
+			(at 24.13 135.1784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "input.kicad_sch"
+			(at 24.13 159.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BTN_TOILET" output
+			(at 53.975 146.685 0)
+			(uuid "0d887e39-6949-432d-a296-1db8b5d264f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BTN_STATS" output
+			(at 53.975 151.765 0)
+			(uuid "39fe0d22-d7ea-4d71-ad01-56d8b9941eab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BTN_MEAL" output
+			(at 53.975 139.065 0)
+			(uuid "590aabd4-fe08-4d09-b673-31439ff76395")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BTN_SELECT" output
+			(at 53.975 154.305 0)
+			(uuid "f679834f-36f9-4915-a693-cdbd5b7dab42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BTN_LIGHTS" output
+			(at 53.975 149.225 0)
+			(uuid "633343fd-7849-4c52-92a0-dbf9196c6f7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BTN_MED_DIS" output
+			(at 53.975 144.145 0)
+			(uuid "94b0252d-f1ad-4eae-83ad-d71b66a72747")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BTN_RESET" output
+			(at 24.13 147.32 180)
+			(uuid "64d3118e-86f9-4db2-8784-e996979928c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN_SNACKS" output
+			(at 53.975 141.605 0)
+			(uuid "3df9ddb5-a33f-4a95-a20d-9465bddbfed5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3" input
+			(at 35.56 135.89 90)
+			(uuid "654bbc58-415c-4404-9a64-4c1c6016a541")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BTN_CANCEL" output
+			(at 53.975 156.845 0)
+			(uuid "47164325-3732-4250-92ad-671efc3cda1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "bornhack2026-hardware"
+				(path "/23bf5400-d19c-445b-8744-b63ebcca303d"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 22.225 50.8)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
@@ -3355,7 +3563,7 @@
 		)
 	)
 	(sheet
-		(at 25.4 105.41)
+		(at 23.495 105.41)
 		(size 23.495 22.225)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3371,7 +3579,7 @@
 		)
 		(uuid "9cdecd3d-2b1f-4dfc-b0b2-cc7367cb6c39")
 		(property "Sheetname" "DISPLAY"
-			(at 25.4 104.6984 0)
+			(at 23.495 104.6984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3380,7 +3588,7 @@
 			)
 		)
 		(property "Sheetfile" "display.kicad_sch"
-			(at 25.4 128.2196 0)
+			(at 23.495 128.2196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3389,7 +3597,7 @@
 			)
 		)
 		(pin "BUSY" bidirectional
-			(at 48.895 119.38 0)
+			(at 46.99 119.38 0)
 			(uuid "f6905bd7-cf4e-47ac-bce6-a360532dcd7b")
 			(effects
 				(font
@@ -3399,7 +3607,7 @@
 			)
 		)
 		(pin "CS" bidirectional
-			(at 48.895 110.49 0)
+			(at 46.99 110.49 0)
 			(uuid "382472cb-c707-455b-9779-c1d043d5dfbc")
 			(effects
 				(font
@@ -3409,7 +3617,7 @@
 			)
 		)
 		(pin "DC" bidirectional
-			(at 48.895 113.03 0)
+			(at 46.99 113.03 0)
 			(uuid "be37d7da-2834-4b99-a6fd-8e9bbd14fdeb")
 			(effects
 				(font
@@ -3419,7 +3627,7 @@
 			)
 		)
 		(pin "MOSI" bidirectional
-			(at 48.895 107.95 0)
+			(at 46.99 107.95 0)
 			(uuid "529ce7e6-c089-409e-b12d-b21e087f9224")
 			(effects
 				(font
@@ -3429,7 +3637,7 @@
 			)
 		)
 		(pin "RESET" bidirectional
-			(at 48.895 121.92 0)
+			(at 46.99 121.92 0)
 			(uuid "fb6c98b9-f060-49a8-bd6b-aa9cad9acf11")
 			(effects
 				(font
@@ -3439,7 +3647,7 @@
 			)
 		)
 		(pin "SCK" bidirectional
-			(at 48.895 115.57 0)
+			(at 46.99 115.57 0)
 			(uuid "fffcac48-34dc-418d-93fa-367478548a42")
 			(effects
 				(font
@@ -3449,7 +3657,7 @@
 			)
 		)
 		(pin "3V3" input
-			(at 36.83 105.41 90)
+			(at 34.925 105.41 90)
 			(uuid "2d16595c-ed97-4502-a7ae-7d375b36f2f7")
 			(effects
 				(font

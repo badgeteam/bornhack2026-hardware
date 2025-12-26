@@ -1578,24 +1578,6 @@
 					)
 				)
 				(pin unspecified line
-					(at 33.02 5.08 180)
-					(length 2.54)
-					(name "P0.21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at 33.02 2.54 180)
 					(length 2.54)
 					(name "P0.19"
@@ -1948,6 +1930,26 @@
 						)
 					)
 					(number "P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NRF52840-QIAA-R_1_1"
+				(pin unspecified line
+					(at 33.02 5.08 180)
+					(length 2.54)
+					(name "P0.21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "AC17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5676,7 +5678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/NordicSemicon-NRF52840_QIAAR/C190794"
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_Nordic-Semicon_NRF52840-QIAA-R_Nordic-Semicon-NRF52840-QIAA-R_C190794.html"
 			(at 157.48 144.78 0)
 			(effects
 				(font
@@ -5844,7 +5846,7 @@
 		(pin "AD12"
 			(uuid "55a25c6c-ae82-437e-adc1-576901c60b51")
 		)
-		(pin "D2"
+		(pin "AC17"
 			(uuid "dee442ee-1be1-4863-863f-76644db7d7e5")
 		)
 		(pin "L24"
