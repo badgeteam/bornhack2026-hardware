@@ -3352,7 +3352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.html"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26273-0402WGJ0104TCE/C25530"
 			(at 106.68 71.12 0)
 			(effects
 				(font
@@ -3370,7 +3370,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25741"
+		(property "LCSC" "C25530"
 			(at 106.68 71.12 0)
 			(effects
 				(font
@@ -3718,7 +3718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_ALLPOWER-ShenZhen-Quan-Li-Semiconductor-AP2302B_C406812.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/395073-AP2302B/C406812"
 			(at 101.6 59.69 0)
 			(effects
 				(font

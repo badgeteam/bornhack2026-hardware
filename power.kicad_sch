@@ -784,7 +784,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc:SGM2040-3.3YUDH4G_TR_C5152920"
+		(symbol "lcsc:SGM2040-3.3YN5G_TR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -796,16 +796,16 @@
 					)
 				)
 			)
-			(property "Value" "SGM2040-3.3YUDH4G/TR_C5152920"
-				(at 0 -5.08 0)
+			(property "Value" "SGM2040-3.3YN5G/TR"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "lcsc:UTDFN-4AL_L1.0-W1.0-P0.65-BL"
-				(at 0 -7.62 0)
+			(property "Footprint" "lcsc:SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BL"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -831,8 +831,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C5152920"
-				(at 0 -10.16 0)
+			(property "LCSC Part" "C2890487"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -840,10 +840,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "SGM2040-3.3YUDH4G_TR_C5152920_0_1"
+			(symbol "SGM2040-3.3YN5G_TR_0_1"
 				(rectangle
-					(start -7.62 5.08)
-					(end 5.08 -2.54)
+					(start -6.35 5.08)
+					(end 6.35 -5.08)
 					(stroke
 						(width 0)
 						(type default)
@@ -853,7 +853,7 @@
 					)
 				)
 				(circle
-					(center -6.35 3.81)
+					(center -5.08 3.81)
 					(radius 0.38)
 					(stroke
 						(width 0)
@@ -864,9 +864,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -10.16 2.54 0)
+					(at -8.89 2.54 0)
 					(length 2.54)
-					(name "OUT"
+					(name "IN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -882,7 +882,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -10.16 0 0)
+					(at -8.89 0 0)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -900,25 +900,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 0 180)
+					(at -8.89 -2.54 0)
 					(length 2.54)
 					(name "EN"
 						(effects
@@ -928,6 +910,42 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1329,12 +1347,6 @@
 		(uuid "1346dcb9-6515-4403-ad3d-2544506e9833")
 	)
 	(junction
-		(at 209.55 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "149c94ac-8072-4c6c-bb99-f6ab9eb85974")
-	)
-	(junction
 		(at 171.45 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1353,7 +1365,13 @@
 		(uuid "b4ec4d7c-f38a-4638-99b3-5985feeac1eb")
 	)
 	(junction
-		(at 236.22 114.3)
+		(at 208.28 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c753a93b-8a01-4018-a929-61cb8d05c1b5")
+	)
+	(junction
+		(at 236.22 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8a32255-0ef2-4a76-ac18-904b68f324a2")
@@ -1370,9 +1388,13 @@
 		(color 0 0 0 0)
 		(uuid "f86a6ec3-f944-434c-93a7-f904b673bb2a")
 	)
+	(no_connect
+		(at 227.33 116.84)
+		(uuid "5b222cca-2be7-4e03-a153-58d0f59b6df0")
+	)
 	(wire
 		(pts
-			(xy 229.87 111.76) (xy 229.87 128.27)
+			(xy 207.01 114.3) (xy 207.01 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1392,17 +1414,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 111.76) (xy 229.87 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22f69597-8aed-4dad-8eeb-8371a8dcb392")
-	)
-	(wire
-		(pts
-			(xy 236.22 114.3) (xy 242.57 114.3)
+			(xy 236.22 111.76) (xy 242.57 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1422,6 +1434,26 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 116.84) (xy 209.55 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4268af4e-6355-41dd-b416-c89429d189f0")
+	)
+	(wire
+		(pts
+			(xy 208.28 111.76) (xy 208.28 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f9ca01f-c962-47cd-8f33-e5e8b7cf10e4")
+	)
+	(wire
+		(pts
 			(xy 176.53 85.09) (xy 177.8 85.09)
 		)
 		(stroke
@@ -1429,6 +1461,16 @@
 			(type default)
 		)
 		(uuid "5cc62d21-c2b4-49eb-a5d5-ed789fc7acc2")
+	)
+	(wire
+		(pts
+			(xy 208.28 111.76) (xy 209.55 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60b77c19-bf47-449e-89d9-e5316bdcb4a2")
 	)
 	(wire
 		(pts
@@ -1532,13 +1574,23 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 111.76) (xy 209.55 114.3)
+			(xy 207.01 114.3) (xy 209.55 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6f61b26-ed27-4c24-aa91-48c71da6a6d7")
+		(uuid "b5c301ed-42e5-4281-b3e9-2a8ac4cfa94e")
+	)
+	(wire
+		(pts
+			(xy 236.22 111.76) (xy 236.22 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6913533-4673-4307-bb03-87b4762ad607")
 	)
 	(wire
 		(pts
@@ -1592,7 +1644,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 114.3) (xy 236.22 114.3)
+			(xy 227.33 111.76) (xy 236.22 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1612,7 +1664,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 111.76) (xy 209.55 111.76)
+			(xy 198.12 111.76) (xy 208.28 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1653,7 +1705,7 @@
 	)
 	(hierarchical_label "+3V3_OUT"
 		(shape input)
-		(at 242.57 114.3 0)
+		(at 242.57 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1784,7 +1836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_JSMSEMI-JSM2301S_C916399.html"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/JSMSEMI-JSM2301S/C916399"
 			(at 195.58 111.76 0)
 			(effects
 				(font
@@ -1804,6 +1856,15 @@
 		)
 		(property "LCSC Part" "C916399"
 			(at 198.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C916399"
+			(at 180.34 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1988,6 +2049,101 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc:SGM2040-3.3YN5G_TR")
+		(at 218.44 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a9606e9-d49e-4236-a2b6-4eb776f2b481")
+		(property "Reference" "U6"
+			(at 218.44 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SGM2040-3.3YN5G/TR"
+			(at 218.44 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc:SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BL"
+			(at 218.44 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/SGMICRO-SGM2040_3_3YN5GTR/C2890487"
+			(at 218.44 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-40℃~+85℃@(Ta) 1 1.5uA 110mV@(100mA) 250mA 27dB@(1kHz) 3.3V 7.5V Fixed Over Current Protection Positive SOT-23-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
+			(at 218.44 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2890487"
+			(at 218.44 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2890487"
+			(at 218.44 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "9045adbf-5e76-4eb5-b87b-8fccdf11ec06")
+		)
+		(pin "3"
+			(uuid "6dc1bd6d-e76f-4dd5-b628-c0a64225a1c6")
+		)
+		(pin "2"
+			(uuid "ab76228d-e59b-4c8e-b247-e2e01a20861d")
+		)
+		(pin "1"
+			(uuid "7a7b163c-3b78-46b7-a759-f66056bc91a8")
+		)
+		(pin "4"
+			(uuid "720e6ae7-c435-4c87-93a9-b6c8e20cc43a")
+		)
+		(instances
+			(project ""
+				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/333d98a8-e6a2-433c-bb9c-6f407290c160"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "symbols:Conn_01x02_MountingPin")
 		(at 182.88 85.09 0)
 		(unit 1)
@@ -2063,89 +2219,6 @@
 			(project "bornhack2026-hardware"
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/333d98a8-e6a2-433c-bb9c-6f407290c160"
 					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc:SGM2040-3.3YUDH4G_TR_C5152920")
-		(at 217.17 111.76 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c2cdb98-2add-4f8a-add0-058e6d3bc831")
-		(property "Reference" "U2"
-			(at 218.44 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SGM2040-3.3YUDH4G/TR_C5152920"
-			(at 218.44 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc:UTDFN-4AL_L1.0-W1.0-P0.65-BL"
-			(at 217.17 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 217.17 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C5152920"
-			(at 217.17 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "418a0999-fd83-48f1-8691-62d890a809e8")
-		)
-		(pin "4"
-			(uuid "37ab1b94-dce5-4356-98b4-6ce44c6b85c7")
-		)
-		(pin "3"
-			(uuid "a0d7fc65-f8f1-4bb7-a3b6-3c4a67ad64eb")
-		)
-		(pin "2"
-			(uuid "8975bb89-9ed1-40b5-9d47-fdfb6adb38a9")
-		)
-		(instances
-			(project ""
-				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/333d98a8-e6a2-433c-bb9c-6f407290c160"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2735,7 +2808,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 229.87 128.27 0)
+		(at 207.01 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2744,7 +2817,7 @@
 		(fields_autoplaced yes)
 		(uuid "f3ea0fc9-5117-42ef-bf9f-725d3c6fb111")
 		(property "Reference" "#PWR035"
-			(at 229.87 134.62 0)
+			(at 207.01 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2753,7 +2826,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 229.87 133.35 0)
+			(at 207.01 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2761,7 +2834,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 128.27 0)
+			(at 207.01 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2770,7 +2843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 128.27 0)
+			(at 207.01 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2779,7 +2852,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 229.87 128.27 0)
+			(at 207.01 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1470,24 +1470,6 @@
 					)
 				)
 				(pin unspecified line
-					(at 33.02 20.32 180)
-					(length 2.54)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at 33.02 17.78 180)
 					(length 2.54)
 					(name "D-"
@@ -1939,6 +1921,24 @@
 				)
 			)
 			(symbol "NRF52840-QIAA-R_1_1"
+				(pin unspecified line
+					(at 33.02 20.32 180)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "AD6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin unspecified line
 					(at 33.02 5.08 180)
 					(length 2.54)
@@ -5810,7 +5810,7 @@
 		(pin "L24"
 			(uuid "04281066-61a7-453c-8927-01b5d1a7a37b")
 		)
-		(pin "B16"
+		(pin "AD6"
 			(uuid "a9683325-a414-4697-a464-ef4efe8645e9")
 		)
 		(pin "J1"
@@ -6738,7 +6738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Zetta-ZD25WQ16CTIGT/C5353550"
 			(at 129.54 173.99 0)
 			(effects
 				(font
@@ -6758,6 +6758,15 @@
 		)
 		(property "LCSC Part" "C5353550"
 			(at 129.54 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5353550"
+			(at 129.54 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -984,7 +984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/XINGLIGHT-XL_1615RGBCRF/C965840"
 			(at 77.47 60.96 0)
 			(effects
 				(font
@@ -1004,6 +1004,15 @@
 		)
 		(property "LCSC Part" "C965840"
 			(at 77.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965840"
+			(at 77.47 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)

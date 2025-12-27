@@ -544,7 +544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
 			(at 78.74 55.88 0)
 			(effects
 				(font
@@ -554,6 +554,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 78.74 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 78.74 55.88 0)
 			(effects
 				(font
