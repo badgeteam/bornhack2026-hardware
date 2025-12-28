@@ -2972,7 +2972,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 129.54 128.27 0)
 			(effects
 				(font
@@ -2990,7 +2990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05A105KQ5NNNC_C107372.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/5885909-CL10B105KB8NQNC/C5199872"
 			(at 124.46 127 0)
 			(effects
 				(font
@@ -3058,7 +3058,7 @@
 				)
 			)
 		)
-		(property "Footprint" "library:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 100.33 107.95 0)
 			(effects
 				(font
@@ -3192,7 +3192,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 76.708 72.136 0)
 			(effects
 				(font
@@ -3542,7 +3542,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 156.21 128.27 0)
 			(effects
 				(font
@@ -3560,7 +3560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05A105KQ5NNNC_C107372.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/5885909-CL10B105KB8NQNC/C5199872"
 			(at 151.13 127 0)
 			(effects
 				(font
@@ -3630,7 +3630,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "library:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 80.01 123.19 0)
 			(effects
 				(font
@@ -3709,7 +3709,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:SOT-23"
+		(property "Footprint" "lcsc:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
 			(at 96.52 57.15 0)
 			(effects
 				(font
@@ -3868,7 +3868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 87.63 123.19 0)
 			(effects
 				(font
@@ -4067,7 +4067,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 147.32 128.27 0)
 			(effects
 				(font
@@ -4085,7 +4085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05A105KQ5NNNC_C107372.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/5885909-CL10B105KB8NQNC/C5199872"
 			(at 142.24 127 0)
 			(effects
 				(font
@@ -4427,7 +4427,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 111.76 128.27 0)
 			(effects
 				(font
@@ -4445,7 +4445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05A105KQ5NNNC_C107372.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/5885909-CL10B105KB8NQNC/C5199872"
 			(at 106.68 127 0)
 			(effects
 				(font
@@ -4570,7 +4570,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 138.43 128.27 0)
 			(effects
 				(font
@@ -4588,7 +4588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05A105KQ5NNNC_C107372.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/5885909-CL10B105KB8NQNC/C5199872"
 			(at 133.35 127 0)
 			(effects
 				(font
@@ -4780,7 +4780,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 85.09 134.62 0)
 			(effects
 				(font
@@ -4798,7 +4798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05A105KQ5NNNC_C107372.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/5885909-CL10B105KB8NQNC/C5199872"
 			(at 83.82 129.54 0)
 			(effects
 				(font
@@ -4858,7 +4858,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 88.9 115.57 0)
 			(effects
 				(font
@@ -4876,7 +4876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05A105KQ5NNNC_C107372.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/5885909-CL10B105KB8NQNC/C5199872"
 			(at 83.82 114.3 0)
 			(effects
 				(font
@@ -4937,7 +4937,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "47uH"
 			(at 100.33 49.53 0)
 			(effects
 				(font
@@ -4946,7 +4946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:L_1210_3225Metric"
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
 			(at 99.06 48.26 0)
 			(effects
 				(font
@@ -5080,7 +5080,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 120.65 128.27 0)
 			(effects
 				(font
@@ -5098,7 +5098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05A105KQ5NNNC_C107372.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/5885909-CL10B105KB8NQNC/C5199872"
 			(at 115.57 127 0)
 			(effects
 				(font

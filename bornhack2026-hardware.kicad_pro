@@ -516,11 +516,21 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.15,
+        "name": "BT-RF",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 0, 255)",
+        "track_width": 0.156,
+        "via_diameter": 0.45,
+        "via_drill": 0.3
+      },
+      {
         "clearance": 0.127,
         "line_style": 0,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 5,
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -530,17 +540,25 @@
         "clearance": 0.15,
         "name": "GPIO",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.45,
         "via_drill": 0.3
       },
       {
+        "clearance": 0.15,
+        "name": "LORA-RF",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(194, 0, 194)",
+        "track_width": 0.156
+      },
+      {
         "clearance": 0.127,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -550,7 +568,7 @@
         "clearance": 0.15,
         "name": "USB diff",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.118,
         "via_diameter": 0.5,
@@ -562,8 +580,53 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/NRF52840_MCU/ANT": [
+        "BT-RF"
+      ],
+      "/SX1262 LoRA/LORA_ANT": [
+        "LORA-RF"
+      ],
       "GND": [
         "GND"
+      ],
+      "Net-(C1-Pad1)": [
+        "BT-RF"
+      ],
+      "Net-(C29-Pad2)": [
+        "LORA-RF"
+      ],
+      "Net-(C45-Pad1)": [
+        "LORA-RF"
+      ],
+      "Net-(C45-Pad2)": [
+        "LORA-RF"
+      ],
+      "Net-(C48-Pad2)": [
+        "LORA-RF"
+      ],
+      "Net-(C5-Pad1)": [
+        "BT-RF"
+      ],
+      "Net-(U2-RF1)": [
+        "LORA-RF"
+      ],
+      "Net-(U2-RF2)": [
+        "LORA-RF"
+      ],
+      "Net-(U2-RFC)": [
+        "LORA-RF"
+      ],
+      "Net-(U3-RFI_N)": [
+        "LORA-RF"
+      ],
+      "Net-(U3-RFI_P)": [
+        "LORA-RF"
+      ],
+      "Net-(U3-RFO)": [
+        "LORA-RF"
+      ],
+      "Net-(U3-VR_PA)": [
+        "LORA-RF"
       ]
     },
     "netclass_patterns": [
@@ -581,7 +644,7 @@
       },
       {
         "netclass": "USB diff",
-        "pattern": "/USB_D[+-]"
+        "pattern": "/.*(USB)_D[+-]"
       },
       {
         "netclass": "GPIO",
@@ -648,7 +711,7 @@
           "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -768,10 +831,6 @@
       "NRF52840_MCU"
     ],
     [
-      "e9b7ca2d-62c6-49f0-9abe-89336bb8d577",
-      "MEAL"
-    ],
-    [
       "333d98a8-e6a2-433c-bb9c-6f407290c160",
       "POWER"
     ],
@@ -796,18 +855,6 @@
       "INPUT"
     ],
     [
-      "226789dd-c696-45c4-96c5-c7a5d92148eb",
-      "RESET"
-    ],
-    [
-      "a0d8777c-f640-40a2-81c9-41b0bad380fd",
-      "GAMES_SNACKS"
-    ],
-    [
-      "76feefb0-eecb-4e68-be3f-437d9c0218bd",
-      "MEDICINE_DISCIPLINE"
-    ],
-    [
       "db62785b-07c7-49c0-8737-437f813264da",
       "TOILET"
     ],
@@ -818,14 +865,6 @@
     [
       "1c8ff3e2-2f4f-4cda-9ba0-6180b9389fcf",
       "STATS"
-    ],
-    [
-      "b546cf1c-99f0-406e-b30e-bca34362d495",
-      "SELECT"
-    ],
-    [
-      "62b8fb51-fa99-487d-8ffd-9acc3ff5ffd7",
-      "CANCEL"
     ]
   ],
   "text_variables": {}

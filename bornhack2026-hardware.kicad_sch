@@ -10,156 +10,6 @@
 		(company "Badge.Team")
 	)
 	(lib_symbols
-		(symbol "Device:D_TVS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_TVS"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Bidirectional transient-voltage-suppression diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode TVS thyrector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_TVS_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_TVS_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "lcsc:A-IPEX1-1.25A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1205,128 +1055,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+3.3V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -1720,24 +1448,6 @@
 		(uuid "d0cd98a0-9382-444c-ba6c-1fe27dd2173d")
 	)
 	(bus_entry
-		(at 194.31 85.09)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "155a4ae6-28ba-4022-8f33-c654b7422b05")
-	)
-	(bus_entry
-		(at 194.31 87.63)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c3ca624-4838-4f12-a79b-5b2cf46663fd")
-	)
-	(bus_entry
 		(at 196.85 92.71)
 		(size -2.54 2.54)
 		(stroke
@@ -1772,15 +1482,6 @@
 			(type default)
 		)
 		(uuid "ae9fdc55-dc30-4693-9586-fb556bdab55f")
-	)
-	(bus_entry
-		(at 194.31 90.17)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa114096-3aad-463c-bc85-755793a29b11")
 	)
 	(wire
 		(pts
@@ -1822,16 +1523,6 @@
 		)
 		(uuid "14aef0e5-c646-49fb-9d96-e147c8b67213")
 	)
-	(wire
-		(pts
-			(xy 95.25 24.13) (xy 105.41 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16ae1fa9-20dc-471b-bcc6-3487271edce9")
-	)
 	(bus
 		(pts
 			(xy 196.85 92.71) (xy 196.85 95.25)
@@ -1851,16 +1542,6 @@
 			(type default)
 		)
 		(uuid "1be5a046-398a-40f7-bdaa-1709790f354c")
-	)
-	(bus
-		(pts
-			(xy 196.85 82.55) (xy 196.85 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a13b2e6-559d-4823-b9b7-d1aa03db9fe4")
 	)
 	(wire
 		(pts
@@ -2031,16 +1712,6 @@
 			(type default)
 		)
 		(uuid "5fb7baf8-a588-4a5b-9e7d-6ce1946ca4d9")
-	)
-	(bus
-		(pts
-			(xy 196.85 80.01) (xy 196.85 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65a08d70-2986-44ab-bb2f-cd8ba751bbde")
 	)
 	(wire
 		(pts
@@ -2274,16 +1945,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 24.13) (xy 113.03 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac218fcb-7d42-4da3-9b78-5d9b8f3c25d9")
-	)
-	(wire
-		(pts
 			(xy 240.03 27.94) (xy 240.03 33.02)
 		)
 		(stroke
@@ -2341,16 +2002,6 @@
 			(type default)
 		)
 		(uuid "cfea7f7c-cbf7-40d4-b712-ad7439416b8a")
-	)
-	(bus
-		(pts
-			(xy 196.85 85.09) (xy 196.85 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd9890b4-5356-4942-8ca9-e9d27be94e2b")
 	)
 	(wire
 		(pts
@@ -2890,102 +2541,6 @@
 			)
 		)
 	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 97.79 24.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "35387056-820e-4ad6-8a9e-15317e997e35")
-		(property "Netclass" "GND"
-			(at 98.9965 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -127 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mch2021-rescue:GND-power")
-		(at 95.25 24.13 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "02fa860a-262f-4e95-b321-159fb1382a25")
-		(property "Reference" "#PWR02"
-			(at 88.9 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 90.424 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bebc739b-2f3a-4a4e-9c50-3062f6f6317f")
-		)
-		(instances
-			(project "bornhack2026-hardware"
-				(path "/23bf5400-d19c-445b-8744-b63ebcca303d"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(symbol
 		(lib_id "mch2021-rescue:R_Small-Device")
 		(at 269.24 114.3 270)
@@ -3064,7 +2619,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 64.77 73.66 0)
+		(at 59.69 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3073,7 +2628,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fca25f0-71da-405b-89c0-a05abe07ec3b")
 		(property "Reference" "#PWR066"
-			(at 64.77 77.47 0)
+			(at 59.69 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3082,7 +2637,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 64.77 68.58 0)
+			(at 59.69 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3090,7 +2645,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 73.66 0)
+			(at 59.69 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3099,7 +2654,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 73.66 0)
+			(at 59.69 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3108,7 +2663,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 64.77 73.66 0)
+			(at 59.69 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3188,71 +2743,6 @@
 			(project "bornhack2026-hardware"
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 115.57 24.13 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "230fbca3-0d92-41fb-a84f-8ecee04cafad")
-		(property "Reference" "#PWR03"
-			(at 111.76 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 121.412 23.876 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 115.57 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ddd73008-6203-494a-bb7b-5772bfb89815")
-		)
-		(instances
-			(project "bornhack2026-hardware"
-				(path "/23bf5400-d19c-445b-8744-b63ebcca303d"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3845,6 +3335,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C22467595"
+			(at 21.59 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3f56eb19-69cd-4ca9-843a-cd60cbd20e07")
 		)
@@ -3858,83 +3357,6 @@
 			(project ""
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d"
 					(reference "RF1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 109.22 24.13 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cf005886-c7a4-4c19-8a26-cea0b7e3838a")
-		(property "Reference" "D1"
-			(at 109.22 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ESD prot."
-			(at 109.22 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 109.22 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Elecsuper-CDSOD323T03SC/C22363742"
-			(at 109.22 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 109.22 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22363742"
-			(at 109.22 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a3ad1991-d909-4e2c-8258-ffc7a84b1918")
-		)
-		(pin "1"
-			(uuid "c6bde09a-982a-42ab-891b-b99862a87177")
-		)
-		(instances
-			(project "bornhack2026-hardware"
-				(path "/23bf5400-d19c-445b-8744-b63ebcca303d"
-					(reference "D1")
 					(unit 1)
 				)
 			)

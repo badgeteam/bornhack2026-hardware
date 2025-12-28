@@ -1670,6 +1670,10 @@
 		(color 0 0 0 0)
 		(uuid "f03fb914-17cc-4d44-b3d5-54bbcd15d24a")
 	)
+	(no_connect
+		(at 83.82 91.44)
+		(uuid "78f16526-a838-4758-993c-0cd2c22df43b")
+	)
 	(wire
 		(pts
 			(xy 59.69 96.52) (xy 59.69 115.57)
@@ -2712,16 +2716,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 91.44) (xy 83.82 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb6c716d-638c-42a7-a431-1a28eef81b27")
-	)
-	(wire
-		(pts
 			(xy 172.72 68.58) (xy 172.72 78.74)
 		)
 		(stroke
@@ -2759,16 +2753,6 @@
 			(justify left bottom)
 		)
 		(uuid "598e0f6e-2ea9-4ee2-b4dc-331eaee3d07f")
-	)
-	(label "DIO3"
-		(at 78.74 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "67036eb9-6224-4caa-a65c-670c0c6eba8f")
 	)
 	(label "XTB"
 		(at 60.96 25.4 0)
@@ -2931,6 +2915,378 @@
 		)
 		(uuid "e1fe2379-5f28-4f19-a41a-556a90a69a1b")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 166.37 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "036c3cd6-58f6-47b6-b8d1-5548e83f8031")
+		(property "Netclass" "LORA-RF"
+			(at 167.5765 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -46.99 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 265.43 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "304f43c0-ba24-48ee-8c5c-50e17dd803bc")
+		(property "Netclass" "LORA-RF"
+			(at 266.6365 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 52.07 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 250.19 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3152e92c-4bad-417e-975e-c77b8bce0bb1")
+		(property "Netclass" "LORA-RF"
+			(at 251.3965 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 36.83 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 125.73 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "474d43f2-de99-4fc7-9f23-d54a4a9dd533")
+		(property "Netclass" "LORA-RF"
+			(at 126.9365 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -87.63 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 184.15 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6287cfdb-0a11-45ac-8ce1-a9132d45710a")
+		(property "Netclass" "LORA-RF"
+			(at 185.3565 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -29.21 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 153.67 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "634698f9-c4b2-41a7-b630-b371e3a79709")
+		(property "Netclass" "LORA-RF"
+			(at 154.8765 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -59.69 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 185.42 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d142949-8e79-40d8-9818-3a3d452d7dc2")
+		(property "Netclass" "LORA-RF"
+			(at 186.6265 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -27.94 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 162.56 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84d2ccbe-ac69-4552-8602-68ba9b5ed1a4")
+		(property "Netclass" "LORA-RF"
+			(at 163.7665 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -50.8 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 125.73 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b688b81-483c-4ec6-a085-48a530a15d4f")
+		(property "Netclass" "LORA-RF"
+			(at 126.9365 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -87.63 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 195.58 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c0b2a27e-ffc6-4f92-9776-258ada94d947")
+		(property "Netclass" "LORA-RF"
+			(at 196.7865 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -17.78 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 237.49 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8b6d69b-eecb-4f69-b2f4-b91eecefeb17")
+		(property "Netclass" "LORA-RF"
+			(at 238.6965 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 24.13 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 209.55 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fdca2cc7-cd95-4fd8-aa6f-e9c0c751d60d")
+		(property "Netclass" "LORA-RF"
+			(at 210.7565 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -3.81 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 58.42 36.83 0)
@@ -3032,7 +3388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/HYHONGYEX-HBLS10054N7S/C963987"
 			(at 199.39 78.74 0)
 			(effects
 				(font
@@ -3043,6 +3399,15 @@
 		)
 		(property "Description" "Inductor, small symbol"
 			(at 199.39 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C963987"
+			(at 199.39 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3176,7 +3541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/87464-CL05C390JB5NNNC/C86288"
 			(at 191.77 78.74 0)
 			(effects
 				(font
@@ -3187,6 +3552,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 191.77 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C86288"
+			(at 191.77 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3470,7 +3844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/HRE-CGA0402C0G1R8C500GT/C22374861"
 			(at 204.47 83.82 0)
 			(effects
 				(font
@@ -3480,6 +3854,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 204.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22374861"
 			(at 204.47 83.82 0)
 			(effects
 				(font
@@ -3695,7 +4078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/49353-0402CG2R4C500NT/C48346"
 			(at 163.83 99.06 0)
 			(effects
 				(font
@@ -3706,6 +4089,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 163.83 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C48346"
+			(at 163.83 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3829,7 +4221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/299712-CL05C030BB5NNNC/C318583"
 			(at 179.07 68.58 0)
 			(effects
 				(font
@@ -3840,6 +4232,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 179.07 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C318583"
+			(at 179.07 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3896,7 +4297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/17853-0402WGF0000TCE/C17168"
 			(at 156.21 78.74 0)
 			(effects
 				(font
@@ -3907,6 +4308,15 @@
 		)
 		(property "Description" "Inductor, small symbol"
 			(at 156.21 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 156.21 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4755,7 +5165,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 168.91 109.22 0)
 			(effects
 				(font
@@ -5678,7 +6088,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 228.6 105.41 0)
 			(effects
 				(font
@@ -5900,7 +6310,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 228.6 60.96 0)
 			(effects
 				(font
@@ -5977,7 +6387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 179.07 78.74 0)
 			(effects
 				(font
@@ -5986,7 +6396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Sunlord-MWSD1005C2N5STM01/C778764"
 			(at 179.07 78.74 0)
 			(effects
 				(font
@@ -5997,6 +6407,15 @@
 		)
 		(property "Description" "Inductor, small symbol"
 			(at 179.07 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C778764"
+			(at 179.07 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6056,7 +6475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/354524-VHF100505H15NKT/C381880"
 			(at 151.13 102.87 0)
 			(effects
 				(font
@@ -6066,6 +6485,15 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
+			(at 151.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C381880"
 			(at 151.13 102.87 0)
 			(effects
 				(font
@@ -6125,7 +6553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/17318831-CL05C5R6CB51PNC/C16193755"
 			(at 185.42 85.09 0)
 			(effects
 				(font
@@ -6135,6 +6563,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 185.42 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C16193755"
 			(at 185.42 85.09 0)
 			(effects
 				(font
@@ -6186,7 +6623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 66.04 68.58 0)
 			(effects
 				(font
@@ -6195,7 +6632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/5885909-CL10B105KB8NQNC/C5199872"
 			(at 66.04 68.58 0)
 			(effects
 				(font
@@ -6205,6 +6642,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5199872"
 			(at 66.04 68.58 0)
 			(effects
 				(font
@@ -6627,7 +7073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/HRE-CGA0402C0G1R8C500GT/C22374861"
 			(at 151.13 109.22 0)
 			(effects
 				(font
@@ -6637,6 +7083,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 151.13 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22374861"
 			(at 151.13 109.22 0)
 			(effects
 				(font
