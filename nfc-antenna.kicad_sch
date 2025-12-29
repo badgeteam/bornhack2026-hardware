@@ -268,6 +268,279 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc:A-IPEX1-1.25A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RF"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "A-IPEX1-1.25A"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc:IPEX-SMD_3P-L2.6-W2.6-LS3.0_RF1200001R"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C22467595"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "A-IPEX1-1.25A_0_1"
+				(rectangle
+					(start -2.54 0)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.03) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.51)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 5.08 270)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -380,6 +653,16 @@
 		)
 		(uuid "47abe300-57ac-475f-a3d9-959c544036c1")
 	)
+	(text "TODO: Tune on prototype current capacitance too low."
+		(exclude_from_sim no)
+		(at 183.642 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "57bbfd4a-9ba8-45c8-ae66-1db1107f519b")
+	)
 	(text "The two capacitors must form a tuned circuit at 13.56MHz \ntogether with the antenna coil.\n\nTODO: design antenna footprint, get inductiance and match capacitors."
 		(exclude_from_sim no)
 		(at 149.606 70.358 0)
@@ -415,6 +698,18 @@
 		(uuid "6c550088-fc94-4857-90e8-2a5df36510da")
 	)
 	(junction
+		(at 173.99 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b937b2df-a48c-4f90-92ba-f3e16b0b2a09")
+	)
+	(junction
+		(at 166.37 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1bdea8b-dcbf-42c3-9c36-a91fee3f4807")
+	)
+	(junction
 		(at 148.59 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -425,6 +720,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f85bc543-e179-4146-ad9d-8e7d789b5e39")
+	)
+	(no_connect
+		(at 158.75 86.36)
+		(uuid "26761524-08e9-46ad-b385-0eef24c0d2cb")
 	)
 	(wire
 		(pts
@@ -448,6 +747,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 96.52) (xy 191.77 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c17fb9b-d83c-420d-aa75-c629af757390")
+	)
+	(wire
+		(pts
 			(xy 127 93.98) (xy 138.43 93.98)
 		)
 		(stroke
@@ -465,16 +774,6 @@
 			(type default)
 		)
 		(uuid "2bf13d1c-fa7e-463b-8370-faf45a03d178")
-	)
-	(wire
-		(pts
-			(xy 148.59 96.52) (xy 166.37 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ec1da4a-95c5-4625-8c4b-2fb447c7f90b")
 	)
 	(wire
 		(pts
@@ -508,6 +807,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 96.52) (xy 173.99 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "559765fb-5e53-4a9e-bb15-db5c001f4704")
+	)
+	(wire
+		(pts
 			(xy 138.43 83.82) (xy 138.43 86.36)
 		)
 		(stroke
@@ -535,6 +844,16 @@
 			(type default)
 		)
 		(uuid "5c7edc36-75f9-432d-b78b-9c0de8e1e079")
+	)
+	(wire
+		(pts
+			(xy 166.37 93.98) (xy 176.53 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b8e4a52-0845-43ad-9930-7fc8b11643ae")
 	)
 	(wire
 		(pts
@@ -588,6 +907,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 96.52) (xy 184.15 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5cb3f24-b74a-4475-8b12-88dbb84cd41f")
+	)
+	(wire
+		(pts
 			(xy 148.59 93.98) (xy 166.37 93.98)
 		)
 		(stroke
@@ -608,6 +937,26 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 93.98) (xy 191.77 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2d8e715-94d4-4253-9229-b36a43ce10f0")
+	)
+	(wire
+		(pts
+			(xy 173.99 86.36) (xy 173.99 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e418e1bd-c715-4936-a5ed-b77184e3a10e")
+	)
+	(wire
+		(pts
 			(xy 148.59 78.74) (xy 148.59 83.82)
 		)
 		(stroke
@@ -618,7 +967,7 @@
 	)
 	(hierarchical_label "NFC1"
 		(shape input)
-		(at 166.37 93.98 0)
+		(at 191.77 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -629,7 +978,7 @@
 	)
 	(hierarchical_label "NFC2"
 		(shape input)
-		(at 166.37 96.52 0)
+		(at 191.77 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -657,7 +1006,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15pF"
+		(property "Value" "12pF"
 			(at 151.13 102.8762 0)
 			(effects
 				(font
@@ -675,7 +1024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/172685-GJM1555C1H120FB01D/C161304"
 			(at 148.59 101.6 0)
 			(effects
 				(font
@@ -685,6 +1034,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C161304"
 			(at 148.59 101.6 0)
 			(effects
 				(font
@@ -911,6 +1269,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 179.07 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45abaf53-ac60-4684-bffb-d2309651f1e5")
+		(property "Reference" "R29"
+			(at 179.07 89.662 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 179.07 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 179.07 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/17853-0402WGF0000TCE/C17168"
+			(at 179.07 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 179.07 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 179.07 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27bc5939-3f4e-4ba4-9110-ab5dc28d0b8f")
+		)
+		(pin "2"
+			(uuid "8e0e1351-c6df-4110-89ec-ae37b2432fb5")
+		)
+		(instances
+			(project ""
+				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/90853474-a0e8-4c32-9bb2-223cb1f08aa7"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 148.59 88.9 0)
 		(unit 1)
@@ -929,7 +1363,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15pF"
+		(property "Value" "12pF"
 			(at 151.13 90.1762 0)
 			(effects
 				(font
@@ -947,7 +1381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/172685-GJM1555C1H120FB01D/C161304"
 			(at 148.59 88.9 0)
 			(effects
 				(font
@@ -957,6 +1391,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C161304 "
 			(at 148.59 88.9 0)
 			(effects
 				(font
@@ -1113,6 +1556,178 @@
 			(project ""
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/90853474-a0e8-4c32-9bb2-223cb1f08aa7"
 					(reference "AE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 186.69 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d111233-ece1-41c9-8627-fe204dc3d9fb")
+		(property "Reference" "R30"
+			(at 186.69 100.076 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 186.69 98.298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 186.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/17853-0402WGF0000TCE/C17168"
+			(at 186.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 186.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 186.69 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1908346f-c7cb-4708-8ae0-3ee755f4d1f8")
+		)
+		(pin "2"
+			(uuid "4755cde8-9483-4919-a999-386717ea357b")
+		)
+		(instances
+			(project "bornhack2026-hardware"
+				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/90853474-a0e8-4c32-9bb2-223cb1f08aa7"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc:A-IPEX1-1.25A")
+		(at 166.37 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b160c466-e37a-4e06-831c-44f71b7e4a52")
+		(property "Reference" "RF2"
+			(at 166.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "A-IPEX1-1.25A"
+			(at 166.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc:IPEX-SMD_3P-L2.6-W2.6-LS3.0_RF1200001R"
+			(at 166.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/MyAntenna-A_IPEX1_125A/C22467595"
+			(at 166.37 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 1.25mm 2mm 50Ω 6GHz Board Side IPEX Male Pin SMD Coaxial Connectors (RF) ROHS"
+			(at 166.37 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22467595"
+			(at 166.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22467595"
+			(at 166.37 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "PT: RFID Tuning"
+			(at 190.5 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8fcb164a-15a9-4b6a-b90e-eb09bb0d608e")
+		)
+		(pin "2"
+			(uuid "5d2de598-ef70-4285-89e9-4fc213498cc5")
+		)
+		(pin "3"
+			(uuid "479af5de-fc14-49f0-b967-fa96be8b05e2")
+		)
+		(instances
+			(project "bornhack2026-hardware"
+				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/90853474-a0e8-4c32-9bb2-223cb1f08aa7"
+					(reference "RF2")
 					(unit 1)
 				)
 			)

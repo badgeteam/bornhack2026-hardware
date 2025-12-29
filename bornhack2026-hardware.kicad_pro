@@ -516,6 +516,14 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.5,
+        "name": "BT-ANT",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 0, 194)",
+        "track_width": 0.5
+      },
+      {
         "clearance": 0.15,
         "name": "BT-RF",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -530,7 +538,7 @@
         "line_style": 0,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -540,7 +548,7 @@
         "clearance": 0.15,
         "name": "GPIO",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.45,
@@ -550,7 +558,7 @@
         "clearance": 0.15,
         "name": "LORA-RF",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgb(194, 0, 194)",
         "track_width": 0.156
       },
@@ -558,7 +566,7 @@
         "clearance": 0.127,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -568,7 +576,7 @@
         "clearance": 0.15,
         "name": "USB diff",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.118,
         "via_diameter": 0.5,
@@ -590,7 +598,7 @@
         "GND"
       ],
       "Net-(C1-Pad1)": [
-        "BT-RF"
+        "BT-ANT"
       ],
       "Net-(C29-Pad2)": [
         "LORA-RF"
@@ -606,6 +614,9 @@
       ],
       "Net-(C5-Pad1)": [
         "BT-RF"
+      ],
+      "Net-(L1-Pad1)": [
+        "BT-ANT"
       ],
       "Net-(U2-RF1)": [
         "LORA-RF"
