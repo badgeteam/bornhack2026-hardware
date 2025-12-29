@@ -588,6 +588,9 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/DISPLAY/PREVGH": [
+        "Power"
+      ],
       "/NRF52840_MCU/ANT": [
         "BT-RF"
       ],
@@ -614,6 +617,12 @@
       ],
       "Net-(C5-Pad1)": [
         "BT-RF"
+      ],
+      "Net-(D5-A)": [
+        "Power"
+      ],
+      "Net-(J2-Pin_7)": [
+        "Power"
       ],
       "Net-(L1-Pad1)": [
         "BT-ANT"
