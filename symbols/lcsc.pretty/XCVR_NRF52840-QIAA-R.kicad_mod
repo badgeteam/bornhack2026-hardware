@@ -348,7 +348,7 @@
 		(at 0 0)
 		(size 4.85 4.85)
 		(layers "F.Cu" "F.Mask")
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0.085)
 		(uuid "3b1b07dc-a7ba-4fc9-a9f1-fade7ad3bf40")
 	)
 	(pad "74" thru_hole circle

@@ -1,22 +1,141 @@
-(module easyeda2kicad:ANT-SMD_L15.0-W3.0 (layer F.Cu) (tedit 5DC5F6A4)
+(footprint "ANT-SMD_L15.0-W3.0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "4b7b5e77-5dbb-494e-b44b-0e33c8840267")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ANT-SMD_L15.0-W3.0"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "ae71d08c-c197-40b4-a91e-a3e95462c236")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cde6f0d0-3e6f-494d-9bab-43a73cf782a2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9380d1e-ed32-4d44-b63e-47f1ff9a853f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
-	(fp_text reference REF** (at 0 -4.0) (layer F.SilkS)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -5.84 -1.65)
+		(end 5.85 -1.65)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "13103180-3896-4821-8de9-5cbf981bac7f")
 	)
-	(fp_text value ANT-SMD_L15.0-W3.0 (at 0 4.0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -5.84 1.65)
+		(end 5.85 1.65)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f49ce290-87ff-4770-adee-fb249a998f42")
 	)
-	(fp_text user %R (at 0 0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_circle
+		(center -7.5 1.5)
+		(end -7.47 1.5)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bc2e6627-97a2-467b-bfa2-0bacb56ec8bf")
 	)
-	(fp_line (start -5.84 1.65) (end 5.85 1.65) (layer F.SilkS) (width 0.25))
-	(fp_line (start -5.84 -1.65) (end 5.85 -1.65) (layer F.SilkS) (width 0.25))
-	(pad 1 smd rect (at -7.00 0.00 0.00) (size 2.00 3.50) (layers F.Cu F.Paste F.Mask))
-	(pad 2 smd rect (at 7.00 0.00 0.00) (size 2.00 3.50) (layers F.Cu F.Paste F.Mask))
-	(fp_circle (center -7.50 1.50) (end -7.47 1.50) (layer F.Fab) (width 0.06))
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ab556275-e8db-410f-aa75-453056a22ed2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -7 0)
+		(size 2 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "5afe70a6-1a5a-4f4a-b649-2567b3197537")
+	)
+	(pad "2" smd rect
+		(at 7 0)
+		(size 2 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "efaf5642-1617-4625-ac72-1efa2158d0f8")
+	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/symbols/lcsc.3dshapes/ANT-SMD_L15.0-W3.0.wrl"
-		(offset (xyz 0.000 -0.000 -0.000))
-		(scale (xyz 1 1 1))
-		(rotate (xyz 0 0 0))
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

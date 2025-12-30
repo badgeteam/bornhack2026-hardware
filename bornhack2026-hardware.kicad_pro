@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 1.73,
+          "width": 0.98
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -58,7 +58,104 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|10233434|-30242403|56ec7d26-c1e1-42ef-8d50-2067c512db88|63d3e909-a936-40e8-91bb-7205359309fb",
+          ""
+        ],
+        [
+          "clearance|10578439|-31924885|5f519cf9-2137-4cc7-89da-04975b1d2574|a805602a-f79b-4d04-a5d5-f184716f94cb",
+          ""
+        ],
+        [
+          "clearance|14762218|-35177237|71f67745-5ced-439f-b827-bfaabd2a1bf4|6ed329bb-e856-40d7-bc63-ebf239ec3960",
+          ""
+        ],
+        [
+          "clearance|15243050|-35658069|6ed329bb-e856-40d7-bc63-ebf239ec3960|66dd8dd2-76c5-42df-a02b-e8572f355886",
+          ""
+        ],
+        [
+          "clearance|8241423|-28234414|56ec7d26-c1e1-42ef-8d50-2067c512db88|f48510a6-a421-48e1-a71d-ac8766febffc",
+          ""
+        ],
+        [
+          "clearance|9286097|-30186097|63d3e909-a936-40e8-91bb-7205359309fb|896eb742-d868-4532-b79b-aa4d64255f11",
+          ""
+        ],
+        [
+          "courtyards_overlap|19180000|-9318232|8c4a7a1b-0b1e-4c3a-8a76-8157eecdfd98|f0c78e30-6999-42c7-8636-899dcaeb60a6",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|18819376|-9021248|8c4a7a1b-0b1e-4c3a-8a76-8157eecdfd98|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|19530000|-9010624|f0c78e30-6999-42c7-8636-899dcaeb60a6|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|-24218843|31471801|27d78c95-0771-4690-9b4d-0e7df6271d93|16e7abd2-5311-4005-bb5a-6d077cb8723e",
+          ""
+        ],
+        [
+          "silk_edge_clearance|-25145153|30545491|27d78c95-0771-4690-9b4d-0e7df6271d93|6d3163f4-36ac-4b66-a1fd-7c7e7de1b475",
+          ""
+        ],
+        [
+          "silk_edge_clearance|-25145153|30545491|27d78c95-0771-4690-9b4d-0e7df6271d93|bc9757ca-07c7-49f5-bbe7-72f3d4f9eefb",
+          ""
+        ],
+        [
+          "silk_edge_clearance|-33553066|1325140|27d78c95-0771-4690-9b4d-0e7df6271d93|e7e0eb89-99b1-4d59-bd80-ba23cb6d0a08",
+          ""
+        ],
+        [
+          "silk_edge_clearance|-33591455|10725140|27d78c95-0771-4690-9b4d-0e7df6271d93|ffea557d-b98b-49b0-b174-3b6650fb2971",
+          ""
+        ],
+        [
+          "silk_edge_clearance|-33700000|9756712|27d78c95-0771-4690-9b4d-0e7df6271d93|f2f749b7-27cc-4752-8397-38021f3eb6ad",
+          ""
+        ],
+        [
+          "silk_edge_clearance|1500000|-49115800|27d78c95-0771-4690-9b4d-0e7df6271d93|2b6af5df-201b-436c-b903-476fa2ed13e3",
+          ""
+        ],
+        [
+          "silk_edge_clearance|1500000|-49115800|27d78c95-0771-4690-9b4d-0e7df6271d93|40b2c1f4-21a1-40aa-aadc-5b789a6bff11",
+          ""
+        ],
+        [
+          "silk_overlap|-24218843|31471801|16e7abd2-5311-4005-bb5a-6d077cb8723e|2b6af5df-201b-436c-b903-476fa2ed13e3",
+          ""
+        ],
+        [
+          "silk_overlap|-25190686|30562292|2b6af5df-201b-436c-b903-476fa2ed13e3|6d3163f4-36ac-4b66-a1fd-7c7e7de1b475",
+          ""
+        ],
+        [
+          "silk_overlap|-25190686|30562292|2b6af5df-201b-436c-b903-476fa2ed13e3|bc9757ca-07c7-49f5-bbe7-72f3d4f9eefb",
+          ""
+        ],
+        [
+          "silk_overlap|-33553059|1325140|2b6af5df-201b-436c-b903-476fa2ed13e3|e7e0eb89-99b1-4d59-bd80-ba23cb6d0a08",
+          ""
+        ],
+        [
+          "silk_overlap|-33591464|10725140|2b6af5df-201b-436c-b903-476fa2ed13e3|ffea557d-b98b-49b0-b174-3b6650fb2971",
+          ""
+        ],
+        [
+          "silk_overlap|-33683838|9756808|2b6af5df-201b-436c-b903-476fa2ed13e3|f2f749b7-27cc-4752-8397-38021f3eb6ad",
+          ""
+        ],
+        [
+          "silk_overlap|19180000|-9198025|44935f32-9233-4baf-aa1b-c3e43be7081b|45d445d0-c696-49d9-8488-a39827a80416",
+          "Part of the RF switch hack."
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -131,14 +228,14 @@
         "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.0,
         "min_microvia_drill": 0.0,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.15,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.25,
         "min_track_width": 0.09,
         "min_via_annular_width": 0.05,
-        "min_via_diameter": 0.45,
+        "min_via_diameter": 0.35,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
