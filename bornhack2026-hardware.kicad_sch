@@ -2061,6 +2061,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 88.9) (xy 121.92 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3af4a498-b854-41e5-98ab-bb05da0e4889")
+	)
+	(wire
+		(pts
 			(xy 116.84 73.66) (xy 137.16 73.66)
 		)
 		(stroke
@@ -2168,6 +2178,16 @@
 			(type default)
 		)
 		(uuid "4f99d58f-63b7-4dde-967b-18731b569b21")
+	)
+	(wire
+		(pts
+			(xy 246.38 38.1) (xy 231.14 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fc61971-d116-41a2-ad08-73e4f6befe34")
 	)
 	(wire
 		(pts
@@ -3029,6 +3049,16 @@
 		)
 		(uuid "54fffdff-d3c4-4a08-acea-9d5f9c694374")
 	)
+	(label "P0.17_PS_SYNC"
+		(at 121.92 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5598888d-af47-4752-b720-6131f6100cfb")
+	)
 	(label "P1.15_LORA_MOSI"
 		(at 100.33 82.55 180)
 		(effects
@@ -3288,6 +3318,16 @@
 			(justify right bottom)
 		)
 		(uuid "ec58994c-1a5b-405f-b2d5-d6aea218538a")
+	)
+	(label "P0.17_PS_SYNC"
+		(at 231.14 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec72adf4-3bad-4d12-a5ab-39d5755f6be8")
 	)
 	(label "P0.29_LORA_SPI_NSS"
 		(at 100.33 90.17 180)
@@ -5267,7 +5307,7 @@
 	)
 	(sheet
 		(at 246.38 24.13)
-		(size 25.4 12.7)
+		(size 25.4 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5291,22 +5331,12 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 246.38 37.4146 0)
+			(at 246.38 42.4946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "+3V3_OUT" input
-			(at 271.78 33.02 0)
-			(uuid "40c69a8f-dcee-4bfb-bab0-e93e5cd63827")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "VBAT" input
@@ -5337,6 +5367,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "CHRG" output
+			(at 271.78 38.1 0)
+			(uuid "b8ef8835-6c7c-4e1f-8858-a832672f66d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PS_SYNC" input
+			(at 246.38 38.1 180)
+			(uuid "962df476-7d3d-4ef2-9536-82e728cd4c7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+3V3_OUT" output
+			(at 271.78 33.02 0)
+			(uuid "8e33fd92-958f-4f11-b178-dec4b2d4338b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

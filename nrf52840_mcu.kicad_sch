@@ -3576,6 +3576,12 @@
 		(uuid "c16c792b-fb8f-4cdd-8e76-b4e90717929b")
 	)
 	(junction
+		(at 149.86 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbfea831-bf64-4a5d-975e-b151b3e3398f")
+	)
+	(junction
 		(at 24.13 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4113,6 +4119,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 170.18) (xy 168.91 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87df4906-f961-4c52-84ae-5a54e2394584")
+	)
+	(wire
+		(pts
 			(xy 139.7 53.34) (xy 186.69 53.34)
 		)
 		(stroke
@@ -4450,6 +4466,16 @@
 			(type default)
 		)
 		(uuid "f211af81-fa7e-4d9b-be68-777563de1bd9")
+	)
+	(wire
+		(pts
+			(xy 168.91 170.18) (xy 168.91 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f657735a-f683-4ad9-9f87-220f515e6121")
 	)
 	(wire
 		(pts
@@ -9285,6 +9311,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 168.91 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6db19b7-2bcf-4fd2-93e3-58c0ce9554ad")
+		(property "Reference" "C68"
+			(at 171.45 177.8062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 171.45 180.3462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 168.91 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
+			(at 168.91 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 168.91 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 168.91 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ff45ecf6-7a55-456f-bcfc-19661a2b72bf")
+		)
+		(pin "1"
+			(uuid "c4e3ae31-7bd6-40b9-a049-a63f0c4b102b")
+		)
+		(instances
+			(project "bornhack2026-hardware"
+				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/b21ff704-9000-4580-ba18-c8ea70926409"
+					(reference "C68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 175.26 29.21 0)
 		(unit 1)
@@ -9914,6 +10019,72 @@
 			(project "bornhack2026-hardware"
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/b21ff704-9000-4580-ba18-c8ea70926409"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 168.91 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed599a4d-8b5e-4f87-802c-ca4fb627e447")
+		(property "Reference" "#PWR080"
+			(at 168.91 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36ecb88e-e69e-453c-8209-8730b01e50e2")
+		)
+		(instances
+			(project "bornhack2026-hardware"
+				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/b21ff704-9000-4580-ba18-c8ea70926409"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
