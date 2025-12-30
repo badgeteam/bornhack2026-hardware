@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.15
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -626,6 +626,9 @@
       ],
       "Net-(L1-Pad1)": [
         "BT-ANT"
+      ],
+      "Net-(L13-ANT)": [
+        "LORA-RF"
       ],
       "Net-(U2-RF1)": [
         "LORA-RF"

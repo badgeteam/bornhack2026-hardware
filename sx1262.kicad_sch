@@ -3135,37 +3135,6 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape diamond)
-		(at 162.56 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "84d2ccbe-ac69-4552-8602-68ba9b5ed1a4")
-		(property "Netclass" "LORA-RF"
-			(at 163.7665 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -50.8 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
 		(at 125.73 86.36 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5515,7 +5484,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 152.4 68.58 0)
 			(effects
 				(font
@@ -5524,7 +5493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/1974-CL10B473KB8NNNC/C1622"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/83376-0402B473K500NT/C82219"
 			(at 152.4 68.58 0)
 			(effects
 				(font
@@ -5542,7 +5511,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1622"
+		(property "LCSC" "C82219"
 			(at 152.4 68.58 90)
 			(effects
 				(font

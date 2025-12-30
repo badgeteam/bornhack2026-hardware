@@ -736,7 +736,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k"
 			(at 55.88 55.88 90)
 			(effects
 				(font
@@ -753,7 +753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF2001TCE_C4109.html"
 			(at 55.88 58.42 0)
 			(effects
 				(font
@@ -771,7 +771,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC" "C4109"
 			(at 55.88 58.42 90)
 			(effects
 				(font
@@ -813,7 +813,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 97.79 55.88 90)
 			(effects
 				(font
@@ -830,7 +830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.html"
 			(at 97.79 58.42 0)
 			(effects
 				(font
@@ -848,7 +848,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC" "C25744"
 			(at 97.79 58.42 90)
 			(effects
 				(font
@@ -890,7 +890,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k"
 			(at 97.79 63.5 90)
 			(effects
 				(font
@@ -907,7 +907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF2001TCE_C4109.html"
 			(at 97.79 66.04 0)
 			(effects
 				(font
@@ -925,7 +925,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC" "C4109"
 			(at 97.79 66.04 90)
 			(effects
 				(font

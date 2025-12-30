@@ -680,22 +680,22 @@
 		(uuid "3f66ff6e-3e25-4890-ac25-16fc9d9eda5f")
 	)
 	(junction
-		(at 138.43 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50fe61fb-6b67-44b4-b6b5-62ac5c6cc5c9")
-	)
-	(junction
 		(at 148.59 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62a4f544-a453-4af8-9915-575095be61b7")
 	)
 	(junction
-		(at 138.43 93.98)
+		(at 130.81 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6c550088-fc94-4857-90e8-2a5df36510da")
+		(uuid "a32a7af4-a124-4898-b1fc-d0ebc35261b4")
+	)
+	(junction
+		(at 138.43 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7b2742c-c466-4814-837c-0d201e73f585")
 	)
 	(junction
 		(at 173.99 96.52)
@@ -708,6 +708,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1bdea8b-dcbf-42c3-9c36-a91fee3f4807")
+	)
+	(junction
+		(at 138.43 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c484fee7-41d1-4003-b63c-0df4eec113d9")
+	)
+	(junction
+		(at 130.81 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d28eed30-4a03-4af9-b435-2bb84b42eb64")
 	)
 	(junction
 		(at 148.59 83.82)
@@ -737,6 +749,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 96.52) (xy 125.73 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09bbda0d-2069-4620-ad2f-68aad91d9362")
+	)
+	(wire
+		(pts
 			(xy 148.59 96.52) (xy 148.59 99.06)
 		)
 		(stroke
@@ -757,7 +779,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 93.98) (xy 138.43 93.98)
+			(xy 120.65 93.98) (xy 125.73 93.98)
 		)
 		(stroke
 			(width 0)
@@ -767,13 +789,43 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 91.44) (xy 138.43 93.98)
+			(xy 130.81 92.71) (xy 138.43 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dde1ce0-6a2a-4ed9-ba45-b32466895b42")
+	)
+	(wire
+		(pts
+			(xy 138.43 92.71) (xy 138.43 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29654202-5ff0-45dd-b4cc-a8f0be7a9f11")
+	)
+	(wire
+		(pts
+			(xy 138.43 91.44) (xy 138.43 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2bf13d1c-fa7e-463b-8370-faf45a03d178")
+	)
+	(wire
+		(pts
+			(xy 130.81 97.79) (xy 138.43 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37ead535-a81d-40de-8633-7c4288607440")
 	)
 	(wire
 		(pts
@@ -804,6 +856,16 @@
 			(type default)
 		)
 		(uuid "4baf01a9-abd6-4dac-8811-574c2f35b189")
+	)
+	(wire
+		(pts
+			(xy 125.73 92.71) (xy 130.81 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f81908e-560d-480b-bf44-094893ae5b3c")
 	)
 	(wire
 		(pts
@@ -847,6 +909,26 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 92.71) (xy 125.73 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63bd8ee9-632c-4eed-a1c7-43483aa104f0")
+	)
+	(wire
+		(pts
+			(xy 125.73 97.79) (xy 130.81 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65cc1539-9655-4386-b784-5023f312ca58")
+	)
+	(wire
+		(pts
 			(xy 166.37 93.98) (xy 176.53 93.98)
 		)
 		(stroke
@@ -857,7 +939,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 96.52) (xy 138.43 99.06)
+			(xy 138.43 96.52) (xy 138.43 97.79)
 		)
 		(stroke
 			(width 0)
@@ -877,7 +959,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 96.52) (xy 138.43 96.52)
+			(xy 120.65 96.52) (xy 125.73 96.52)
 		)
 		(stroke
 			(width 0)
@@ -914,6 +996,16 @@
 			(type default)
 		)
 		(uuid "b5cb3f24-b74a-4475-8b12-88dbb84cd41f")
+	)
+	(wire
+		(pts
+			(xy 138.43 97.79) (xy 138.43 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c54a701b-fab6-413f-9125-e7c529ce753a")
 	)
 	(wire
 		(pts
@@ -1495,7 +1587,7 @@
 	)
 	(symbol
 		(lib_id "Device:Antenna_Dipole")
-		(at 121.92 96.52 90)
+		(at 115.57 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1504,7 +1596,7 @@
 		(fields_autoplaced yes)
 		(uuid "70956014-c1e4-4d1d-9b65-d5c6adece7e7")
 		(property "Reference" "AE1"
-			(at 124.46 86.36 90)
+			(at 118.11 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1512,7 +1604,7 @@
 			)
 		)
 		(property "Value" "Antenna_Dipole"
-			(at 124.46 88.9 90)
+			(at 118.11 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1520,7 +1612,7 @@
 			)
 		)
 		(property "Footprint" "lcsc:NFC_4uH_COIL"
-			(at 121.92 96.52 0)
+			(at 115.57 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1529,7 +1621,7 @@
 			)
 		)
 		(property "Datasheet" "https://coil32.net/online-calculators/pcb-inductor-calculator.html"
-			(at 121.92 96.52 0)
+			(at 115.57 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1538,7 +1630,7 @@
 			)
 		)
 		(property "Description" "NFC coil antenna"
-			(at 121.92 96.52 0)
+			(at 115.57 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1728,6 +1820,76 @@
 			(project "bornhack2026-hardware"
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/90853474-a0e8-4c32-9bb2-223cb1f08aa7"
 					(reference "RF2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 130.81 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "bb595d5b-e595-4f2c-afb9-57f806994885")
+		(property "Reference" "C65"
+			(at 133.35 93.9735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 133.35 96.5135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 130.81 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 130.81 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea94d7f9-b00a-4c4a-aa31-482ae6a75fa7")
+		)
+		(pin "2"
+			(uuid "6926cb57-7f09-455d-9ebb-b28240e9ba64")
+		)
+		(instances
+			(project "bornhack2026-hardware"
+				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/90853474-a0e8-4c32-9bb2-223cb1f08aa7"
+					(reference "C65")
 					(unit 1)
 				)
 			)
