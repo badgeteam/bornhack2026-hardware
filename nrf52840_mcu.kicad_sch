@@ -8345,6 +8345,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resource" "https://muehlhaus.com/support/antenna/ceramic-antenna"
+			(at 27.94 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d62d295f-4619-44a7-b735-3fe234bd5441")
 		)

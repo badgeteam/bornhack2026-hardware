@@ -715,6 +715,9 @@
       "Net-(C5-Pad1)": [
         "BT-RF"
       ],
+      "Net-(C69-Pad2)": [
+        "LORA-RF"
+      ],
       "Net-(D5-A)": [
         "Power"
       ],
