@@ -3118,7 +3118,7 @@
 		(uuid "0317300e-cb2e-4c26-b387-7f66de5b09f7")
 	)
 	(label "BTN_JOY_RIGHT"
-		(at 200.66 57.15 180)
+		(at 200.66 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3217,7 +3217,7 @@
 		)
 		(uuid "383b9064-6b3c-4567-83a8-18060015d0d0")
 	)
-	(label "BTN_SELECT"
+	(label "BTN_EXECUTE"
 		(at 200.66 69.85 180)
 		(effects
 			(font
@@ -3288,7 +3288,7 @@
 		(uuid "534405a4-0754-4f05-a80f-374d090006f6")
 	)
 	(label "BTN_JOY_DOWN"
-		(at 200.66 62.23 180)
+		(at 200.66 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3338,7 +3338,7 @@
 		(uuid "5df9f0eb-f068-4b60-8523-235bef67f221")
 	)
 	(label "BTN_JOY_LEFT"
-		(at 200.66 64.77 180)
+		(at 200.66 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3408,7 +3408,7 @@
 		(uuid "8495c1b8-5bb1-46d2-b200-cb022d62bbf2")
 	)
 	(label "BTN_JOY_UP"
-		(at 200.66 59.69 180)
+		(at 200.66 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3457,7 +3457,7 @@
 		)
 		(uuid "9c7f95b6-4d92-478e-8cf4-65d3385efff4")
 	)
-	(label "BTN_SELECT"
+	(label "BTN_EXECUTE"
 		(at 96.52 153.67 180)
 		(effects
 			(font
@@ -3478,7 +3478,7 @@
 		(uuid "b7e752f4-b873-4c75-8c80-589f1afd1b35")
 	)
 	(label "BTN_JOY_FIRE"
-		(at 200.66 67.31 180)
+		(at 200.66 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5606,9 +5606,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "dd7c4e8b-cf2c-45b8-96ee-29c2003aebb0")
 		(property "Reference" "J1"
-			(at 248.92 102.87 0)
+			(at 248.92 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5616,7 +5617,7 @@
 			)
 		)
 		(property "Value" "USB device"
-			(at 248.92 105.156 0)
+			(at 248.92 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5931,9 +5932,9 @@
 				(justify right)
 			)
 		)
-		(pin "BTN_SELECT" output
+		(pin "BTN_EXECUTE" output
 			(at 76.2 153.67 0)
-			(uuid "50ab829a-d156-46fb-aba3-a951aa029b6a")
+			(uuid "4043acf9-24fb-48d9-83cc-3d7eb6015e0b")
 			(effects
 				(font
 					(size 1.27 1.27)

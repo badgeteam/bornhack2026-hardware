@@ -907,12 +907,6 @@
 		(uuid "88ae2351-5c9f-42b3-ab6f-81250fba18ac")
 	)
 	(junction
-		(at 55.88 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5d42424-baf6-465a-9bf6-6e3bdc42e78f")
-	)
-	(junction
 		(at 176.53 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -934,7 +928,7 @@
 		(at 55.88 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dd3546e5-41cf-49b7-bcf5-f183f402c503")
+		(uuid "e0717d19-ca35-48e8-a5dc-953490022c71")
 	)
 	(no_connect
 		(at 63.5 101.6)
@@ -976,7 +970,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 82.55) (xy 58.42 82.55)
+			(xy 55.88 71.12) (xy 58.42 71.12)
 		)
 		(stroke
 			(width 0)
@@ -996,16 +990,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 72.39) (xy 99.06 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1926cf5e-55e3-4d0e-b750-cba9a07c5dfd")
-	)
-	(wire
-		(pts
 			(xy 176.53 86.36) (xy 198.12 86.36)
 		)
 		(stroke
@@ -1013,16 +997,6 @@
 			(type default)
 		)
 		(uuid "21656f48-5c6f-489e-ab33-7573edc7e46b")
-	)
-	(wire
-		(pts
-			(xy 55.88 72.39) (xy 58.42 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21cf78fc-a262-4ae6-8cab-68d971cb086d")
 	)
 	(wire
 		(pts
@@ -1136,7 +1110,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 82.55) (xy 99.06 82.55)
+			(xy 87.63 71.12) (xy 99.06 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1316,13 +1290,13 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 72.39) (xy 55.88 82.55)
+			(xy 55.88 62.23) (xy 55.88 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d339f11d-35bc-4010-9a3d-5945ba5466fb")
+		(uuid "c59cb5a0-d832-4674-823a-4acd959ef365")
 	)
 	(wire
 		(pts
@@ -1363,16 +1337,6 @@
 			(type default)
 		)
 		(uuid "e5850b3e-e5a1-440f-ab54-c10e2e4e79d2")
-	)
-	(wire
-		(pts
-			(xy 55.88 62.23) (xy 55.88 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebce5cac-b97e-4312-b8f9-ff2cbb66be6e")
 	)
 	(wire
 		(pts
@@ -1447,7 +1411,7 @@
 		)
 		(uuid "53d90df9-0813-478e-8bd8-69b985269483")
 	)
-	(hierarchical_label "BTN_SELECT"
+	(hierarchical_label "BTN_EXECUTE"
 		(shape output)
 		(at 99.06 62.23 0)
 		(effects
@@ -1480,17 +1444,6 @@
 		)
 		(uuid "6ef8346c-204c-4a0c-9923-050bb961867c")
 	)
-	(hierarchical_label "BTN_CONFIRM"
-		(shape output)
-		(at 99.06 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6fa1fb69-ac62-4e20-9d61-7b7cbc0c94ca")
-	)
 	(hierarchical_label "BTN_JOY_LEFT"
 		(shape output)
 		(at 171.45 86.36 180)
@@ -1515,7 +1468,7 @@
 	)
 	(hierarchical_label "BTN_CANCEL"
 		(shape output)
-		(at 99.06 82.55 0)
+		(at 99.06 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2403,7 +2356,7 @@
 		)
 	)
 	(sheet
-		(at 58.42 80.01)
+		(at 58.42 68.58)
 		(size 29.21 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2417,8 +2370,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "1c8ff3e2-2f4f-4cda-9ba0-6180b9389fcf")
-		(property "Sheetname" "STATS"
-			(at 58.42 78.74 0)
+		(property "Sheetname" "CANCEL"
+			(at 58.42 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2428,7 +2381,7 @@
 			)
 		)
 		(property "Sheetfile" "gen_button.kicad_sch"
-			(at 58.42 85.6746 0)
+			(at 58.42 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2437,7 +2390,7 @@
 			)
 		)
 		(pin "3V3" input
-			(at 58.42 82.55 180)
+			(at 58.42 71.12 180)
 			(uuid "ba5359f9-97d4-4831-8579-55b39b35b33c")
 			(effects
 				(font
@@ -2447,7 +2400,7 @@
 			)
 		)
 		(pin "BTN_OUT" output
-			(at 87.63 82.55 0)
+			(at 87.63 71.12 0)
 			(uuid "a8e3683c-3b9f-4b32-b2ae-2b6495025238")
 			(effects
 				(font
@@ -2460,68 +2413,6 @@
 			(project "bornhack2026-hardware"
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/1f4fc1c2-c6dd-4c37-a48b-5ed4d54351cc"
 					(page "15")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 58.42 69.85)
-		(size 29.21 5.08)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "388f31d4-eb5f-444f-b721-36e3eb3ac7fd")
-		(property "Sheetname" "LIGHTS"
-			(at 58.42 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Sheetfile" "gen_button.kicad_sch"
-			(at 58.42 75.5146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "3V3" input
-			(at 58.42 72.39 180)
-			(uuid "14c8bf48-cec0-4ab7-bdf5-35d94652951a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "BTN_OUT" output
-			(at 87.63 72.39 0)
-			(uuid "b53dfcbc-0033-469f-86e8-212bee391b16")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "bornhack2026-hardware"
-				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/1f4fc1c2-c6dd-4c37-a48b-5ed4d54351cc"
-					(page "14")
 				)
 			)
 		)
@@ -2541,7 +2432,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "db62785b-07c7-49c0-8737-437f813264da")
-		(property "Sheetname" "TOILET"
+		(property "Sheetname" "EXECUTE"
 			(at 58.42 58.42 0)
 			(effects
 				(font

@@ -559,10 +559,6 @@
 					(reference "R21")
 					(unit 1)
 				)
-				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/1f4fc1c2-c6dd-4c37-a48b-5ed4d54351cc/388f31d4-eb5f-444f-b721-36e3eb3ac7fd"
-					(reference "R20")
-					(unit 1)
-				)
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/1f4fc1c2-c6dd-4c37-a48b-5ed4d54351cc/db62785b-07c7-49c0-8737-437f813264da"
 					(reference "R19")
 					(unit 1)
@@ -653,10 +649,6 @@
 					(reference "SW8")
 					(unit 1)
 				)
-				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/1f4fc1c2-c6dd-4c37-a48b-5ed4d54351cc/388f31d4-eb5f-444f-b721-36e3eb3ac7fd"
-					(reference "SW7")
-					(unit 1)
-				)
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/1f4fc1c2-c6dd-4c37-a48b-5ed4d54351cc/db62785b-07c7-49c0-8737-437f813264da"
 					(reference "SW6")
 					(unit 1)
@@ -725,10 +717,6 @@
 			(project "bornhack2026-hardware"
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/1f4fc1c2-c6dd-4c37-a48b-5ed4d54351cc/1c8ff3e2-2f4f-4cda-9ba0-6180b9389fcf"
 					(reference "#PWR078")
-					(unit 1)
-				)
-				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/1f4fc1c2-c6dd-4c37-a48b-5ed4d54351cc/388f31d4-eb5f-444f-b721-36e3eb3ac7fd"
-					(reference "#PWR077")
 					(unit 1)
 				)
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/1f4fc1c2-c6dd-4c37-a48b-5ed4d54351cc/db62785b-07c7-49c0-8737-437f813264da"

@@ -1018,15 +1018,11 @@
     ],
     [
       "db62785b-07c7-49c0-8737-437f813264da",
-      "TOILET"
-    ],
-    [
-      "388f31d4-eb5f-444f-b721-36e3eb3ac7fd",
-      "LIGHTS"
+      "EXECUTE"
     ],
     [
       "1c8ff3e2-2f4f-4cda-9ba0-6180b9389fcf",
-      "STATS"
+      "CANCEL"
     ]
   ],
   "text_variables": {}
