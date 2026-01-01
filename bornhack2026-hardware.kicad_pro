@@ -60,51 +60,47 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|10233434|-30242403|56ec7d26-c1e1-42ef-8d50-2067c512db88|63d3e909-a936-40e8-91bb-7205359309fb",
+          "clearance|11235110|-28873144|56ec7d26-c1e1-42ef-8d50-2067c512db88|d3c05323-824b-41a6-9d0d-4a05de8c7008",
           ""
         ],
         [
-          "clearance|10578439|-31924885|5f519cf9-2137-4cc7-89da-04975b1d2574|a805602a-f79b-4d04-a5d5-f184716f94cb",
+          "clearance|11636049|-29089951|896eb742-d868-4532-b79b-aa4d64255f11|d3c05323-824b-41a6-9d0d-4a05de8c7008",
           ""
         ],
         [
-          "clearance|14762218|-35177237|71f67745-5ced-439f-b827-bfaabd2a1bf4|6ed329bb-e856-40d7-bc63-ebf239ec3960",
+          "clearance|11709076|-29237713|56ec7d26-c1e1-42ef-8d50-2067c512db88|63d3e909-a936-40e8-91bb-7205359309fb",
           ""
         ],
         [
-          "clearance|15243050|-35658069|6ed329bb-e856-40d7-bc63-ebf239ec3960|66dd8dd2-76c5-42df-a02b-e8572f355886",
+          "clearance|13512759|-30183453|5f519cf9-2137-4cc7-89da-04975b1d2574|a805602a-f79b-4d04-a5d5-f184716f94cb",
           ""
         ],
         [
-          "clearance|8241423|-28234414|56ec7d26-c1e1-42ef-8d50-2067c512db88|f48510a6-a421-48e1-a71d-ac8766febffc",
+          "clearance|19450896|-29524833|6ed329bb-e856-40d7-bc63-ebf239ec3960|66dd8dd2-76c5-42df-a02b-e8572f355886",
           ""
         ],
         [
-          "clearance|9286097|-30186097|63d3e909-a936-40e8-91bb-7205359309fb|896eb742-d868-4532-b79b-aa4d64255f11",
+          "clearance|19450896|-29524833|6ed329bb-e856-40d7-bc63-ebf239ec3960|71f67745-5ced-439f-b827-bfaabd2a1bf4",
           ""
         ],
         [
-          "courtyards_overlap|19180000|-9318232|8c4a7a1b-0b1e-4c3a-8a76-8157eecdfd98|f0c78e30-6999-42c7-8636-899dcaeb60a6",
+          "clearance|9250681|-29237713|56ec7d26-c1e1-42ef-8d50-2067c512db88|f48510a6-a421-48e1-a71d-ac8766febffc",
           ""
         ],
         [
-          "lib_footprint_mismatch|18819376|-9021248|8c4a7a1b-0b1e-4c3a-8a76-8157eecdfd98|00000000-0000-0000-0000-000000000000",
+          "copper_edge_clearance|-29581789|23843231|27d78c95-0771-4690-9b4d-0e7df6271d93|0674fbe7-9615-4d03-8b41-13833eab92da",
           ""
         ],
         [
-          "lib_footprint_mismatch|19530000|-9010624|f0c78e30-6999-42c7-8636-899dcaeb60a6|00000000-0000-0000-0000-000000000000",
+          "copper_edge_clearance|-32329903|16292851|27d78c95-0771-4690-9b4d-0e7df6271d93|0674fbe7-9615-4d03-8b41-13833eab92da",
           ""
         ],
         [
-          "silk_edge_clearance|-24218843|31471801|27d78c95-0771-4690-9b4d-0e7df6271d93|16e7abd2-5311-4005-bb5a-6d077cb8723e",
+          "silk_edge_clearance|-31567754|19777265|27d78c95-0771-4690-9b4d-0e7df6271d93|16e7abd2-5311-4005-bb5a-6d077cb8723e",
           ""
         ],
         [
-          "silk_edge_clearance|-25145153|30545491|27d78c95-0771-4690-9b4d-0e7df6271d93|6d3163f4-36ac-4b66-a1fd-7c7e7de1b475",
-          ""
-        ],
-        [
-          "silk_edge_clearance|-25145153|30545491|27d78c95-0771-4690-9b4d-0e7df6271d93|bc9757ca-07c7-49f5-bbe7-72f3d4f9eefb",
+          "silk_edge_clearance|-31987195|18535857|27d78c95-0771-4690-9b4d-0e7df6271d93|bc9757ca-07c7-49f5-bbe7-72f3d4f9eefb",
           ""
         ],
         [
@@ -128,15 +124,31 @@
           ""
         ],
         [
-          "silk_overlap|-24218843|31471801|16e7abd2-5311-4005-bb5a-6d077cb8723e|2b6af5df-201b-436c-b903-476fa2ed13e3",
+          "silk_over_copper|-29332802|23179130|2b6af5df-201b-436c-b903-476fa2ed13e3|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "silk_overlap|-25190686|30562292|2b6af5df-201b-436c-b903-476fa2ed13e3|6d3163f4-36ac-4b66-a1fd-7c7e7de1b475",
+          "silk_overlap|-30300207|22821405|2b6af5df-201b-436c-b903-476fa2ed13e3|75ed3635-afef-4d8e-b920-92ad7c602a8f",
           ""
         ],
         [
-          "silk_overlap|-25190686|30562292|2b6af5df-201b-436c-b903-476fa2ed13e3|bc9757ca-07c7-49f5-bbe7-72f3d4f9eefb",
+          "silk_overlap|-30300207|22821405|2b6af5df-201b-436c-b903-476fa2ed13e3|f7227f3f-e2c7-4d45-9085-32d2fd2709de",
+          ""
+        ],
+        [
+          "silk_overlap|-31567786|19777277|16e7abd2-5311-4005-bb5a-6d077cb8723e|2b6af5df-201b-436c-b903-476fa2ed13e3",
+          ""
+        ],
+        [
+          "silk_overlap|-31655844|19545581|2b6af5df-201b-436c-b903-476fa2ed13e3|6d3163f4-36ac-4b66-a1fd-7c7e7de1b475",
+          ""
+        ],
+        [
+          "silk_overlap|-31655844|19545581|2b6af5df-201b-436c-b903-476fa2ed13e3|bc9757ca-07c7-49f5-bbe7-72f3d4f9eefb",
+          ""
+        ],
+        [
+          "silk_overlap|-32435410|17024707|2b6af5df-201b-436c-b903-476fa2ed13e3|3b998d5d-71b8-4e8d-8d26-cf3ae9752772",
           ""
         ],
         [
@@ -150,10 +162,6 @@
         [
           "silk_overlap|-33683838|9756808|2b6af5df-201b-436c-b903-476fa2ed13e3|f2f749b7-27cc-4752-8397-38021f3eb6ad",
           ""
-        ],
-        [
-          "silk_overlap|19180000|-9198025|44935f32-9233-4baf-aa1b-c3e43be7081b|45d445d0-c696-49d9-8488-a39827a80416",
-          "Part of the RF switch hack."
         ]
       ],
       "meta": {
