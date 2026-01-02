@@ -5782,7 +5782,7 @@
 		(at 132.08 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6246,6 +6246,15 @@
 		)
 		(property "LCSC Part" "C41368044"
 			(at 40.64 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41368044"
+			(at 40.64 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)

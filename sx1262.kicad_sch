@@ -4190,7 +4190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/299712-CL05C030BB5NNNC/C318583"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/HRE-CGA0402C0G3R0C500GT/C41361091"
 			(at 179.07 68.58 0)
 			(effects
 				(font
@@ -4208,7 +4208,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C318583"
+		(property "LCSC" "C41361091"
 			(at 179.07 68.58 90)
 			(effects
 				(font
@@ -4422,7 +4422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/ChilisinElec-CLH1005T_8N2J_SNP/C142213"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/MurataElectronics-LQG15HS8N2J02D/C98003"
 			(at 260.35 86.36 0)
 			(effects
 				(font
@@ -4440,7 +4440,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C142213"
+		(property "LCSC" "C98003"
 			(at 260.35 86.36 90)
 			(effects
 				(font
