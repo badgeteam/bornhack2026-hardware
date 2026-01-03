@@ -10,33 +10,33 @@
 		(company "Badge.Team")
 	)
 	(lib_symbols
-		(symbol "Device:C_Small"
+		(symbol "Device:Antenna"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0.254)
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
+			(property "Reference" "AE"
+				(at -1.905 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify right)
 				)
 			)
-			(property "Value" "C_Small"
-				(at 0.254 -2.032 0)
+			(property "Value" "Antenna"
+				(at -1.905 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -57,7 +57,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
+			(property "Description" "Antenna"
 				(at 0 0 0)
 				(effects
 					(font
@@ -66,7 +66,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "capacitor cap"
+			(property "ki_keywords" "antenna"
 				(at 0 0 0)
 				(effects
 					(font
@@ -75,22 +75,13 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Small_0_1"
+			(symbol "Antenna_0_1"
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy 0 2.54) (xy 0 -3.81)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -99,10 +90,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy 1.27 2.54) (xy 0 -2.54) (xy -1.27 2.54)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -110,11 +101,11 @@
 					)
 				)
 			)
-			(symbol "C_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
+			(symbol "Antenna_1_1"
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -122,24 +113,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -761,150 +734,6 @@
 					(at 0 -2.54 90)
 					(length 2.54)
 					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "lcsc:400-1000MHZ-CHIP(B&T-1503)"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "400-1000MHZ-CHIP(B&T-1503)"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "lcsc:ANT-SMD_L15.0-W3.0"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C41368044"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "400-1000MHZ-CHIP(B&T-1503)_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 3.81 270)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "ANT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2319,6 +2148,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "JLCPCB Inpedance control\n\nStackup used:\nJLC04161H-7628 Stackup\n\nImpendance calculator: https://jlcpcb.com/pcb-impedance-calculator"
+		(exclude_from_sim yes)
+		(at 180.594 22.352 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bfedfdf4-fb14-49ae-bdfc-b50532e3e2a1")
+	)
 	(text "Prototype antenna or SMA"
 		(exclude_from_sim no)
 		(at 31.496 14.478 0)
@@ -2358,24 +2197,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61b05fdf-629c-4db2-9f9b-5ba705edfec5")
-	)
-	(junction
-		(at 57.15 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6baecf4d-dcaa-4214-8c9d-f95411e2c060")
-	)
-	(junction
-		(at 40.64 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a88c5659-de7a-4234-b4fd-75797b8d9491")
-	)
-	(junction
-		(at 40.64 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac7a4aa1-b59e-440b-93d2-f908e510d8b5")
 	)
 	(junction
 		(at 265.43 123.19)
@@ -2422,10 +2243,6 @@
 	(no_connect
 		(at 180.34 72.39)
 		(uuid "dd6a745f-d6d3-46f0-b99b-6b80d40486b8")
-	)
-	(no_connect
-		(at 40.64 17.78)
-		(uuid "f4dd4288-ce53-49db-870d-88667e7cb6ee")
 	)
 	(bus_entry
 		(at 201.93 92.71)
@@ -2535,26 +2352,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 31.75) (xy 40.64 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f9798b5-ec72-41fb-a516-c0a58d5f6030")
-	)
-	(wire
-		(pts
-			(xy 57.15 31.75) (xy 57.15 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2725968e-c509-4833-9a7f-0ad6ccf517b1")
-	)
-	(wire
-		(pts
 			(xy 180.34 92.71) (xy 194.31 92.71)
 		)
 		(stroke
@@ -2635,26 +2432,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 39.37) (xy 41.91 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39e5abbe-2fe2-454c-bb4c-b7cc4a2cc563")
-	)
-	(wire
-		(pts
-			(xy 46.99 39.37) (xy 57.15 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ac870fc-a21e-45e8-aa1d-2f65d9db6ef1")
-	)
-	(wire
-		(pts
 			(xy 137.16 88.9) (xy 121.92 88.9)
 		)
 		(stroke
@@ -2702,16 +2479,6 @@
 			(type default)
 		)
 		(uuid "3f0d8ed8-e4db-4666-8758-64d3c137e457")
-	)
-	(wire
-		(pts
-			(xy 40.64 38.1) (xy 40.64 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42681ec3-4ac4-43eb-aa83-75b35a19085e")
 	)
 	(wire
 		(pts
@@ -3195,16 +2962,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 31.75) (xy 57.15 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7b04ec9-dcda-4336-8637-3f44ec2725e9")
-	)
-	(wire
-		(pts
 			(xy 116.84 76.2) (xy 137.16 76.2)
 		)
 		(stroke
@@ -3275,16 +3032,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 41.91) (xy 57.15 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c75b78b2-aaf4-4d5a-8155-aa5c54bd5d2a")
-	)
-	(wire
-		(pts
 			(xy 266.7 109.22) (xy 266.7 106.68)
 		)
 		(stroke
@@ -3302,16 +3049,6 @@
 			(type default)
 		)
 		(uuid "cfea7f7c-cbf7-40d4-b712-ad7439416b8a")
-	)
-	(wire
-		(pts
-			(xy 40.64 31.75) (xy 41.91 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0aa5d33-0a47-4098-a431-c37a3cb56d13")
 	)
 	(wire
 		(pts
@@ -3382,16 +3119,6 @@
 			(type default)
 		)
 		(uuid "ec1edb96-4076-4c61-ad23-298030c4a441")
-	)
-	(wire
-		(pts
-			(xy 40.64 26.67) (xy 40.64 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec42debc-ac0d-4ce8-9cc1-77c855dc7783")
 	)
 	(wire
 		(pts
@@ -4230,36 +3957,6 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape diamond)
-		(at 40.64 43.18 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "738c0f7c-1c93-402f-838a-8a7a96c85c37")
-		(property "Netclass" "LORA-RF"
-			(at 43.942 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -172.72 -27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
 		(at 40.64 62.23 270)
 		(effects
 			(font
@@ -4283,114 +3980,6 @@
 				(font
 					(size 1.27 1.27)
 					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 40.64 27.94 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ed9c9cc8-d11a-4ba4-b254-139087777a8f")
-		(property "Netclass" "LORA-RF"
-			(at 43.942 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -172.72 -43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 40.64 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "08b6151a-5ebe-42ca-8a8f-ed769531c515")
-		(property "Reference" "C69"
-			(at 43.18 34.798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 43.18 36.8362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 40.64 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/17853-0402WGF0000TCE/C17168"
-			(at 40.64 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0 Ohm resistor, change for tuning circuit"
-			(at 40.64 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17168"
-			(at 40.64 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "89a4ead3-378e-44ea-989b-17d47b7032ff")
-		)
-		(pin "1"
-			(uuid "1fe643e0-c3ec-4a46-a77a-7ef691994b45")
-		)
-		(instances
-			(project "bornhack2026-hardware"
-				(path "/23bf5400-d19c-445b-8744-b63ebcca303d"
-					(reference "C69")
-					(unit 1)
 				)
 			)
 		)
@@ -4532,82 +4121,6 @@
 			(project "bornhack2026-hardware"
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d"
 					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 44.45 31.75 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "11f8a091-e9a5-4b9f-88cc-2ce975770084")
-		(property "Reference" "C70"
-			(at 50.8 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DNP"
-			(at 50.8 30.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 44.45 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 44.45 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "82682265-2aaa-4696-aa4d-eeea4548b51b")
-		)
-		(pin "1"
-			(uuid "9cbd05e8-316b-4c2a-a147-5d82605a96f7")
-		)
-		(instances
-			(project "bornhack2026-hardware"
-				(path "/23bf5400-d19c-445b-8744-b63ebcca303d"
-					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -5004,6 +4517,73 @@
 			(project "bornhack2026-hardware"
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Antenna")
+		(at 40.64 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f46e3bb-b01a-49c8-972c-94b3046cf063")
+		(property "Reference" "AE3"
+			(at 43.18 33.6549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Antenna_Dipole"
+			(at 43.18 36.1949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc:Texas_SWRA416_868MHz_915MHz_right"
+			(at 40.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Antenna"
+			(at 40.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec916229-bfb9-41dc-acca-f149a2ec1885")
+		)
+		(instances
+			(project ""
+				(path "/23bf5400-d19c-445b-8744-b63ebcca303d"
+					(reference "AE3")
 					(unit 1)
 				)
 			)
@@ -5481,148 +5061,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 57.15 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "933beece-74a8-4b99-a7ca-823c0491330b")
-		(property "Reference" "#PWR093"
-			(at 57.15 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 57.15 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b90c4f6d-62f6-410e-8420-7edf96e415ea")
-		)
-		(instances
-			(project ""
-				(path "/23bf5400-d19c-445b-8744-b63ebcca303d"
-					(reference "#PWR093")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 44.45 39.37 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "9fb69075-dd86-4b7a-aba6-18950fb227ab")
-		(property "Reference" "C71"
-			(at 52.324 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DNP"
-			(at 51.562 37.592 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 44.45 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 44.45 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 44.45 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a2564473-c15b-43a8-9edc-3fe0e83bc86b")
-		)
-		(pin "1"
-			(uuid "73fd8f5b-4937-4722-87c8-1e499f4c36f1")
-		)
-		(instances
-			(project "bornhack2026-hardware"
-				(path "/23bf5400-d19c-445b-8744-b63ebcca303d"
-					(reference "C71")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "lcsc:A-IPEX1-1.25A")
 		(at 29.21 52.07 270)
 		(unit 1)
@@ -5784,7 +5222,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c57c117e-bea3-4be8-89b2-c4df8ef4273a")
 		(property "Reference" "N1"
@@ -6184,94 +5622,6 @@
 			(project "bornhack2026-hardware"
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc:400-1000MHZ-CHIP(B&T-1503)")
-		(at 40.64 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fbb88e13-33be-4cc6-befa-08c59e68486d")
-		(property "Reference" "L13"
-			(at 44.45 19.6849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "866MHz LoRa antenna"
-			(at 44.45 22.2249 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lcsc:ANT-SMD_L15.0-W3.0"
-			(at 40.64 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C41368044.html?s_z=n_C41368044"
-			(at 40.64 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "400-1000MHZ-CHIP(B&T-1503)"
-			(at 40.64 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C41368044"
-			(at 40.64 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C41368044"
-			(at 40.64 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f8b3a0da-84bb-4e4b-8d19-7eef3d112b4c")
-		)
-		(pin "1"
-			(uuid "bf4ab9f2-2782-4b64-a616-593578c97e18")
-		)
-		(instances
-			(project ""
-				(path "/23bf5400-d19c-445b-8744-b63ebcca303d"
-					(reference "L13")
 					(unit 1)
 				)
 			)
