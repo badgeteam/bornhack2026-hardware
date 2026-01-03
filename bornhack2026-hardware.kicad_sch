@@ -4045,6 +4045,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resource" ""
+			(at 269.24 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "54464d4e-2320-4ad2-acb5-5e99a99b313b")
 		)
@@ -4181,6 +4190,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resource" ""
+			(at 35.56 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a7d544b-7626-4e19-a187-3b422fd067f6")
 		)
@@ -4240,6 +4258,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 82.55 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resource" ""
 			(at 82.55 173.99 0)
 			(effects
 				(font
@@ -4445,6 +4472,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resource" ""
+			(at 59.69 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7c4f0d19-9458-4395-a897-dda2b0819ad8")
 		)
@@ -4527,9 +4563,9 @@
 		(at 40.64 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4f46e3bb-b01a-49c8-972c-94b3046cf063")
 		(property "Reference" "AE3"
@@ -4550,7 +4586,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lcsc:Texas_SWRA416_868MHz_915MHz_right"
+		(property "Footprint" "lcsc:Texas_SWRA416_868MHz_915MHz_right_v2"
 			(at 40.64 34.29 0)
 			(effects
 				(font
@@ -4569,6 +4605,15 @@
 			)
 		)
 		(property "Description" "Antenna"
+			(at 40.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resource" ""
 			(at 40.64 34.29 0)
 			(effects
 				(font
@@ -5045,6 +5090,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resource" ""
+			(at 40.64 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8296ae7e-c5e0-4544-9b29-6b94ab6915a9")
 		)
@@ -5123,6 +5177,15 @@
 			)
 		)
 		(property "LCSC" "C22467595"
+			(at 29.21 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resource" ""
 			(at 29.21 52.07 0)
 			(effects
 				(font
@@ -5270,6 +5333,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resource" ""
+			(at 132.08 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d"
@@ -5332,6 +5404,15 @@
 			)
 		)
 		(property "LCSC" "C17168"
+			(at 40.64 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resource" ""
 			(at 40.64 48.26 90)
 			(effects
 				(font
@@ -5409,6 +5490,15 @@
 		)
 		(property "LCSC" "C25905"
 			(at 269.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resource" ""
+			(at 269.24 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5567,6 +5657,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resource" ""
+			(at 248.92 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A1"
 			(uuid "2a4aec15-b42e-414c-871b-70c8a4dc04e4")
 		)
@@ -5622,6 +5721,79 @@
 			(project "bornhack2026-hardware"
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Housing")
+		(at 130.81 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "ee89f4e9-95fb-48f0-8141-6222c659a10e")
+		(property "Reference" "N2"
+			(at 134.62 183.1974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Ranzbak"
+			(at 134.62 185.7374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "defeest:goatse_01"
+			(at 132.08 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Board edge + art"
+			(at 130.81 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resource" ""
+			(at 130.81 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "bornhack2026-hardware"
+				(path "/23bf5400-d19c-445b-8744-b63ebcca303d"
+					(reference "N2")
 					(unit 1)
 				)
 			)

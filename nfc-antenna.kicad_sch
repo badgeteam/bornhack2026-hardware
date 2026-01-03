@@ -1098,7 +1098,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "75pF"
 			(at 151.13 102.8762 0)
 			(effects
 				(font
@@ -1116,7 +1116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/172685-GJM1555C1H120FB01D/C161304"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/38789-0402CG750J500NT/C37809"
 			(at 148.59 101.6 0)
 			(effects
 				(font
@@ -1134,7 +1134,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C161304"
+		(property "LCSC" "C37809"
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resource" ""
 			(at 148.59 101.6 0)
 			(effects
 				(font
@@ -1345,6 +1354,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resource" ""
+			(at 138.43 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3612f09e-1c81-4233-be8c-d60c76894516")
 		)
@@ -1421,6 +1439,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resource" ""
+			(at 179.07 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "27bc5939-3f4e-4ba4-9110-ab5dc28d0b8f")
 		)
@@ -1455,7 +1482,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "75pF"
 			(at 151.13 90.1762 0)
 			(effects
 				(font
@@ -1473,7 +1500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/172685-GJM1555C1H120FB01D/C161304"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/38789-0402CG750J500NT/C37809"
 			(at 148.59 88.9 0)
 			(effects
 				(font
@@ -1491,7 +1518,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C161304"
+		(property "LCSC" "C37809"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resource" ""
 			(at 148.59 88.9 0)
 			(effects
 				(font
@@ -1570,6 +1606,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resource" ""
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "55652bd2-de38-4ee9-9e78-e86b471a3455")
 		)
@@ -1611,7 +1656,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:NFC_4uH_COIL"
+		(property "Footprint" "lcsc:NFC_2.8uH_COIL"
 			(at 115.57 96.52 0)
 			(effects
 				(font
@@ -1631,6 +1676,15 @@
 		)
 		(property "Description" "NFC coil antenna"
 			(at 115.57 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resource" ""
+			(at 115.57 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1706,6 +1760,15 @@
 			)
 		)
 		(property "LCSC" "C17168"
+			(at 186.69 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resource" ""
 			(at 186.69 96.52 90)
 			(effects
 				(font
@@ -1807,6 +1870,15 @@
 				)
 			)
 		)
+		(property "Resource" ""
+			(at 166.37 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8fcb164a-15a9-4b6a-b90e-eb09bb0d608e")
 		)
@@ -1872,6 +1944,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 130.81 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resource" ""
 			(at 130.81 95.25 0)
 			(effects
 				(font

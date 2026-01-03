@@ -2963,6 +2963,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resource" ""
+			(at 175.26 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1a0cde6d-5619-45fc-96d8-1b94d13119d8")
 		)
@@ -3110,6 +3119,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resource" ""
+			(at 124.46 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b320b885-7262-444a-a678-97e7ab4fa30d")
 		)
@@ -3179,6 +3197,15 @@
 			)
 		)
 		(property "LCSC" "C48192"
+			(at 100.33 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resource" ""
 			(at 100.33 107.95 0)
 			(effects
 				(font
@@ -3330,6 +3357,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resource" ""
+			(at 69.85 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4301bb8d-46cb-4bd2-a4a1-9763338e123e")
 		)
@@ -3464,6 +3500,15 @@
 			)
 		)
 		(property "LCSC" "C25530"
+			(at 106.68 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resource" ""
 			(at 106.68 71.12 0)
 			(effects
 				(font
@@ -3680,6 +3725,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resource" ""
+			(at 151.13 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "08585d1e-7b93-44ce-8125-62202e485a5d")
 		)
@@ -3751,6 +3805,15 @@
 			)
 		)
 		(property "LCSC" "C48192"
+			(at 80.01 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resource" ""
 			(at 80.01 123.19 0)
 			(effects
 				(font
@@ -3838,6 +3901,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resource" ""
+			(at 101.6 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c5d76e4b-bf4c-407c-aca0-ba10b2040a47")
 		)
@@ -3892,7 +3964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10B474KA8NNNC_C1623.html"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1975-CL10B474KA8NNNC/C1623"
 			(at 160.02 127 0)
 			(effects
 				(font
@@ -3911,6 +3983,15 @@
 			)
 		)
 		(property "LCSC" "C1623"
+			(at 160.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resource" ""
 			(at 160.02 127 0)
 			(effects
 				(font
@@ -3989,6 +4070,15 @@
 			)
 		)
 		(property "LCSC" "C48192"
+			(at 87.63 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resource" ""
 			(at 87.63 123.19 0)
 			(effects
 				(font
@@ -4205,6 +4295,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resource" ""
+			(at 142.24 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7fdecfda-ced2-40a1-ad3e-2ef57965db4f")
 		)
@@ -4273,6 +4372,15 @@
 			)
 		)
 		(property "LCSC" "C2907304"
+			(at 99.06 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resource" ""
 			(at 99.06 71.12 0)
 			(effects
 				(font
@@ -4414,6 +4522,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 133.35 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resource" ""
 			(at 133.35 99.06 0)
 			(effects
 				(font
@@ -4565,6 +4682,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resource" ""
+			(at 106.68 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6abb5b6e-3a36-4438-a4f6-12a66ac93caf")
 		)
@@ -4700,6 +4826,15 @@
 			)
 		)
 		(property "LCSC" "C5199872"
+			(at 133.35 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resource" ""
 			(at 133.35 127 0)
 			(effects
 				(font
@@ -4918,6 +5053,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resource" ""
+			(at 83.82 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8de803c9-87e2-4b1b-ab40-81da90e3a10b")
 		)
@@ -4988,6 +5132,15 @@
 			)
 		)
 		(property "LCSC" "C5199872"
+			(at 83.82 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resource" ""
 			(at 83.82 114.3 0)
 			(effects
 				(font
@@ -5067,6 +5220,15 @@
 			)
 		)
 		(property "LCSC" "C83083"
+			(at 99.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resource" ""
 			(at 99.06 48.26 0)
 			(effects
 				(font
@@ -5210,6 +5372,15 @@
 			)
 		)
 		(property "LCSC" "C5199872"
+			(at 115.57 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resource" ""
 			(at 115.57 127 0)
 			(effects
 				(font

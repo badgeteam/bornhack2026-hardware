@@ -1777,6 +1777,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resource" ""
+			(at 184.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "efa95da6-edd2-4786-8c64-e02292e9bf66")
 		)
@@ -1930,6 +1939,15 @@
 			)
 		)
 		(property "LCSC" "C318884"
+			(at 68.58 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resource" ""
 			(at 68.58 104.14 0)
 			(effects
 				(font
@@ -2098,6 +2116,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resource" ""
+			(at 208.28 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "02d192d4-be67-450b-9e97-e0ccc3da7898")
 		)
@@ -2194,6 +2221,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resource" ""
+			(at 191.77 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1ecc6d77-5736-4381-9e36-01394c928f2c")
 		)
@@ -2264,6 +2300,15 @@
 			)
 		)
 		(property "LCSC" "C25744"
+			(at 228.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resource" ""
 			(at 228.6 71.12 0)
 			(effects
 				(font
@@ -2350,6 +2395,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resource" ""
+			(at 176.53 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4097d798-4990-49fb-b04b-354d171ae999")
 		)
@@ -2428,6 +2482,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resource" ""
+			(at 82.55 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5e611e21-8846-4ca9-aa4f-3ced2c0b4f28")
 		)
@@ -2498,6 +2561,15 @@
 			)
 		)
 		(property "LCSC" "C25744"
+			(at 220.98 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resource" ""
 			(at 220.98 71.12 0)
 			(effects
 				(font
@@ -2643,6 +2715,15 @@
 			)
 		)
 		(property "LCSC" "C25744"
+			(at 82.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resource" ""
 			(at 82.55 96.52 0)
 			(effects
 				(font

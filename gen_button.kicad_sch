@@ -547,6 +547,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resource" ""
+			(at 78.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5efa564f-b50f-4ef6-896a-81982bfeb616")
 		)
@@ -629,6 +638,15 @@
 			)
 		)
 		(property "LCSC" "C5363473"
+			(at 64.77 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resource" ""
 			(at 64.77 55.88 0)
 			(effects
 				(font
