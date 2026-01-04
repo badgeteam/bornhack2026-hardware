@@ -348,15 +348,26 @@
 		(uuid "33c8ee74-e94c-41d6-8c4e-8377476a3975")
 	)
 	(embedded_fonts no)
-	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/FPC-SMD_XUNPU_FPC-0.5AS-24PWBH20.wrl"
+	(model "${KIPRJMOD}/symbols/lcsc.3dshapes/FPC-SMD_XUNPU_FPC-0.5AS-24PWBH20.step"
 		(offset
-			(xyz 0 -1.4 -0)
+			(xyz 0 -1.2 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KIPRJMOD}/symbols/lcsc.3dshapes/Waveshare 1.54 (B) E ink - Display Folded.stp"
+		(offset
+			(xyz -0.1 15 -1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 90)
 		)
 	)
 )
