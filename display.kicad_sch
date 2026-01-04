@@ -1801,9 +1801,9 @@
 		)
 		(uuid "68266280-8179-4ef0-a436-20e0e1a4c4e3")
 	)
-	(text "TODO: Adjust the circuit for this badge design, this is copy pasted from Kami."
+	(text "Pin numbering of connector is reversed\ncompared to display datasheet"
 		(exclude_from_sim no)
-		(at 120.142 29.464 0)
+		(at 199.39 84.582 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1846,7 +1846,7 @@
 	)
 	(text "BS1"
 		(exclude_from_sim no)
-		(at 160.02 74.93 0)
+		(at 160.02 75.946 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1956,13 +1956,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 102.87) (xy 138.43 100.33)
+			(xy 133.35 102.87) (xy 138.43 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d0b6ff0-e81f-46d9-a1a8-125baa94af8b")
+		(uuid "03b9def7-a433-4696-9a48-0da40ccfb634")
 	)
 	(wire
 		(pts
@@ -2153,6 +2153,16 @@
 			(type default)
 		)
 		(uuid "542aac8f-9247-4001-b128-a91472a9ecd0")
+	)
+	(wire
+		(pts
+			(xy 138.43 100.33) (xy 138.43 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "567f0264-dab6-4585-8ddd-df9966410ce7")
 	)
 	(wire
 		(pts
@@ -2513,16 +2523,6 @@
 			(type default)
 		)
 		(uuid "f9745650-9b78-463f-9610-ba86b167c471")
-	)
-	(wire
-		(pts
-			(xy 133.35 102.87) (xy 135.89 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa26d3cf-2912-402f-a157-05590f42e9bb")
 	)
 	(wire
 		(pts
@@ -2927,7 +2927,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc:FPC-SMD_FH12-24S-0.5SH-55"
+		(property "Footprint" "symbols:FPC-SMD_XUNPU_FPC-0.5AS-24PWBH20"
 			(at 175.26 87.63 0)
 			(effects
 				(font
@@ -2936,7 +2936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_HRS-Hirose-FH12-24S-0-5SH-55_C202112.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C3446073.html"
 			(at 175.26 87.63 0)
 			(effects
 				(font
@@ -2954,7 +2954,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C202112"
+		(property "LCSC" "C3446073"
 			(at 175.26 87.63 0)
 			(effects
 				(font
@@ -5322,9 +5322,9 @@
 		(at 115.57 127 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ff49a83d-95a4-4f96-a9a8-07abe432f0a1")
 		(property "Reference" "C36"
 			(at 121.92 125.73 0)
