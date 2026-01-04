@@ -4578,7 +4578,7 @@
 		(lib_id "Mechanical:Housing")
 		(at 132.08 171.45 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp yes)
@@ -4939,16 +4939,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Housing")
-		(at 130.81 184.15 0)
+		(at 162.56 171.45 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
-		(uuid "ee89f4e9-95fb-48f0-8141-6222c659a10e")
-		(property "Reference" "N2"
-			(at 134.62 183.1974 0)
+		(uuid "e5aaf57c-37cd-4578-b343-be71add1f009")
+		(property "Reference" "N3"
+			(at 166.37 170.4974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4956,8 +4956,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Ranzbak"
-			(at 134.62 185.7374 0)
+		(property "Value" "Bornhack"
+			(at 166.37 173.0374 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4965,8 +4965,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "defeest:goatse_01"
-			(at 132.08 182.88 0)
+		(property "Footprint" "lcsc:bornhack-logo-10mm"
+			(at 163.83 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4975,7 +4975,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 182.88 0)
+			(at 163.83 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4984,7 +4984,7 @@
 			)
 		)
 		(property "Description" "Board edge + art"
-			(at 130.81 184.15 0)
+			(at 162.56 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4993,7 +4993,80 @@
 			)
 		)
 		(property "Resource" ""
-			(at 130.81 184.15 0)
+			(at 162.56 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "bornhack2026-hardware"
+				(path "/23bf5400-d19c-445b-8744-b63ebcca303d"
+					(reference "N3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Housing")
+		(at 132.08 184.15 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "ee89f4e9-95fb-48f0-8141-6222c659a10e")
+		(property "Reference" "N2"
+			(at 135.89 183.1974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Ranzbak"
+			(at 135.89 185.7374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "defeest:goatse_01"
+			(at 133.35 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Board edge + art"
+			(at 132.08 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resource" ""
+			(at 132.08 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
