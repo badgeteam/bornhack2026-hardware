@@ -5029,7 +5029,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Ranzbak"
+		(property "Value" "Badge.Team"
 			(at 135.89 185.7374 0)
 			(effects
 				(font
@@ -5038,7 +5038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "defeest:goatse_01"
+		(property "Footprint" "symbols:stamp"
 			(at 133.35 182.88 0)
 			(effects
 				(font
@@ -5056,7 +5056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Board edge + art"
+		(property "Description" ""
 			(at 132.08 184.15 0)
 			(effects
 				(font
