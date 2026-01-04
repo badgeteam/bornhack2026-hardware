@@ -1944,16 +1944,8 @@
 		(uuid "b483953e-7591-4eb6-99ce-f3184059805d")
 	)
 	(no_connect
-		(at 180.34 80.01)
-		(uuid "cbe7f950-4445-43f1-b7ff-dff7db72f91b")
-	)
-	(no_connect
 		(at 271.78 27.94)
 		(uuid "d0cd98a0-9382-444c-ba6c-1fe27dd2173d")
-	)
-	(no_connect
-		(at 180.34 77.47)
-		(uuid "d11f0c07-8127-42e8-b1a8-2c5fa62261b2")
 	)
 	(no_connect
 		(at 180.34 72.39)
@@ -2014,6 +2006,16 @@
 			(type default)
 		)
 		(uuid "0a560721-4b89-4270-8d69-43d8fabcdcb2")
+	)
+	(wire
+		(pts
+			(xy 180.34 77.47) (xy 200.66 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ba8975f-fe07-4676-b26d-63f58a9323e4")
 	)
 	(bus
 		(pts
@@ -2587,6 +2589,26 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 57.15) (xy 231.14 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5784d60-b053-4d61-bd33-dbf5d8cb290d")
+	)
+	(wire
+		(pts
+			(xy 251.46 59.69) (xy 231.14 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b660eb49-689d-4d09-af0c-a4b8c979784c")
+	)
+	(wire
+		(pts
 			(xy 200.66 62.23) (xy 180.34 62.23)
 		)
 		(stroke
@@ -2767,6 +2789,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 80.01) (xy 200.66 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0f5d2ba-76ed-4697-99cf-7aec591eef0b")
+	)
+	(wire
+		(pts
 			(xy 180.34 87.63) (xy 194.31 87.63)
 		)
 		(stroke
@@ -2835,6 +2867,16 @@
 		)
 		(uuid "ff51cd45-d294-42b9-aa11-147d58079004")
 	)
+	(label "P1.10_QWIIC_SDA"
+		(at 231.14 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "015c59d8-43cb-4f73-a27d-73b1925af600")
+	)
 	(label "P1.14_MISO"
 		(at 194.31 87.63 180)
 		(effects
@@ -2854,6 +2896,16 @@
 			(justify right bottom)
 		)
 		(uuid "055097f9-4f87-4043-8a5b-4eff48a5ba98")
+	)
+	(label "P1.11_QWIIC_SCL"
+		(at 231.14 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08ff88d2-1eee-41ec-908b-b3d36b27ca32")
 	)
 	(label "P0.03_LORA_BUSY"
 		(at 116.84 53.34 0)
@@ -3065,6 +3117,16 @@
 		)
 		(uuid "5df9f0eb-f068-4b60-8523-235bef67f221")
 	)
+	(label "P1.10_QWIIC_SDA"
+		(at 200.66 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5f7ba4b7-abfa-4e42-bbaa-c8ffe3a9e521")
+	)
 	(label "BTN_JOY_LEFT"
 		(at 200.66 67.31 180)
 		(effects
@@ -3144,6 +3206,16 @@
 			(justify right bottom)
 		)
 		(uuid "88ccf691-5d99-48a3-914b-c57245caf3d9")
+	)
+	(label "P1.11_QWIIC_SCL"
+		(at 200.66 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "89104b5e-1198-474b-bd56-3f3e585d0f76")
 	)
 	(label "USB_D+"
 		(at 276.86 128.27 180)
@@ -5322,6 +5394,68 @@
 			(project "bornhack2026-hardware"
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 251.46 54.61)
+		(size 20.32 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "519a2ed4-db07-4cda-b3cb-bacabbf7a795")
+		(property "Sheetname" "QWIIC"
+			(at 251.46 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "qwiic.kicad_sch"
+			(at 251.46 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "QWIIC_SCL" input
+			(at 251.46 57.15 180)
+			(uuid "53f6a76c-180e-44af-bdc1-3b844b7e3a9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "QWIIC_SDA" input
+			(at 251.46 59.69 180)
+			(uuid "3a282698-766c-44f5-a002-54cec2802fd0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "bornhack2026-hardware"
+				(path "/23bf5400-d19c-445b-8744-b63ebcca303d"
+					(page "11")
 				)
 			)
 		)
