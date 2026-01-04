@@ -72,27 +72,27 @@
           ""
         ],
         [
-          "hole_clearance|-3300000|-36750000|115b3848-003e-4295-bdd7-ae34b676f9ca|b85cec2f-3884-4a6c-a642-7b4dd1873f8f",
+          "hole_clearance|-3521392|-36478608|16289f26-fde5-4b30-8711-74dcea7e360b|1259afaa-65ff-41ed-85f9-3ed7909fb9ca",
           ""
         ],
         [
-          "hole_clearance|-3300000|-36750000|14e3a08f-1942-4de8-8c19-e99879a10792|b85cec2f-3884-4a6c-a642-7b4dd1873f8f",
+          "hole_clearance|-3521392|-36478608|e9d81e26-a5de-4ed2-afd3-289e2c3439a1|1259afaa-65ff-41ed-85f9-3ed7909fb9ca",
           ""
         ],
         [
-          "hole_clearance|-6524407|-33525593|32753fef-c1f4-44c7-9ffa-ae690c3921d6|affac6cb-5a5c-4a2e-8a41-c70079aa9666",
+          "hole_clearance|-6279108|-33720892|81b77181-3fc6-4a15-b5f5-d6b9d86f33e3|1259afaa-65ff-41ed-85f9-3ed7909fb9ca",
           ""
         ],
         [
-          "hole_clearance|-6524407|-33525593|ed16d309-67c6-4fc4-8268-3a899e4c5073|affac6cb-5a5c-4a2e-8a41-c70079aa9666",
+          "hole_clearance|-6279108|-33720892|e35e947b-7311-4bbd-b030-275e1f29effd|1259afaa-65ff-41ed-85f9-3ed7909fb9ca",
           ""
         ],
         [
-          "hole_clearance|3431656|-43481656|2b95bd6a-a846-49f7-be6e-425277d3341f|a1fba41f-f97d-40e6-83b2-f4e5a49f442a",
+          "hole_clearance|3521392|-43521392|3fb3f3a8-763b-4d81-bcb3-d84ab5fd7d9a|1259afaa-65ff-41ed-85f9-3ed7909fb9ca",
           ""
         ],
         [
-          "hole_clearance|3431656|-43481656|b338cb39-bfca-40c8-9fb9-24994efbf458|a1fba41f-f97d-40e6-83b2-f4e5a49f442a",
+          "hole_clearance|3521392|-43521392|4f28ef5e-7df3-47cd-9419-5094f1173035|1259afaa-65ff-41ed-85f9-3ed7909fb9ca",
           ""
         ],
         [
@@ -149,6 +149,10 @@
         ],
         [
           "shorting_items|-6646446|33753553|bbe09643-c1ea-4c69-95f7-0fda2a8290dd|bec29f62-a40d-426b-8cc4-4409f9453008",
+          ""
+        ],
+        [
+          "shorting_items|-6657411|-34898224|590a0ae5-e774-43bc-b7d4-6a3d1b3f7b65|b5c59b5a-f670-4e70-9c99-cfed527e9f71",
           ""
         ],
         [
@@ -316,15 +320,15 @@
           ""
         ],
         [
+          "silk_overlap|-33522084|11568232|2b6af5df-201b-436c-b903-476fa2ed13e3|f2f749b7-27cc-4752-8397-38021f3eb6ad",
+          ""
+        ],
+        [
+          "silk_overlap|-33522084|11568232|2b6af5df-201b-436c-b903-476fa2ed13e3|ffea557d-b98b-49b0-b174-3b6650fb2971",
+          ""
+        ],
+        [
           "silk_overlap|-33545354|1325140|2b6af5df-201b-436c-b903-476fa2ed13e3|e7e0eb89-99b1-4d59-bd80-ba23cb6d0a08",
-          ""
-        ],
-        [
-          "silk_overlap|-33602511|10725140|2b6af5df-201b-436c-b903-476fa2ed13e3|ffea557d-b98b-49b0-b174-3b6650fb2971",
-          ""
-        ],
-        [
-          "silk_overlap|-33608098|10666570|2b6af5df-201b-436c-b903-476fa2ed13e3|f2f749b7-27cc-4752-8397-38021f3eb6ad",
           ""
         ]
       ],
@@ -877,6 +881,9 @@
       ],
       "Net-(C1-Pad1)": [
         "BT-ANT"
+      ],
+      "Net-(C29-Pad1)": [
+        "LORA-RF"
       ],
       "Net-(C29-Pad2)": [
         "LORA-RF"
