@@ -1,4 +1,6 @@
 (sym_lib_table
   (version 7)
   (lib (name "FPC-SMD_XUNPU_FPC-0.5AS-24PWBH20")(type "KiCad")(uri "${KIPRJMOD}/symbols/FPC-SMD_XUNPU_FPC-0.5AS-24PWBH20.kicad_sym")(options "")(descr ""))
+  (lib (name "lcsc")(type "KiCad")(uri "${KIPRJMOD}/symbols/lcsc.kicad_sym")(options "")(descr ""))
+  (lib (name "NRF52840-QIAA-R")(type "KiCad")(uri "${KIPRJMOD}/symbols/NRF52840-QIAA-R.kicad_sym")(options "")(descr ""))
 )
