@@ -1252,7 +1252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/HongCheng-HCZZ00324/C7433425"
 			(at 96.52 77.47 0)
 			(effects
 				(font
@@ -1261,7 +1261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-25℃~+85℃ 1 1A 1mm 1x4P 4 4P 50V 5mm 6.3mm Beige Copper LCP SH Surface Mount, Right Angle Tin SMD,P=1mm,Surface Mount，Right Angle Wire To Board Connector ROHS"
 			(at 96.52 77.47 0)
 			(effects
 				(font
@@ -1345,7 +1345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/DOWO-USBLC62P6/C22390016"
 			(at 120.396 87.376 0)
 			(effects
 				(font
@@ -1356,6 +1356,15 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-666"
+			(at 119.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22390016"
 			(at 119.38 78.74 0)
 			(effects
 				(font

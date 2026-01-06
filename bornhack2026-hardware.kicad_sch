@@ -1952,6 +1952,24 @@
 		(uuid "dd6a745f-d6d3-46f0-b99b-6b80d40486b8")
 	)
 	(bus_entry
+		(at 200.66 80.01)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1607b441-577e-4078-8b53-d0b44f4567bb")
+	)
+	(bus_entry
+		(at 231.14 57.15)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69d80b2d-3fd8-46d4-961d-01cbf3777cb1")
+	)
+	(bus_entry
 		(at 201.93 92.71)
 		(size -2.54 2.54)
 		(stroke
@@ -1959,6 +1977,15 @@
 			(type default)
 		)
 		(uuid "7cbce2e1-4cf2-4638-92c2-e4c0209edba0")
+	)
+	(bus_entry
+		(at 231.14 59.69)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81b18294-e291-4bbc-b4fb-0b0b6cd1ec2e")
 	)
 	(bus_entry
 		(at 201.93 95.25)
@@ -1987,6 +2014,15 @@
 		)
 		(uuid "ae9fdc55-dc30-4693-9586-fb556bdab55f")
 	)
+	(bus_entry
+		(at 200.66 77.47)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e663101a-b25a-469c-88fe-e071ae80def1")
+	)
 	(wire
 		(pts
 			(xy 116.84 50.8) (xy 137.16 50.8)
@@ -1996,6 +2032,16 @@
 			(type default)
 		)
 		(uuid "07a98b5c-d5ef-477d-95ed-b972bced8b23")
+	)
+	(bus
+		(pts
+			(xy 203.2 74.93) (xy 205.74 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08e43658-477b-4a80-b6e6-f64e5003a397")
 	)
 	(bus
 		(pts
@@ -2026,6 +2072,16 @@
 			(type default)
 		)
 		(uuid "0c849349-f0b8-4ea4-9894-ba3bf7d31629")
+	)
+	(bus
+		(pts
+			(xy 226.06 72.39) (xy 228.6 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10a098c7-d8f7-4b6e-9eaa-57db9f5c81d1")
 	)
 	(wire
 		(pts
@@ -2066,6 +2122,16 @@
 			(type default)
 		)
 		(uuid "1be5a046-398a-40f7-bdaa-1709790f354c")
+	)
+	(bus
+		(pts
+			(xy 228.6 54.61) (xy 228.6 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e920271-37ee-4536-a61e-d520600f1d6a")
 	)
 	(wire
 		(pts
@@ -2397,6 +2463,16 @@
 		)
 		(uuid "7fba387f-72b8-4d1c-80ba-744cd03b90ef")
 	)
+	(bus
+		(pts
+			(xy 205.74 72.39) (xy 226.06 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "832cca51-b744-456b-a70e-981f7ede2392")
+	)
 	(wire
 		(pts
 			(xy 24.13 80.01) (xy 44.45 80.01)
@@ -2617,6 +2693,16 @@
 		)
 		(uuid "b6fe3c52-444f-410f-a113-b4ec4ec81d84")
 	)
+	(bus
+		(pts
+			(xy 203.2 74.93) (xy 203.2 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b73fa154-0316-4abd-884d-6b94d5968931")
+	)
 	(wire
 		(pts
 			(xy 116.84 76.2) (xy 137.16 76.2)
@@ -2807,6 +2893,16 @@
 		)
 		(uuid "f18b40fb-1b38-4122-b51c-9bed20cb41d8")
 	)
+	(bus
+		(pts
+			(xy 228.6 57.15) (xy 228.6 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4ca9e29-ffed-45f0-816b-94eea1c9756a")
+	)
 	(wire
 		(pts
 			(xy 118.11 68.58) (xy 137.16 68.58)
@@ -2888,7 +2984,7 @@
 		(uuid "0317300e-cb2e-4c26-b387-7f66de5b09f7")
 	)
 	(label "BTN_JOY_RIGHT"
-		(at 200.66 59.69 180)
+		(at 200.66 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2916,6 +3012,16 @@
 			(justify left bottom)
 		)
 		(uuid "0a180e0f-9b79-4116-add1-268cfe46d5d2")
+	)
+	(label "{P1.10_QWIIC_SDA P1.11_QWIIC_SCL }"
+		(at 205.74 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1022bb9a-8769-4d02-9d79-cfd5451fb3bf")
 	)
 	(label "MCU_RESET"
 		(at 31.75 147.32 0)
@@ -3068,7 +3174,7 @@
 		(uuid "534405a4-0754-4f05-a80f-374d090006f6")
 	)
 	(label "BTN_JOY_DOWN"
-		(at 200.66 57.15 180)
+		(at 200.66 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3198,7 +3304,7 @@
 		(uuid "8495c1b8-5bb1-46d2-b200-cb022d62bbf2")
 	)
 	(label "BTN_JOY_UP"
-		(at 200.66 62.23 180)
+		(at 200.66 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3278,7 +3384,7 @@
 		(uuid "b7e752f4-b873-4c75-8c80-589f1afd1b35")
 	)
 	(label "BTN_JOY_FIRE"
-		(at 200.66 64.77 180)
+		(at 200.66 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4895,7 +5001,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+		(property "Footprint" "lcsc:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 252.73 124.46 0)
 			(effects
 				(font

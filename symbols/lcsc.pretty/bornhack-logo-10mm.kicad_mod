@@ -7,6 +7,7 @@
 		(at 0 5.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "59c3f3ac-27af-4d30-8f28-8850a1b88cde")
 		(effects
 			(font
@@ -54,9 +55,7 @@
 			)
 		)
 	)
-	(attr through_hole exclude_from_pos_files exclude_from_bom allow_missing_courtyard
-		dnp
-	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard dnp)
 	(fp_poly
 		(pts
 			(xy 1.367013 -5.542581) (xy 1.368404 -5.520815) (xy 1.368694 -5.498562) (xy 1.366188 -5.452731) (xy 1.359926 -5.405369)
