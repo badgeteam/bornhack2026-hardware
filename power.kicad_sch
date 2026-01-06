@@ -3355,6 +3355,12 @@
 		(uuid "13527fd1-bc13-4509-8e2b-535ddde594dd")
 	)
 	(junction
+		(at 127 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16490a45-2606-468f-b57f-95b1463569c6")
+	)
+	(junction
 		(at 186.69 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3439,22 +3445,10 @@
 		(uuid "983f632f-3f1e-47e4-8477-a14ea744da47")
 	)
 	(junction
-		(at 154.94 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e1b1a5e-26f0-4278-91a6-e5d14aa37d5f")
-	)
-	(junction
 		(at 226.06 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3bb1057-d85a-4e75-aff5-4f9cb14ba5d7")
-	)
-	(junction
-		(at 127 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3cb0ba6-51b5-4ada-8bc0-8314531f6812")
 	)
 	(junction
 		(at 149.86 160.02)
@@ -3479,6 +3473,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf08d5a5-3d4e-4c5e-b589-9228d6a3cd88")
+	)
+	(junction
+		(at 127 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8199b90-0af2-4389-a965-dedc484b40c8")
 	)
 	(junction
 		(at 148.59 144.78)
@@ -3588,7 +3588,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 135.89) (xy 127 140.97)
+			(xy 127 133.35) (xy 127 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3605,6 +3605,16 @@
 			(type default)
 		)
 		(uuid "15185442-2bb1-464f-8fd9-a718ab03ce82")
+	)
+	(wire
+		(pts
+			(xy 127 119.38) (xy 127 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1738267a-16aa-4093-b717-029fb8ff3435")
 	)
 	(wire
 		(pts
@@ -3818,6 +3828,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 119.38) (xy 127 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5154e7bc-a0ea-4154-b470-a356ea22e5bd")
+	)
+	(wire
+		(pts
 			(xy 167.64 62.23) (xy 182.88 62.23)
 		)
 		(stroke
@@ -3938,16 +3958,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 160.02) (xy 154.94 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6367f588-d1da-44a2-8b93-b4b457f168b5")
-	)
-	(wire
-		(pts
 			(xy 182.88 74.93) (xy 186.69 74.93)
 		)
 		(stroke
@@ -4038,16 +4048,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 167.64) (xy 154.94 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "765c435c-d69d-40cf-bd74-a035023736ea")
-	)
-	(wire
-		(pts
 			(xy 186.69 80.01) (xy 186.69 82.55)
 		)
 		(stroke
@@ -4075,6 +4075,16 @@
 			(type default)
 		)
 		(uuid "7f8940ba-3459-4ef8-b62f-60edd6b2e4dc")
+	)
+	(wire
+		(pts
+			(xy 127 125.73) (xy 127 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80ec5192-d339-4709-aa56-7758e3cb4471")
 	)
 	(wire
 		(pts
@@ -4135,6 +4145,16 @@
 			(type default)
 		)
 		(uuid "9051ec01-95cf-42fc-aa8f-653ff52ca0d7")
+	)
+	(wire
+		(pts
+			(xy 127 127) (xy 127 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90dc375a-df1c-4dda-9341-bb8c381cca80")
 	)
 	(wire
 		(pts
@@ -4458,7 +4478,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 160.02) (xy 165.1 160.02)
+			(xy 149.86 160.02) (xy 165.1 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4488,16 +4508,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 160.02) (xy 154.94 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f082890e-07b6-490e-830c-d92ab6b0301a")
-	)
-	(wire
-		(pts
 			(xy 207.01 101.6) (xy 226.06 101.6)
 		)
 		(stroke
@@ -4505,16 +4515,6 @@
 			(type default)
 		)
 		(uuid "f508f013-1e66-4f58-8c18-4f88b995a9d3")
-	)
-	(wire
-		(pts
-			(xy 121.92 135.89) (xy 127 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f50df217-3214-4a54-b3e5-acbb240f5697")
 	)
 	(wire
 		(pts
@@ -4535,6 +4535,16 @@
 			(type default)
 		)
 		(uuid "f8535f22-526c-4556-a0d7-c1a737ec94a6")
+	)
+	(wire
+		(pts
+			(xy 127 135.89) (xy 127 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9701484-3826-45a1-ba33-0adff88793dd")
 	)
 	(wire
 		(pts
@@ -4566,9 +4576,19 @@
 		)
 		(uuid "fcd8e43d-5edf-4798-9063-8e40fe398d6e")
 	)
+	(wire
+		(pts
+			(xy 121.92 127) (xy 127 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff828a57-354a-4675-bdfc-d0585ed7575a")
+	)
 	(hierarchical_label "VBAT"
 		(shape input)
-		(at 121.92 135.89 180)
+		(at 121.92 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4620,6 +4640,17 @@
 			(justify right)
 		)
 		(uuid "ae9fa52f-8164-4be8-9207-5f0817cd9735")
+	)
+	(hierarchical_label "VBAT_READ"
+		(shape input)
+		(at 121.92 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb7ac2c2-7eb2-4b91-afa5-89f6d09b2743")
 	)
 	(hierarchical_label "CHRG"
 		(shape output)
@@ -5569,94 +5600,6 @@
 			(project "bornhack2026-hardware"
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/333d98a8-e6a2-433c-bb9c-6f407290c160"
 					(reference "L4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 154.94 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ad61ac9-dd10-4647-acfa-80ec244a5f7e")
-		(property "Reference" "C19"
-			(at 157.48 163.8362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2uF"
-			(at 157.48 166.3762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 154.94 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/13164-CL05A225MQ5NSNC/C12530"
-			(at 154.94 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 154.94 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C12530"
-			(at 154.94 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resource" ""
-			(at 154.94 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bd84eb39-dc87-4b74-9cf4-f4601cd6c145")
-		)
-		(pin "1"
-			(uuid "2affb21a-a18d-4737-aed0-a04127506a7b")
-		)
-		(instances
-			(project "bornhack2026-hardware"
-				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/333d98a8-e6a2-433c-bb9c-6f407290c160"
-					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -6623,6 +6566,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 127 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92eaf60d-9ead-411d-8eb2-5837562f91f2")
+		(property "Reference" "R35"
+			(at 129.54 121.9199 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "510k"
+			(at 129.54 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 127 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26307-0402WGJ0514TCE/C25564"
+			(at 127 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 127 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25564"
+			(at 127 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "503dbf91-c7e3-4aa0-b36c-3887a43c2e45")
+		)
+		(pin "1"
+			(uuid "de2f2df3-3257-4273-aa9f-21da4f2c9e2a")
+		)
+		(instances
+			(project "bornhack2026-hardware"
+				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/333d98a8-e6a2-433c-bb9c-6f407290c160"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 167.64 77.47 0)
 		(unit 1)
@@ -7014,72 +7036,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 154.94 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1f58ead-94e9-42cc-b6a3-2054da7df2d8")
-		(property "Reference" "#PWR034"
-			(at 154.94 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 154.94 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e1a1c38-4ba6-4508-9df0-620e3d911290")
-		)
-		(instances
-			(project "bornhack2026-hardware"
-				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/333d98a8-e6a2-433c-bb9c-6f407290c160"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 201.93 31.75 0)
 		(unit 1)
@@ -7205,6 +7161,85 @@
 			(project "bornhack2026-hardware"
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/333d98a8-e6a2-433c-bb9c-6f407290c160"
 					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 127 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af7105a0-704d-47ee-a667-987b503613c1")
+		(property "Reference" "R34"
+			(at 129.54 129.5399 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1M"
+			(at 129.54 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 127 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26826-0402WGF1004TCE/C26083"
+			(at 127 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 127 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C26083"
+			(at 127 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "71d4a625-b553-4a6d-9b36-ed8ffe2f447b")
+		)
+		(pin "1"
+			(uuid "fcb4e44e-50e6-4dff-b131-34183a80c727")
+		)
+		(instances
+			(project ""
+				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/333d98a8-e6a2-433c-bb9c-6f407290c160"
+					(reference "R34")
 					(unit 1)
 				)
 			)

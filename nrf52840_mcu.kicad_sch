@@ -3755,20 +3755,6 @@
 		)
 		(uuid "bee37e7b-6efe-4238-a6fa-f81c44bb6a2a")
 	)
-	(text "<-- Note: DK uses 10uF in series with 15nF here"
-		(exclude_from_sim no)
-		(at 222.504 47.244 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(italic yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "c4867868-6601-4d38-a795-25ca22f93c3b")
-	)
 	(text "Main MCU Clock oscillator"
 		(exclude_from_sim no)
 		(at 17.78 16.764 0)
@@ -3967,8 +3953,16 @@
 		(uuid "fd7c9a31-0940-4b02-80f1-51fb21ea2179")
 	)
 	(no_connect
+		(at 173.99 92.71)
+		(uuid "0bcf5a97-1dbe-499c-b6c7-baa68a1dd7da")
+	)
+	(no_connect
 		(at 173.99 49.53)
 		(uuid "99f47014-7557-4a5a-bcd5-d20ced8cea78")
+	)
+	(no_connect
+		(at 187.96 110.49)
+		(uuid "e21e0625-1f62-4eb5-b4be-7da4eb1b32e5")
 	)
 	(wire
 		(pts
@@ -5546,7 +5540,7 @@
 		(uuid "0d7987f9-a846-42ba-96e2-f7e9dedcd852")
 	)
 	(hierarchical_label "USB_D+"
-		(shape bidirectional)
+		(shape input)
 		(at 207.01 133.35 0)
 		(effects
 			(font
@@ -5699,17 +5693,6 @@
 		)
 		(uuid "55047bf4-0040-4b1f-84df-ed4e08c812e4")
 	)
-	(hierarchical_label "P0.21_QSPI_SCK"
-		(shape input)
-		(at 118.11 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5f323421-b358-4eab-8ffa-ec68413c2a4e")
-	)
 	(hierarchical_label "P1.13"
 		(shape input)
 		(at 173.99 110.49 0)
@@ -5753,17 +5736,6 @@
 			(justify right)
 		)
 		(uuid "7871ba4b-f8a3-4af9-a0db-bd01312ee398")
-	)
-	(hierarchical_label "P1.06"
-		(shape input)
-		(at 173.99 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7a286ec1-af42-4fde-b46e-57afeb5b3edd")
 	)
 	(hierarchical_label "P0.23_QSPI_SIO_3"
 		(shape input)
@@ -5874,6 +5846,17 @@
 			(justify right)
 		)
 		(uuid "970fb01c-322a-441f-b111-851a5ab79d2e")
+	)
+	(hierarchical_label "P0.21_QSPI_SCK"
+		(shape input)
+		(at 118.11 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ce024e4-ea8c-4a7e-8acc-d3ef7bd0c89d")
 	)
 	(hierarchical_label "P0.03"
 		(shape input)
@@ -6409,7 +6392,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "0"
 			(at 195.326 134.62 90)
 			(effects
 				(font
@@ -6427,7 +6410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/25848-0402WGF330JTCE/C25105"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/17853-0402WGF0000TCE/C17168"
 			(at 193.04 133.35 0)
 			(effects
 				(font
@@ -6445,7 +6428,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25105"
+		(property "LCSC" "C17168"
 			(at 193.04 133.35 90)
 			(effects
 				(font
@@ -8970,7 +8953,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "0"
 			(at 203.2 137.16 90)
 			(effects
 				(font
@@ -8988,7 +8971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/25848-0402WGF330JTCE/C25105"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/17853-0402WGF0000TCE/C17168"
 			(at 200.66 135.89 0)
 			(effects
 				(font
@@ -9006,7 +8989,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25105"
+		(property "LCSC" "C17168"
 			(at 200.66 135.89 90)
 			(effects
 				(font
