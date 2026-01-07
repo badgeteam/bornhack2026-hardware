@@ -4562,7 +4562,7 @@
 		)
 		(uuid "cb7ac2c2-7eb2-4b91-afa5-89f6d09b2743")
 	)
-	(hierarchical_label "CHRG"
+	(hierarchical_label "P1.08_CHRG"
 		(shape output)
 		(at 91.44 165.1 0)
 		(effects
