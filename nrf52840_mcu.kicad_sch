@@ -3785,12 +3785,6 @@
 		(uuid "2156ca7d-07f7-4ec9-a09c-28b598e0abc1")
 	)
 	(junction
-		(at 205.74 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25c01543-6c70-425e-8d78-7fdd03170d6a")
-	)
-	(junction
 		(at 53.34 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3863,10 +3857,22 @@
 		(uuid "7c7ff66a-0349-4c17-a86e-4e77b6a12352")
 	)
 	(junction
+		(at 207.01 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7db053be-33a7-48b6-bc04-5f3483ca7ee8")
+	)
+	(junction
 		(at 196.85 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e5d53a0-53e1-4da2-8c4b-9b1ef2f60603")
+	)
+	(junction
+		(at 207.01 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "818b4e89-fc43-40e9-8b9b-74e47155105b")
 	)
 	(junction
 		(at 198.12 25.4)
@@ -3933,12 +3939,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbe96bae-ad0d-451e-84e0-6dfb25c2a4f4")
-	)
-	(junction
-		(at 196.85 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dffba860-38cd-48d4-9308-e0e9f2dabff8")
 	)
 	(junction
 		(at 250.19 54.61)
@@ -4056,7 +4056,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 76.2) (xy 205.74 80.01)
+			(xy 207.01 76.2) (xy 207.01 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4236,13 +4236,13 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 67.31) (xy 237.49 67.31)
+			(xy 207.01 67.31) (xy 237.49 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f148fb7-80d5-4670-94d8-a5257a46d788")
+		(uuid "3ddfb407-97f7-494f-91b8-8f8789d0dd97")
 	)
 	(wire
 		(pts
@@ -4546,7 +4546,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 80.01) (xy 205.74 80.01)
+			(xy 196.85 80.01) (xy 207.01 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4626,7 +4626,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 67.31) (xy 205.74 71.12)
+			(xy 207.01 67.31) (xy 207.01 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4646,7 +4646,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 62.23) (xy 196.85 62.23)
+			(xy 173.99 62.23) (xy 207.01 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4836,7 +4836,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 67.31) (xy 205.74 67.31)
+			(xy 196.85 67.31) (xy 207.01 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4876,7 +4876,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 62.23) (xy 196.85 67.31)
+			(xy 207.01 46.99) (xy 207.01 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4936,6 +4936,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 62.23) (xy 207.01 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e50fd66c-6763-40a7-9893-1a562785f342")
+	)
+	(wire
+		(pts
 			(xy 26.67 33.02) (xy 31.75 33.02)
 		)
 		(stroke
@@ -4953,16 +4963,6 @@
 			(type default)
 		)
 		(uuid "e8417817-2ba0-4e38-8759-6f22ca48b0c7")
-	)
-	(wire
-		(pts
-			(xy 207.01 46.99) (xy 207.01 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebc60618-7ddd-408f-8f15-ca2c47c51982")
 	)
 	(wire
 		(pts
@@ -5033,16 +5033,6 @@
 			(type default)
 		)
 		(uuid "f9abbf32-3bee-4ff4-a200-628d6241582f")
-	)
-	(wire
-		(pts
-			(xy 207.01 62.23) (xy 196.85 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa07a8f2-7b07-4ef6-ad17-a6968bab5591")
 	)
 	(wire
 		(pts
@@ -5616,7 +5606,7 @@
 		)
 		(uuid "35478e2d-bcf3-4438-92f1-25310981977c")
 	)
-	(hierarchical_label "P0.14_READ_BAT"
+	(hierarchical_label "P0.14"
 		(shape input)
 		(at 118.11 92.71 180)
 		(effects
@@ -5726,7 +5716,7 @@
 		)
 		(uuid "77bf5944-8579-4952-8ab6-9a0865cdfc1e")
 	)
-	(hierarchical_label "P0.30"
+	(hierarchical_label "P0.30{slash}AIN6"
 		(shape input)
 		(at 118.11 133.35 180)
 		(effects
@@ -5836,7 +5826,7 @@
 		)
 		(uuid "95164e18-cbe1-47d9-9749-d07051cbcd2a")
 	)
-	(hierarchical_label "P0.04"
+	(hierarchical_label "P0.04{slash}AIN1"
 		(shape input)
 		(at 118.11 67.31 180)
 		(effects
@@ -5858,7 +5848,7 @@
 		)
 		(uuid "9ce024e4-ea8c-4a7e-8acc-d3ef7bd0c89d")
 	)
-	(hierarchical_label "P0.03"
+	(hierarchical_label "P0.03{slash}AIN1"
 		(shape input)
 		(at 118.11 64.77 180)
 		(effects
@@ -5880,7 +5870,7 @@
 		)
 		(uuid "9f043f31-8236-48a2-ade7-d7d84ce2f15e")
 	)
-	(hierarchical_label "P0.02"
+	(hierarchical_label "P0.02{slash}AIN0"
 		(shape input)
 		(at 118.11 62.23 180)
 		(effects
@@ -5913,7 +5903,7 @@
 		)
 		(uuid "b030a9f2-0e42-4e54-bb8a-037ed655ff2a")
 	)
-	(hierarchical_label "P0.31"
+	(hierarchical_label "P0.31{slash}AIN7"
 		(shape input)
 		(at 118.11 135.89 180)
 		(effects
@@ -5935,7 +5925,7 @@
 		)
 		(uuid "b87f1d4f-a896-4377-92c2-319f8b56de27")
 	)
-	(hierarchical_label "P0.05"
+	(hierarchical_label "P0.05{slash}AIN2"
 		(shape input)
 		(at 118.11 69.85 180)
 		(effects
@@ -5946,7 +5936,7 @@
 		)
 		(uuid "be2f8514-a851-4db8-b246-3707b1cf5629")
 	)
-	(hierarchical_label "P0.29"
+	(hierarchical_label "P0.29{slash}AIN5"
 		(shape input)
 		(at 118.11 130.81 180)
 		(effects
@@ -6012,7 +6002,7 @@
 		)
 		(uuid "d2fae57a-a479-48bb-a280-04a74d1d89b0")
 	)
-	(hierarchical_label "P0.28"
+	(hierarchical_label "P0.28{slash}AIN4"
 		(shape input)
 		(at 118.11 128.27 180)
 		(effects
@@ -10438,7 +10428,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 205.74 73.66 0)
+		(at 207.01 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10446,7 +10436,7 @@
 		(dnp no)
 		(uuid "ebb23fa1-2da8-4544-81ba-7cbead68cc48")
 		(property "Reference" "C73"
-			(at 212.344 75.184 0)
+			(at 213.614 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10455,7 +10445,7 @@
 			)
 		)
 		(property "Value" "47nF"
-			(at 212.344 72.644 0)
+			(at 213.614 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10464,7 +10454,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 205.74 73.66 0)
+			(at 207.01 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10473,7 +10463,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/83376-0402B473K500NT/C82219"
-			(at 205.74 73.66 0)
+			(at 207.01 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10482,7 +10472,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 205.74 73.66 0)
+			(at 207.01 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10491,7 +10481,7 @@
 			)
 		)
 		(property "LCSC" "C82219"
-			(at 205.74 73.66 90)
+			(at 207.01 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10500,7 +10490,7 @@
 			)
 		)
 		(property "Resource" ""
-			(at 205.74 73.66 0)
+			(at 207.01 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
