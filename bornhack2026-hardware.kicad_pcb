@@ -45161,7 +45161,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Cyber Ægg 2025 Badge.Team\n\nRanzbak, Renze, Jhaand, CmpXchg\nNightOwlNL, at-boy"
+	(gr_text "Cyber Ægg 2025 Badge.Team\n\nRanzbak, Renze, jhaand, CmpXchg\nNightOwlNL, at-boy"
 		(locked yes)
 		(at 0.000001 37.291492 0)
 		(layer "F.SilkS")

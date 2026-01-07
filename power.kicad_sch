@@ -1177,7 +1177,9 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+			)
+			(symbol "JSM2301S_1_1"
+				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "G"
@@ -1195,7 +1197,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 5.08 270)
 					(length 2.54)
 					(name "D"
@@ -1213,7 +1215,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 0 -5.08 90)
 					(length 2.54)
 					(name "S"
@@ -1313,7 +1315,9 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+			)
+			(symbol "PH-2AWB_1_1"
+				(pin power_out line
 					(at -5.08 1.27 0)
 					(length 2.54)
 					(name "1"
@@ -1330,8 +1334,9 @@
 							)
 						)
 					)
+					(alternate "change" power_in line)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at -5.08 -1.27 0)
 					(length 2.54)
 					(name "2"
@@ -1349,7 +1354,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 3.81 6.35 270)
 					(length 2.54)
 					(name "4"
@@ -1367,7 +1372,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 3.81 -6.35 90)
 					(length 2.54)
 					(name "3"
@@ -1780,150 +1785,6 @@
 					)
 				)
 				(pin unspecified line
-					(at -15.24 10.16 0)
-					(length 5.08)
-					(name "VINA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -15.24 7.62 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -15.24 5.08 0)
-					(length 5.08)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -15.24 2.54 0)
-					(length 5.08)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -15.24 0 0)
-					(length 5.08)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -15.24 -2.54 0)
-					(length 5.08)
-					(name "L2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -15.24 -5.08 0)
-					(length 5.08)
-					(name "L2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -12.7 90)
-					(length 5.08)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at 15.24 10.16 180)
 					(length 5.08)
 					(name "PG"
@@ -1941,7 +1802,153 @@
 						)
 					)
 				)
-				(pin unspecified line
+			)
+			(symbol "TPS63020DSJR_1_1"
+				(pin power_out line
+					(at -15.24 10.16 0)
+					(length 5.08)
+					(name "VINA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 7.62 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 5.08 0)
+					(length 5.08)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -15.24 2.54 0)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "L2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -5.08 0)
+					(length 5.08)
+					(name "L2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at 15.24 7.62 180)
 					(length 5.08)
 					(name "PS/SYNC"
@@ -1959,7 +1966,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 15.24 5.08 180)
 					(length 5.08)
 					(name "EN"
@@ -1977,7 +1984,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 15.24 2.54 180)
 					(length 5.08)
 					(name "VIN"
@@ -1995,7 +2002,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 15.24 0 180)
 					(length 5.08)
 					(name "VIN"
@@ -2013,7 +2020,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 -2.54 180)
 					(length 5.08)
 					(name "L1"
@@ -2031,7 +2038,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 -5.08 180)
 					(length 5.08)
 					(name "L1"
@@ -2590,107 +2597,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "symbols2:PWR_FLAG"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG01"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "pwr"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "symbols:C"
 			(pin_numbers
 				(hide yes)
@@ -2841,23 +2747,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
+			(property "Reference" "D23"
+				(at -1.27 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
+			(property "Value" "NSR0320MW2T1G"
+				(at -5.588 4.572 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1 1)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Diode_SMD:D_SOD-323"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2866,7 +2774,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806150330_onsemi-NSR0320MW2T1G_C48192.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2875,7 +2783,25 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Schottky diode"
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C48192"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Resource" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2941,7 +2867,7 @@
 				)
 			)
 			(symbol "D_Schottky_1_1"
-				(pin passive line
+				(pin power_out line
 					(at -3.81 0 0)
 					(length 2.54)
 					(name "K"
@@ -3439,12 +3365,6 @@
 		(uuid "90bd46b5-3a8d-4643-9aef-12cc81d5e2b2")
 	)
 	(junction
-		(at 127 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "983f632f-3f1e-47e4-8477-a14ea744da47")
-	)
-	(junction
 		(at 226.06 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3615,16 +3535,6 @@
 			(type default)
 		)
 		(uuid "1738267a-16aa-4093-b717-029fb8ff3435")
-	)
-	(wire
-		(pts
-			(xy 127 140.97) (xy 127 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b667e4c-a03c-4144-9dea-99d6d0c96997")
 	)
 	(wire
 		(pts
@@ -4538,7 +4448,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 135.89) (xy 127 140.97)
+			(xy 127 135.89) (xy 127 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4598,7 +4508,7 @@
 		(uuid "30d25174-7e45-45c9-b2ac-be92ddd75c1e")
 	)
 	(hierarchical_label "+3V3_OUT"
-		(shape input)
+		(shape output)
 		(at 163.83 62.23 180)
 		(effects
 			(font
@@ -4686,6 +4596,99 @@
 		)
 		(property "Component Class" ""
 			(at -181.61 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 149.86 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6d30cbc-0293-4487-9039-8e6eb1cd842c")
+		(property "Netclass" "Power"
+			(at 150.5585 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -24.13 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 172.72 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2472fa3-8c83-4a56-8217-4eb8e206f128")
+		(property "Netclass" "Power"
+			(at 173.4185 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -111.76 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 36.83 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "edb29fa4-a475-437b-b5f7-ebff9f78520a")
+		(property "Netclass" "Power"
+			(at 37.5285 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -66.04 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4889,6 +4892,15 @@
 		)
 		(property "Resource" ""
 			(at 201.93 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C15483"
+			(at 201.93 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5226,7 +5238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/JSMSEMI-JSM2301S/C916399"
+		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_JSMSEMI-JSM2301S_C916399.html"
 			(at 152.4 160.02 0)
 			(effects
 				(font
@@ -5447,73 +5459,6 @@
 			(project "bornhack2026-hardware"
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/333d98a8-e6a2-433c-bb9c-6f407290c160"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "symbols2:PWR_FLAG")
-		(at 127 140.97 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41fab1c2-6ec0-4b4c-8b9c-bbc6b390d51d")
-		(property "Reference" "#FLG02"
-			(at 125.095 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 123.19 140.9699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "60ed54b6-1e51-4d50-83ee-17ead00048b7")
-		)
-		(instances
-			(project "bornhack2026-hardware"
-				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/333d98a8-e6a2-433c-bb9c-6f407290c160"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)

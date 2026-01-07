@@ -524,7 +524,20 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|1397000|1358900|102e5789-430a-4347-824e-438e41a14999|d275638f-654b-41e6-beba-233a86186c2d|/23bf5400-d19c-445b-8744-b63ebcca303d/333d98a8-e6a2-433c-bb9c-6f407290c160|/23bf5400-d19c-445b-8744-b63ebcca303d/333d98a8-e6a2-433c-bb9c-6f407290c160|/23bf5400-d19c-445b-8744-b63ebcca303d/333d98a8-e6a2-433c-bb9c-6f407290c160",
+        ""
+      ],
+      [
+        "pin_to_pin|1866900|749300|b815cc8f-43b8-42d6-8ba5-6cfb1d5287af|58cd9d6e-dae8-4ce6-b7e4-14a6b886e405|/23bf5400-d19c-445b-8744-b63ebcca303d/333d98a8-e6a2-433c-bb9c-6f407290c160|/23bf5400-d19c-445b-8744-b63ebcca303d/333d98a8-e6a2-433c-bb9c-6f407290c160|/23bf5400-d19c-445b-8744-b63ebcca303d/333d98a8-e6a2-433c-bb9c-6f407290c160",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1739900|1409700|e79e9a37-da85-4e8f-9740-0e99c0932cfa|00000000-0000-0000-0000-000000000000|/23bf5400-d19c-445b-8744-b63ebcca303d/b21ff704-9000-4580-ba18-c8ea70926409|/23bf5400-d19c-445b-8744-b63ebcca303d/b21ff704-9000-4580-ba18-c8ea70926409|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -845,6 +858,9 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "+3V3": [
+        "Power"
+      ],
       "/DISPLAY/PREVGH": [
         "Power"
       ],
@@ -890,6 +906,9 @@
       "Net-(C7-Pad1)": [
         "BT-RF"
       ],
+      "Net-(D23-K)": [
+        "Power"
+      ],
       "Net-(D5-A)": [
         "Power"
       ],
@@ -925,6 +944,12 @@
       ],
       "Net-(U3-VR_PA)": [
         "LORA-RF"
+      ],
+      "VBUS": [
+        "Power"
+      ],
+      "VIN": [
+        "Power"
       ],
       "VSS_PA": [
         "GND"
