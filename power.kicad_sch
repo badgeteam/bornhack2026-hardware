@@ -5303,6 +5303,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 137.16 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "e4a3a579-9909-4a82-a358-815e208a72e7")
 		)
@@ -5452,6 +5461,15 @@
 			)
 		)
 		(property "Resource" ""
+			(at 77.47 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
 			(at 77.47 162.56 0)
 			(effects
 				(font

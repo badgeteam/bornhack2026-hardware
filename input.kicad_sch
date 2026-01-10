@@ -1377,7 +1377,7 @@
 		)
 		(uuid "498891c8-3ce1-4af5-90f1-7deae4214b83")
 	)
-	(hierarchical_label "BTN_RESET"
+	(hierarchical_label "BTN_RESETn"
 		(shape output)
 		(at 99.06 101.6 0)
 		(effects

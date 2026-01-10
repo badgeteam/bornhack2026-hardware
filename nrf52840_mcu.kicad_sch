@@ -6519,7 +6519,7 @@
 		)
 		(uuid "9e69517e-2a85-4fbc-a430-84fbd01d5ec9")
 	)
-	(hierarchical_label "RESET"
+	(hierarchical_label "RESETn"
 		(shape input)
 		(at 118.11 102.87 180)
 		(effects
@@ -6530,7 +6530,7 @@
 		)
 		(uuid "9f043f31-8236-48a2-ade7-d7d84ce2f15e")
 	)
-	(hierarchical_label "RESET"
+	(hierarchical_label "RESETn"
 		(shape output)
 		(at 48.26 90.17 0)
 		(effects
@@ -8423,6 +8423,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "270"
+			(at 146.05 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A16"
 			(uuid "31cd0fa0-04a1-472e-a451-2b19f5e57432")
 		)
@@ -8659,7 +8668,7 @@
 		(at 53.34 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9199,6 +9208,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "90"
+			(at 129.54 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "76daddf9-d418-4bd5-bd65-cda3b2210a63")
 		)
@@ -9608,7 +9626,7 @@
 		(at 67.31 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10082,7 +10100,7 @@
 		(at 60.96 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10325,7 +10343,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ad1c5599-a295-46e5-84f2-d6fb3a4d76b7")
@@ -11430,7 +11448,7 @@
 		(at 54.61 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
