@@ -26805,7 +26805,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "5bcaa5c8-8ecf-48a5-ad99-d6d256c34f7b")
+			(uuid "c66d0b9c-228b-4c0d-bbbe-4050129d6d82")
 		)
 		(fp_line
 			(start 8.8 -3.59)
@@ -26815,7 +26815,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "69e67b60-f4c7-4f56-bd05-4a1793bdd4d2")
+			(uuid "2a6f895b-146d-4ca2-9486-047b0c6ef620")
 		)
 		(fp_line
 			(start 6.29 0.81)
@@ -26825,7 +26825,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "ccd76a2c-9b90-4788-a445-9cd5147a8bf1")
+			(uuid "cb08f412-f191-45d6-aa79-e30e82ea2b7b")
 		)
 		(fp_line
 			(start -6.13 0.81)
@@ -26835,7 +26835,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "cc68c4f0-34bb-42bc-a2d8-29afa79898ea")
+			(uuid "94f6d071-e7d4-460d-a115-663d72388090")
 		)
 		(fp_line
 			(start -8.8 -3.59)
@@ -26845,7 +26845,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "85be2522-a10e-414f-a430-5b246a4d99f2")
+			(uuid "2d8b4095-d895-4b73-9310-7f4c29fb5023")
 		)
 		(fp_circle
 			(center -8.8 1.66)
@@ -26856,7 +26856,7 @@
 			)
 			(fill no)
 			(layer "B.Fab")
-			(uuid "91b0089f-1106-4290-9810-b6bb62fab09d")
+			(uuid "94039866-75fd-43df-b97b-5899f3db967d")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -27114,6 +27114,17 @@
 			)
 			(rotate
 				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/symbols/lcsc.3dshapes/Waveshare 1.54 (B) E ink - Display Folded.stp"
+			(offset
+				(xyz 0 14.5 -1)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -90)
 			)
 		)
 	)

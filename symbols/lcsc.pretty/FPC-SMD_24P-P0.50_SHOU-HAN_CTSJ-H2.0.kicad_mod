@@ -290,4 +290,15 @@
 			(xyz -0 -0 -0)
 		)
 	)
+	(model "${KIPRJMOD}/symbols/lcsc.3dshapes/Waveshare 1.54 (B) E ink - Display Folded.stp"
+		(offset
+			(xyz 0 14.5 -1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -90)
+		)
+	)
 )
