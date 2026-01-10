@@ -1779,7 +1779,7 @@
 				)
 			)
 		)
-		(property "Value" "TS-1187A-B-A-B"
+		(property "Value" "RESET"
 			(at 68.58 99.06 0)
 			(effects
 				(font

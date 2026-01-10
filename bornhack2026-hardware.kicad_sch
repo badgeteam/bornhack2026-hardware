@@ -6326,7 +6326,7 @@
 				(justify left)
 			)
 		)
-		(pin "P1.00" input
+		(pin "P1.00_SWO" input
 			(at 180.34 54.61 0)
 			(uuid "a2b9588c-5701-4276-b0b0-71961c0e20ab")
 			(effects

@@ -3468,7 +3468,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 69.85) (xy 262.89 69.85)
+			(xy 261.62 72.39) (xy 262.89 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3548,6 +3548,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 72.39) (xy 261.62 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ab0c75e-c530-4322-b854-a53f6f1ea0ee")
+	)
+	(wire
+		(pts
 			(xy 241.3 74.93) (xy 241.3 77.47)
 		)
 		(stroke
@@ -3568,7 +3578,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 77.47) (xy 262.89 77.47)
+			(xy 261.62 80.01) (xy 262.89 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3958,6 +3968,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 69.85) (xy 259.08 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7588d7be-6322-4f0a-aec9-c4c8e7148f86")
+	)
+	(wire
+		(pts
 			(xy 186.69 80.01) (xy 186.69 82.55)
 		)
 		(stroke
@@ -4128,7 +4148,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 69.85) (xy 280.67 91.44)
+			(xy 280.67 80.01) (xy 280.67 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4178,7 +4198,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 69.85) (xy 280.67 69.85)
+			(xy 278.13 80.01) (xy 280.67 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4318,7 +4338,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 77.47) (xy 259.08 81.28)
+			(xy 261.62 80.01) (xy 261.62 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4348,7 +4368,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 81.28) (xy 259.08 81.28)
+			(xy 248.92 81.28) (xy 261.62 81.28)
 		)
 		(stroke
 			(width 0)
@@ -8043,16 +8063,16 @@
 	)
 	(symbol
 		(lib_id "lcsc:SK-3296S-01-L1")
-		(at 270.51 72.39 0)
+		(at 270.51 77.47 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ddf03a50-3264-4a90-abe2-5d894fd2f53a")
 		(property "Reference" "SW2"
-			(at 270.51 62.23 0)
+			(at 270.51 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8060,7 +8080,7 @@
 			)
 		)
 		(property "Value" "SK-3296S-01-L1"
-			(at 270.51 64.77 0)
+			(at 270.51 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8068,7 +8088,7 @@
 			)
 		)
 		(property "Footprint" "lcsc:SW-SMD_3P-P1.50_L2.7-W6.6"
-			(at 270.51 85.09 0)
+			(at 270.51 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8077,7 +8097,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Toggle-Switches_XKB-Enterprise-SK-3296S-01-L1_C319020.html"
-			(at 270.51 87.63 0)
+			(at 270.51 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8086,7 +8106,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 270.51 72.39 0)
+			(at 270.51 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8095,7 +8115,7 @@
 			)
 		)
 		(property "LCSC Part" "C319020"
-			(at 270.51 90.17 0)
+			(at 270.51 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8104,7 +8124,7 @@
 			)
 		)
 		(property "LCSC" "C319020"
-			(at 270.51 72.39 0)
+			(at 270.51 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8113,7 +8133,7 @@
 			)
 		)
 		(property "Resource" ""
-			(at 270.51 72.39 0)
+			(at 270.51 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
