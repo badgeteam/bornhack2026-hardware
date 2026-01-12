@@ -2006,10 +2006,6 @@
 		(uuid "db7bd585-13bf-4d9d-ba89-182c52eada09")
 	)
 	(no_connect
-		(at 137.16 78.74)
-		(uuid "dd6a745f-d6d3-46f0-b99b-6b80d40486b8")
-	)
-	(no_connect
 		(at 137.16 106.68)
 		(uuid "ddb72c98-54ed-472f-8e1d-dbbb3c4778ce")
 	)
@@ -2561,6 +2557,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 78.74) (xy 137.16 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74fd895b-d79c-4a2a-a5aa-ea4b3c9be111")
+	)
+	(wire
+		(pts
 			(xy 99.06 158.75) (xy 76.2 158.75)
 		)
 		(stroke
@@ -2978,6 +2984,16 @@
 			(type default)
 		)
 		(uuid "e486f338-3328-47e2-992f-f85eaf2a1ece")
+	)
+	(wire
+		(pts
+			(xy 167.64 143.51) (xy 187.96 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e75dafe7-9c02-4694-a0ad-9b6c5c35ba12")
 	)
 	(wire
 		(pts
@@ -3499,6 +3515,16 @@
 		)
 		(uuid "b25af605-86c4-4bc2-a826-7103d2dd18d7")
 	)
+	(label "P0.13_BUZZ_IN"
+		(at 116.84 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3b717cc-bcfe-4b7e-852a-528012d56cb1")
+	)
 	(label "P0.12_DSP_RESETn"
 		(at 81.28 130.81 180)
 		(effects
@@ -3578,6 +3604,16 @@
 			(justify right bottom)
 		)
 		(uuid "e060bef2-6139-4bd1-b13d-be1ddd49a550")
+	)
+	(label "P0.13_BUZZ_IN"
+		(at 167.64 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e11876bf-d99b-42da-b3a4-42f0476c56d2")
 	)
 	(label "P1.09_DSP_CSN"
 		(at 81.28 118.11 180)
@@ -6529,6 +6565,58 @@
 			(project "bornhack2026-hardware"
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 137.16)
+		(size 29.21 12.065)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c4b8d57b-422e-4902-b263-708377aba114")
+		(property "Sheetname" "Buzzer"
+			(at 187.96 136.4484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buzzer.kicad_sch"
+			(at 187.96 149.8096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BUZ_IN" input
+			(at 187.96 143.51 180)
+			(uuid "642187da-11b4-4017-aed2-34e579f4a7d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "bornhack2026-hardware"
+				(path "/23bf5400-d19c-445b-8744-b63ebcca303d"
+					(page "12")
 				)
 			)
 		)
