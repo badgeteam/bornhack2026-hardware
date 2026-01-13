@@ -20,7 +20,25 @@ In order to make nativation a bit more convenient, the select button has been up
 
 ### Bluetooth
 
+The Bluetooth implementation on this board is provided by the NRF52840 MCU.
+Texas instruments has released a design for a 2.4GHz antenna, the antenna is provided as a Footprint included with Kicad 9.0.
+
+#### BlueTooth Antenna
+
+Bluetooth is using 2.4GHz, and a PCB antenna suitable for this frequency band is integrated into the PCB.
+The design used is available in KiCAD 9 in the standard library and is originally from Texas instruments.
+
+The documentation for the antenna can be found here : [swra228.pdf](https://www.ti.com/lit/an/swra228c/swra228c.pdf)
+
 ### LoRa
+
+LoRa is provided by a separate SX1262 IC, with a tuning circuit as specified by the datasheet.
+
+The datasheet that specifies the layout/balun/matching curcuit for the sx1262 is named an1200.54 and can be found at [this page](https://www.semtech.com/products/wireless-rf/lora-connect/sx1261)
+
+#### Lora Antenna
+
+The LoRa antenna is also a Texas instruments design, the specifications can be found here [swra416](https://www.ti.com/lit/an/swra416/swra416.pdf)
 
 ### NFC
 
