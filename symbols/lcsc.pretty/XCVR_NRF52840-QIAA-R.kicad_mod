@@ -49,7 +49,11 @@
 			)
 		)
 	)
-	(attr smd)
+	(solder_mask_margin 0)
+	(solder_paste_margin 0.1)
+	(solder_paste_margin_ratio 0)
+	(clearance 0.127)
+	(attr smd allow_soldermask_bridges)
 	(fp_line
 		(start -3.5 -3.5)
 		(end -1.95 -3.5)
