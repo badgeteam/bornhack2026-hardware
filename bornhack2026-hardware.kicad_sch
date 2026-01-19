@@ -10,7 +10,7 @@
 		(company "Badge.Team")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x06_Pin"
+		(symbol "Connector:Conn_01x07_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -19,14 +19,14 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 7.62 0)
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x06_Pin"
+			(property "Value" "Conn_01x07_Pin"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -52,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x06, script generated"
+			(property "Description" "Generic connector, single row, 01x07, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -87,7 +87,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x06_Pin_1_1"
+			(symbol "Conn_01x07_Pin_1_1"
+				(rectangle
+					(start 0.8636 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(rectangle
 					(start 0.8636 5.207)
 					(end 0 4.953)
@@ -152,6 +163,18 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 7.62) (xy 0.8636 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -227,7 +250,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 5.08 180)
+					(at 5.08 7.62 180)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -245,7 +268,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 5.08 5.08 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -263,7 +286,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 5.08 2.54 180)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -281,7 +304,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 5.08 0 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -299,7 +322,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -5.08 180)
+					(at 5.08 -2.54 180)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -317,7 +340,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -7.62 180)
+					(at 5.08 -5.08 180)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -327,6 +350,24 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2302,10 +2343,6 @@
 		(uuid "7a33726d-c83d-45fa-a985-6219e3be74ab")
 	)
 	(no_connect
-		(at 137.16 91.44)
-		(uuid "980cbae5-731d-4b1e-a80e-19abae9b474f")
-	)
-	(no_connect
 		(at 137.16 96.52)
 		(uuid "9a5ee66e-a24a-471c-bffe-4768316dbfe8")
 	)
@@ -2436,6 +2473,16 @@
 			(type default)
 		)
 		(uuid "08e43658-477b-4a80-b6e6-f64e5003a397")
+	)
+	(wire
+		(pts
+			(xy 137.16 91.44) (xy 116.84 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0924637e-7051-4182-9e95-5fd595bfa67b")
 	)
 	(bus
 		(pts
@@ -2886,6 +2933,16 @@
 			(type default)
 		)
 		(uuid "6f2e9d35-39ff-4432-aba1-fd344babd6f8")
+	)
+	(wire
+		(pts
+			(xy 120.65 139.7) (xy 140.97 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7046ba2c-c2cf-4110-90fb-3dca6f452112")
 	)
 	(wire
 		(pts
@@ -3698,7 +3755,7 @@
 		(uuid "3fbdace8-4f41-463e-bcf2-f6492521d40a")
 	)
 	(label "P0.14_EXP3"
-		(at 116.84 86.36 0)
+		(at 116.84 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3726,6 +3783,16 @@
 			(justify left bottom)
 		)
 		(uuid "43c3773c-0f53-4196-b3e5-462190c95c46")
+	)
+	(label "P0.14_EXP0"
+		(at 140.97 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4477cc33-48ff-4f89-a43a-45acfa647b67")
 	)
 	(label "P0.30_LORA_RST"
 		(at 96.52 93.98 180)
@@ -3808,7 +3875,7 @@
 		(uuid "560f155c-a6cd-4586-bb07-00574a5c48b4")
 	)
 	(label "P0.14_EXP2"
-		(at 116.84 83.82 0)
+		(at 116.84 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3886,6 +3953,16 @@
 			(justify left bottom)
 		)
 		(uuid "7cf2cf2a-3b34-43fa-974c-06d4c1444218")
+	)
+	(label "P0.14_EXP0"
+		(at 116.84 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f5e1fbf-df3b-4cab-94e4-68cd10a787c6")
 	)
 	(label "P0.27_DSP_MOSI"
 		(at 118.11 111.76 0)
@@ -4008,7 +4085,7 @@
 		(uuid "b7e752f4-b873-4c75-8c80-589f1afd1b35")
 	)
 	(label "P0.14_EXP1"
-		(at 116.84 81.28 0)
+		(at 116.84 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4785,16 +4862,24 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x06_Pin")
+		(lib_id "Connector:Conn_01x07_Pin")
 		(at 115.57 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1fc211f2-37e6-45a7-b5a8-19df25fe87a4")
 		(property "Reference" "J2"
+			(at 116.205 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x07_Pin"
 			(at 116.205 137.16 0)
 			(effects
 				(font
@@ -4802,15 +4887,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x06_Pin"
-			(at 116.205 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x07_P1.00mm_Vertical_SMD_Pin1Left"
 			(at 115.57 147.32 0)
 			(effects
 				(font
@@ -4828,7 +4905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
+		(property "Description" "Generic connector, single row, 01x07, script generated"
 			(at 115.57 147.32 0)
 			(effects
 				(font
@@ -4854,6 +4931,9 @@
 		)
 		(pin "6"
 			(uuid "a6867caa-fc63-44c8-a9f2-ae82db09bc8a")
+		)
+		(pin "7"
+			(uuid "83706dd2-11f3-4b25-9863-1bbb2cd8c13e")
 		)
 		(instances
 			(project "bornhack2026-hardware"
@@ -5810,6 +5890,79 @@
 			(project ""
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d"
 					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc:Housing")
+		(at 162.56 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "bb2eb6b1-27d3-4392-b4bc-8ab385aca262")
+		(property "Reference" "N4"
+			(at 166.37 181.9274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Egg edge silk"
+			(at 166.37 184.4674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc:egg-edge-silk"
+			(at 163.83 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Housing"
+			(at 162.56 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resource" ""
+			(at 162.56 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "bornhack2026-hardware"
+				(path "/23bf5400-d19c-445b-8744-b63ebcca303d"
+					(reference "N4")
 					(unit 1)
 				)
 			)
