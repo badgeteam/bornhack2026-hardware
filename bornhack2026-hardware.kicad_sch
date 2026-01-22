@@ -3625,12 +3625,12 @@
 		(uuid "08ff88d2-1eee-41ec-908b-b3d36b27ca32")
 	)
 	(label "P0.28_LORA_BUSY"
-		(at 118.11 114.3 0)
+		(at 201.93 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0a180e0f-9b79-4116-add1-268cfe46d5d2")
 	)
@@ -3725,7 +3725,7 @@
 		(uuid "2d8ad00e-6496-4ff3-81ec-ddf8707e1683")
 	)
 	(label "P0.29_LORA_DIO1"
-		(at 118.11 116.84 0)
+		(at 116.84 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3735,12 +3735,12 @@
 		(uuid "383b9064-6b3c-4567-83a8-18060015d0d0")
 	)
 	(label "P0.26_BTN_EXECUTE"
-		(at 118.11 109.22 0)
+		(at 201.93 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "3d8ae0de-084b-4caf-a55a-5b05dd74102a")
 	)
@@ -3845,12 +3845,12 @@
 		(uuid "538ac715-ce2b-4996-b26c-16e73c11252f")
 	)
 	(label "P1.12_LORA_SPI_NSS"
-		(at 201.93 82.55 180)
+		(at 118.11 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "54fffdff-d3c4-4a08-acea-9d5f9c694374")
 	)
@@ -3945,7 +3945,7 @@
 		(uuid "71e317a7-a620-45fe-8639-7f03a1707d5c")
 	)
 	(label "P1.14_LORA_MISO"
-		(at 116.84 53.34 0)
+		(at 118.11 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4165,7 +4165,7 @@
 		(uuid "d89686d1-0d13-463c-97b4-111be1bdc11e")
 	)
 	(label "P0.30_LORA_RST"
-		(at 118.11 119.38 0)
+		(at 118.11 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4205,12 +4205,12 @@
 		(uuid "eb0a70de-5638-41c4-b68f-fb1e76b1ae64")
 	)
 	(label "BTN_CANCEL"
-		(at 116.84 60.96 0)
+		(at 201.93 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ec58994c-1a5b-405f-b2d5-d6aea218538a")
 	)
@@ -4275,22 +4275,22 @@
 		(uuid "f5f95a9d-8682-4269-b460-254c59aa2bd1")
 	)
 	(label "P1.14_LORA_MOSI"
-		(at 201.93 87.63 180)
+		(at 118.11 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "f6533cb9-61cb-4c50-9e5d-a4d417215bc7")
 	)
 	(label "P1.13_LORA_SCK"
-		(at 201.93 85.09 180)
+		(at 116.84 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "fdb50689-87cd-4f5e-8501-d69466c821ee")
 	)

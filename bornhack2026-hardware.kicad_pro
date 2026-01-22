@@ -850,6 +850,9 @@
       "Net-(J2-Pin_7)": [
         "Power"
       ],
+      "Net-(L1-ANT)": [
+        "LORA-RF"
+      ],
       "Net-(L1-Pad1)": [
         "BT-ANT"
       ],
