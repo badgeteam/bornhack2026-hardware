@@ -21,8 +21,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "AE"
-				(at 1.27 1.27 0)
+			(property "Reference" "AE1"
+				(at 10.16 -2.54 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30,14 +30,14 @@
 				)
 			)
 			(property "Value" "Antenna_Dipole"
-				(at 1.27 0 0)
+				(at 7.62 -2.54 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "lcsc:NFC_2.8uH_COIL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -46,7 +46,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://coil32.net/online-calculators/pcb-inductor-calculator.html"
 				(at 0 0 0)
 				(effects
 					(font
@@ -55,8 +55,62 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Dipole antenna"
+			(property "Description" "NFC coil antenna"
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Resource" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "pin1" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "pin2" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "pin3" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "pin4" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "pin5" ""
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -100,6 +154,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 1.27 1.27 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1967,6 +2039,9 @@
 		)
 		(pin "2"
 			(uuid "044de3db-790c-4d83-9a23-3dcf4f5438a8")
+		)
+		(pin "0"
+			(uuid "dc33e459-5690-4413-bd90-76f5fc045659")
 		)
 		(instances
 			(project ""

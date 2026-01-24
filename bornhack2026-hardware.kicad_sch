@@ -6492,7 +6492,7 @@
 		(at 162.56 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -6905,7 +6905,7 @@
 				(justify left)
 			)
 		)
-		(pin "VBAT_READ" input
+		(pin "VBAT_READ_EN" input
 			(at 262.89 30.48 0)
 			(uuid "e0d6dede-6d52-4e47-a2d0-ff69ce3e2200")
 			(effects
