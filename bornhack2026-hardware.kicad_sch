@@ -2636,7 +2636,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 39.37) (xy 269.24 39.37)
+			(xy 262.89 39.37) (xy 275.59 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3815,7 +3815,7 @@
 		(uuid "4737a725-30bf-40b7-9281-2755abb2fd24")
 	)
 	(label "P1.08_CHRG"
-		(at 269.24 39.37 180)
+		(at 275.59 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4660,6 +4660,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 269.24 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 269.24 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "54464d4e-2320-4ad2-acb5-5e99a99b313b")
 		)
@@ -4849,6 +4867,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 35.56 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 35.56 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a7d544b-7626-4e19-a187-3b422fd067f6")
 		)
@@ -4906,6 +4942,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x07, script generated"
+			(at 115.57 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 115.57 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 115.57 147.32 0)
 			(effects
 				(font
@@ -5045,6 +5099,24 @@
 			)
 		)
 		(property "pin5" ""
+			(at 82.55 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 82.55 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 82.55 180.34 0)
 			(effects
 				(font
@@ -5304,6 +5376,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 59.69 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 59.69 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7c4f0d19-9458-4395-a897-dda2b0819ad8")
 		)
@@ -5482,6 +5572,24 @@
 			)
 		)
 		(property "pin5" ""
+			(at 16.51 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 16.51 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 16.51 69.85 0)
 			(effects
 				(font
@@ -5959,6 +6067,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 162.56 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 162.56 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "bornhack2026-hardware"
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d"
@@ -6098,6 +6224,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 132.08 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 132.08 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d"
@@ -6214,6 +6358,24 @@
 			)
 		)
 		(property "pin5" ""
+			(at 269.24 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 269.24 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 269.24 116.84 90)
 			(effects
 				(font
@@ -6427,6 +6589,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 248.92 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 248.92 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A1"
 			(uuid "2a4aec15-b42e-414c-871b-70c8a4dc04e4")
 		)
@@ -6551,6 +6731,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 162.56 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 162.56 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "bornhack2026-hardware"
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d"
@@ -6616,6 +6814,24 @@
 			)
 		)
 		(property "Resource" ""
+			(at 132.08 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 132.08 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 132.08 184.15 0)
 			(effects
 				(font
@@ -6865,16 +7081,6 @@
 				(justify left top)
 			)
 		)
-		(pin "VBAT" input
-			(at 262.89 27.94 0)
-			(uuid "94d82c63-87ac-41f1-b31d-2af4ff26b0d2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "VBUS" input
 			(at 237.49 30.48 180)
 			(uuid "bdaece5f-02be-4fba-92f4-6f7e34a62225")
@@ -6918,6 +7124,16 @@
 		(pin "+3V3_OUT" output
 			(at 262.89 35.56 0)
 			(uuid "593883af-fa39-4bab-b5b9-4607d2fc7ec5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBAT_READ" input
+			(at 262.89 27.94 0)
+			(uuid "b27eb108-f980-41c7-ad56-09f7a65247f5")
 			(effects
 				(font
 					(size 1.27 1.27)
