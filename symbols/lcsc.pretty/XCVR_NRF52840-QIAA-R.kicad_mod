@@ -54,6 +54,17 @@
 	(solder_paste_margin_ratio -0)
 	(clearance 0.127)
 	(attr smd allow_soldermask_bridges)
+	(net_tie_pad_groups "74,F23")
+	(fp_line
+		(start 2.75 -1.5)
+		(end 2.2 -1.5)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "7e482337-9556-4bc8-88df-756df07302c2")
+	)
 	(fp_line
 		(start -3.5 -3.5)
 		(end -1.95 -3.5)

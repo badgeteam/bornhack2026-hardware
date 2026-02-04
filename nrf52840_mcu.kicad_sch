@@ -2952,154 +2952,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc:A-IPEX1-1.25A"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RF"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "A-IPEX1-1.25A"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "lcsc:IPEX-SMD_3P-L2.6-W2.6-LS3.0_RF1200001R"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C22467595"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "A-IPEX1-1.25A_0_1"
-				(rectangle
-					(start -2.54 0)
-					(end 2.54 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.03) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.51)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 5.08 270)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -2.54 180)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "lcsc:ZD25WQ16CTIGT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4177,12 +4029,6 @@
 		(uuid "26ec2cbc-f9a1-4b54-a946-13f41d2884d7")
 	)
 	(junction
-		(at 81.28 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "27092eea-7729-4620-b3f6-04c81d8eb351")
-	)
-	(junction
 		(at 196.85 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4566,16 +4412,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 153.67) (xy 82.55 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ae6ca18-3441-4e4a-8012-6cc963b6a76d")
-	)
-	(wire
-		(pts
 			(xy 53.34 161.29) (xy 53.34 163.83)
 		)
 		(stroke
@@ -4593,16 +4429,6 @@
 			(type default)
 		)
 		(uuid "1b562bda-d953-4197-a72e-bcd4a6ffdebb")
-	)
-	(wire
-		(pts
-			(xy 73.66 142.24) (xy 73.66 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bdb9203-b575-43d0-976f-940aadfff522")
 	)
 	(wire
 		(pts
@@ -4813,16 +4639,6 @@
 			(type default)
 		)
 		(uuid "3f76c22e-e9e4-4670-8409-3c726e566a24")
-	)
-	(wire
-		(pts
-			(xy 102.87 142.24) (xy 102.87 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41cbb5fd-5cad-4f24-ad0c-2579c1196ead")
 	)
 	(wire
 		(pts
@@ -5176,16 +4992,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 142.24) (xy 102.87 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88f15989-b409-49a4-bff0-069aaef907f6")
-	)
-	(wire
-		(pts
 			(xy 30.48 85.09) (xy 30.48 90.17)
 		)
 		(stroke
@@ -5273,16 +5079,6 @@
 			(type default)
 		)
 		(uuid "9f4ac4b0-6953-4a0e-9d99-e854ca024ccf")
-	)
-	(wire
-		(pts
-			(xy 87.63 153.67) (xy 93.98 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a29f06d6-620c-406f-a379-34b718180b8e")
 	)
 	(wire
 		(pts
@@ -5466,6 +5262,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 25.4) (xy 231.14 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca4632d0-85e0-4997-b6f5-25b82694cb36")
+	)
+	(wire
+		(pts
 			(xy 196.85 67.31) (xy 207.01 67.31)
 		)
 		(stroke
@@ -5526,7 +5332,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 153.67) (xy 81.28 153.67)
+			(xy 67.31 153.67) (xy 83.82 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5593,6 +5399,16 @@
 			(type default)
 		)
 		(uuid "e8417817-2ba0-4e38-8759-6f22ca48b0c7")
+	)
+	(wire
+		(pts
+			(xy 219.71 25.4) (xy 231.14 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea8128ee-912c-4096-bc33-3ce1f55fbaac")
 	)
 	(wire
 		(pts
@@ -5960,7 +5776,7 @@
 	)
 	(global_label "ANT"
 		(shape input)
-		(at 93.98 153.67 0)
+		(at 83.82 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5970,7 +5786,7 @@
 		)
 		(uuid "73bffaf3-75a3-4d7d-8d2a-8eec154632c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.0773 153.67 0)
+			(at 88.9173 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6764,37 +6580,6 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape diamond)
-		(at 71.12 153.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "06b16d49-2141-435d-ad15-7ebab3b78b27")
-		(property "Netclass" "BT-RF"
-			(at 72.3265 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -27.94 -8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
 		(at 76.2 161.29 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6826,7 +6611,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape diamond)
-		(at 91.44 153.67 0)
+		(at 81.28 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6836,7 +6621,7 @@
 		)
 		(uuid "9fc89e5a-18dd-46b6-b7ea-a2c3e32fa4e2")
 		(property "Netclass" "BT-RF"
-			(at 92.6465 151.13 0)
+			(at 82.4865 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6845,7 +6630,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -7.62 -8.89 0)
+			(at -17.78 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7117,7 +6902,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "12pF"
 			(at 66.548 21.59 90)
 			(effects
 				(font
@@ -7134,7 +6919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/1876-0402B103K500NT/C1524"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1899-0402CG120J500NT/C1547"
 			(at 63.5 20.32 0)
 			(effects
 				(font
@@ -7152,7 +6937,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15195"
+		(property "LCSC" "C1547"
 			(at 63.5 20.32 90)
 			(effects
 				(font
@@ -8264,71 +8049,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 88.9 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "13a6b1aa-3207-446d-961c-14628a6b7bfe")
-		(property "Reference" "#PWR015"
-			(at 88.9 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 92.456 146.304 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "318ef59b-81f9-48c5-b546-c95c0d759b3b")
-		)
-		(instances
-			(project "bornhack2026-hardware"
-				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/b21ff704-9000-4580-ba18-c8ea70926409"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 200.66 46.99 270)
 		(mirror x)
@@ -8482,9 +8202,9 @@
 		(at 240.03 57.15 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "230b4896-c526-4e3a-8e70-222e79168467")
 		(property "Reference" "C14"
 			(at 241.046 56.134 90)
@@ -8645,7 +8365,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "4.7uF"
 			(at 241.046 53.34 90)
 			(effects
 				(font
@@ -8663,7 +8383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/13164-CL05A225MQ5NSNC/C12530"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/24469-CL05A475MP5NRNC/C23733"
 			(at 240.03 52.07 0)
 			(effects
 				(font
@@ -8681,7 +8401,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C12530"
+		(property "LCSC" "C23733"
 			(at 240.03 52.07 0)
 			(effects
 				(font
@@ -9913,33 +9633,17 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:A-IPEX1-1.25A")
-		(at 81.28 148.59 180)
+		(lib_id "power:GND")
+		(at 231.14 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "50878819-943b-4578-bb3c-72f4104f4b2a")
-		(property "Reference" "RF3"
-			(at 81.28 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "A-IPEX1-1.25A"
-			(at 81.28 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc:IPEX-SMD_3P-L2.6-W2.6-LS3.0_RF1200001R"
-			(at 81.28 138.43 0)
+		(uuid "59f825f6-ca66-401d-b54e-4abdfccb36b2")
+		(property "Reference" "#PWR071"
+			(at 231.14 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9947,8 +9651,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/MyAntenna-A_IPEX1_125A/C22467595"
-			(at 81.28 148.59 0)
+		(property "Value" "GND"
+			(at 231.14 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9956,8 +9668,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 1.25mm 2mm 50Ω 6GHz Board Side IPEX Male Pin SMD Coaxial Connectors (RF) ROHS"
-			(at 81.28 148.59 0)
+		(property "Datasheet" ""
+			(at 231.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9965,89 +9677,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C22467595"
-			(at 81.28 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22467595"
-			(at 81.28 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resource" ""
-			(at 81.28 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "pin1" ""
-			(at 81.28 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "pin2" ""
-			(at 81.28 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "pin3" ""
-			(at 81.28 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "pin4" ""
-			(at 81.28 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "pin5" ""
-			(at 81.28 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 81.28 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 81.28 148.59 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 231.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10056,18 +9687,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9f383afe-7793-4092-8d8b-aada6d82e4aa")
-		)
-		(pin "2"
-			(uuid "5d611d12-0dad-47ca-b1b9-370523d99ba1")
-		)
-		(pin "3"
-			(uuid "32065e9b-6a03-48c0-9b5c-f45a7b72ee73")
+			(uuid "042cc381-08b8-462a-8fba-24bea5af05a2")
 		)
 		(instances
 			(project "bornhack2026-hardware"
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/b21ff704-9000-4580-ba18-c8ea70926409"
-					(reference "RF3")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -10426,7 +10051,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "12pF"
 			(at 66.548 34.29 90)
 			(effects
 				(font
@@ -10443,7 +10068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/1876-0402B103K500NT/C1524"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1899-0402CG120J500NT/C1547"
 			(at 63.5 33.02 0)
 			(effects
 				(font
@@ -10461,7 +10086,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15195"
+		(property "LCSC" "C1547"
 			(at 63.5 33.02 90)
 			(effects
 				(font
@@ -11843,7 +11468,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "18pF"
 			(at 25.654 21.59 90)
 			(effects
 				(font
@@ -11861,7 +11486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/33914-CL05C100JB5NNNC/C32949"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1901-0402CG180J500NT/C1549"
 			(at 24.13 20.32 0)
 			(effects
 				(font
@@ -11879,7 +11504,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C32949"
+		(property "LCSC" "C1549"
 			(at 24.13 20.32 0)
 			(effects
 				(font
@@ -12352,7 +11977,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "4.7uF"
 			(at 252.73 48.2662 0)
 			(effects
 				(font
@@ -12370,7 +11995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/13164-CL05A225MQ5NSNC/C12530"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/24469-CL05A475MP5NRNC/C23733"
 			(at 250.19 46.99 0)
 			(effects
 				(font
@@ -12388,7 +12013,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C12530"
+		(property "LCSC" "C23733"
 			(at 250.19 46.99 0)
 			(effects
 				(font
@@ -12628,154 +12253,6 @@
 			(project ""
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/b21ff704-9000-4580-ba18-c8ea70926409"
 					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 85.09 153.67 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ce1fc176-8f7f-40eb-b56d-b3fdcc45ef06")
-		(property "Reference" "R20"
-			(at 85.09 149.352 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 85.09 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 85.09 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/17853-0402WGF0000TCE/C17168"
-			(at 85.09 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 85.09 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17168"
-			(at 85.09 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resource" ""
-			(at 85.09 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "pin1" ""
-			(at 85.09 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "pin2" ""
-			(at 85.09 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "pin3" ""
-			(at 85.09 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "pin4" ""
-			(at 85.09 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "pin5" ""
-			(at 85.09 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 85.09 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 85.09 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd87218e-f150-476c-8fa0-a1658ad4fb6b")
-		)
-		(pin "2"
-			(uuid "67da708a-1a0c-4e22-b7c0-bd731c7774e2")
-		)
-		(instances
-			(project "bornhack2026-hardware"
-				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/b21ff704-9000-4580-ba18-c8ea70926409"
-					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -13209,6 +12686,157 @@
 			(project "bornhack2026-hardware"
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/b21ff704-9000-4580-ba18-c8ea70926409"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 231.14 30.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db5316be-9c6a-4305-93ed-db655b374bb0")
+		(property "Reference" "C58"
+			(at 237.49 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 239.522 31.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 231.14 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525"
+			(at 231.14 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 231.14 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 231.14 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resource" ""
+			(at 231.14 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pin1" ""
+			(at 231.14 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pin2" ""
+			(at 231.14 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pin3" ""
+			(at 231.14 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pin4" ""
+			(at 231.14 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pin5" ""
+			(at 231.14 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 231.14 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 231.14 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "90b9077f-603b-459d-a196-6fd603bf7a31")
+		)
+		(pin "1"
+			(uuid "5515a2de-ce9b-4368-bbd3-88b860c970a5")
+		)
+		(instances
+			(project "bornhack2026-hardware"
+				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/b21ff704-9000-4580-ba18-c8ea70926409"
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -14010,7 +13638,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "18pF"
 			(at 25.654 34.29 90)
 			(effects
 				(font
@@ -14028,7 +13656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/33914-CL05C100JB5NNNC/C32949"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1901-0402CG180J500NT/C1549"
 			(at 24.13 33.02 0)
 			(effects
 				(font
@@ -14046,7 +13674,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C32949"
+		(property "LCSC" "C1549"
 			(at 24.13 33.02 0)
 			(effects
 				(font

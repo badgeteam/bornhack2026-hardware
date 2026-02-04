@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.3,
-          "height": 0.6,
-          "width": 0.6
+          "drill": 0.0,
+          "height": 4.85,
+          "width": 4.85
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -208,35 +208,11 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|-16160358|204455|31e2c5ec-a0c6-4aaa-83b5-2b639e3166b1|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|-16265358|-6420545|3bc66a9f-dae6-407e-9f78-e73ecb5d8d05|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|-3100000|-2422500|e500d66b-5006-4149-942a-57aa990764a4|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|-3100000|1077500|2111821e-4e9f-4eb0-8103-4e4a35834440|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "nonmirrored_text_on_back_layer|24639626|28254092|bd57ee27-5412-455e-b598-b987dc049a44|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
           "shorting_items|-3674751|-28856468|60614242-e1ef-4747-beeb-c135255dc50c|b5c59b5a-f670-4e70-9c99-cfed527e9f71",
-          ""
-        ],
-        [
-          "silk_edge_clearance|-32866899|-3904897|f4a6a63b-8abf-45db-a5ad-f461c41f1e7d|3fac9f03-7769-4123-b759-3e2f544ddfdd",
-          ""
-        ],
-        [
-          "silk_edge_clearance|-32907519|-3609299|f4a6a63b-8abf-45db-a5ad-f461c41f1e7d|4bd2d320-57e8-4d26-a935-e597378ad1b7",
           ""
         ]
       ],
@@ -316,7 +292,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.15,
-        "min_through_hole_diameter": 0.2,
+        "min_through_hole_diameter": 0.25,
         "min_track_width": 0.09,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.35,
@@ -416,10 +392,6 @@
         {
           "diameter": 0.35,
           "drill": 0.25
-        },
-        {
-          "diameter": 0.4,
-          "drill": 0.3
         },
         {
           "diameter": 0.45,
@@ -727,7 +699,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgb(0, 0, 255)",
-        "track_width": 0.2939,
+        "track_width": 0.3424,
         "via_diameter": 0.45,
         "via_drill": 0.3
       },
@@ -852,9 +824,6 @@
       "Net-(J2-Pin_7)": [
         "Power"
       ],
-      "Net-(L1-ANT)": [
-        "LORA-RF"
-      ],
       "Net-(L1-Pad1)": [
         "BT-ANT"
       ],
@@ -967,7 +936,7 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
@@ -979,19 +948,19 @@
           "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -1167,14 +1136,6 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
