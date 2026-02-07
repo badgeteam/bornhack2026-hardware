@@ -1098,7 +1098,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "75pF"
+		(property "Value" "22pF"
 			(at 151.13 102.8762 0)
 			(effects
 				(font
@@ -1116,7 +1116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/38789-0402CG750J500NT/C37809"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1907-0402CG220J500NT/C1555"
 			(at 148.59 101.6 0)
 			(effects
 				(font
@@ -1134,7 +1134,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C37809"
+		(property "LCSC" "C1555"
 			(at 148.59 101.6 0)
 			(effects
 				(font
@@ -1617,7 +1617,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "75pF"
+		(property "Value" "22pF"
 			(at 151.13 90.1762 0)
 			(effects
 				(font
@@ -1635,7 +1635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/38789-0402CG750J500NT/C37809"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1907-0402CG220J500NT/C1555"
 			(at 148.59 88.9 0)
 			(effects
 				(font
@@ -1653,7 +1653,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C37809"
+		(property "LCSC" "C1555"
 			(at 148.59 88.9 0)
 			(effects
 				(font
