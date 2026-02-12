@@ -598,22 +598,16 @@
 		(uuid "729bfc8d-78a5-4d78-932c-aea57ba4f12a")
 	)
 	(junction
-		(at 148.59 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f66ff6e-3e25-4890-ac25-16fc9d9eda5f")
-	)
-	(junction
-		(at 148.59 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62a4f544-a453-4af8-9915-575095be61b7")
-	)
-	(junction
 		(at 130.81 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a32a7af4-a124-4898-b1fc-d0ebc35261b4")
+	)
+	(junction
+		(at 148.59 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "affd04bc-4513-45fc-8b9e-ae766429b7f4")
 	)
 	(junction
 		(at 138.43 92.71)
@@ -626,6 +620,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c484fee7-41d1-4003-b63c-0df4eec113d9")
+	)
+	(junction
+		(at 148.59 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdb0a4e1-61a8-4bc5-91a0-0f0c2f648652")
 	)
 	(junction
 		(at 130.81 92.71)
@@ -647,7 +647,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 91.44) (xy 148.59 93.98)
+			(xy 148.59 91.44) (xy 148.59 92.71)
 		)
 		(stroke
 			(width 0)
@@ -667,17 +667,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 96.52) (xy 148.59 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09db3e02-1177-49cb-a12c-e58188595e10")
-	)
-	(wire
-		(pts
-			(xy 189.23 96.52) (xy 191.77 96.52)
+			(xy 189.23 97.79) (xy 191.77 97.79)
 		)
 		(stroke
 			(width 0)
@@ -704,16 +694,6 @@
 			(type default)
 		)
 		(uuid "1dde1ce0-6a2a-4ed9-ba45-b32466895b42")
-	)
-	(wire
-		(pts
-			(xy 138.43 92.71) (xy 138.43 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29654202-5ff0-45dd-b4cc-a8f0be7a9f11")
 	)
 	(wire
 		(pts
@@ -757,7 +737,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 93.98) (xy 148.59 93.98)
+			(xy 138.43 92.71) (xy 148.59 92.71)
 		)
 		(stroke
 			(width 0)
@@ -827,7 +807,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 93.98) (xy 184.15 93.98)
+			(xy 148.59 92.71) (xy 184.15 92.71)
 		)
 		(stroke
 			(width 0)
@@ -837,17 +817,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 96.52) (xy 138.43 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80c294c3-e6d0-4a0b-9bd5-2b702cdd041d")
-	)
-	(wire
-		(pts
-			(xy 138.43 96.52) (xy 148.59 96.52)
+			(xy 138.43 97.79) (xy 148.59 97.79)
 		)
 		(stroke
 			(width 0)
@@ -887,7 +857,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 96.52) (xy 184.15 96.52)
+			(xy 148.59 97.79) (xy 184.15 97.79)
 		)
 		(stroke
 			(width 0)
@@ -917,7 +887,17 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 93.98) (xy 191.77 93.98)
+			(xy 148.59 97.79) (xy 148.59 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d71fb8ef-cdd1-40dc-8fc6-d9d051065ff2")
+	)
+	(wire
+		(pts
+			(xy 189.23 92.71) (xy 191.77 92.71)
 		)
 		(stroke
 			(width 0)
@@ -937,7 +917,7 @@
 	)
 	(hierarchical_label "NFC1"
 		(shape input)
-		(at 191.77 93.98 0)
+		(at 191.77 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -948,7 +928,7 @@
 	)
 	(hierarchical_label "NFC2"
 		(shape input)
-		(at 191.77 96.52 0)
+		(at 191.77 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -976,7 +956,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22pF"
+		(property "Value" "68pF"
 			(at 151.13 102.8762 0)
 			(effects
 				(font
@@ -994,7 +974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/1907-0402CG220J500NT/C1555"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-CC0402FRNPO9BN680/C389103"
 			(at 148.59 101.6 0)
 			(effects
 				(font
@@ -1012,7 +992,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1555"
+		(property "LCSC" "C389103"
 			(at 148.59 101.6 0)
 			(effects
 				(font
@@ -1384,7 +1364,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 186.69 93.98 90)
+		(at 186.69 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1392,7 +1372,7 @@
 		(dnp no)
 		(uuid "45abaf53-ac60-4684-bffb-d2309651f1e5")
 		(property "Reference" "R29"
-			(at 186.69 89.662 90)
+			(at 186.69 88.392 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1400,7 +1380,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 186.69 91.44 90)
+			(at 186.69 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1408,7 +1388,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 186.69 93.98 0)
+			(at 186.69 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1417,7 +1397,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/17853-0402WGF0000TCE/C17168"
-			(at 186.69 93.98 0)
+			(at 186.69 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1426,7 +1406,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 186.69 93.98 0)
+			(at 186.69 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1435,7 +1415,7 @@
 			)
 		)
 		(property "LCSC" "C17168"
-			(at 186.69 93.98 90)
+			(at 186.69 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1444,7 +1424,7 @@
 			)
 		)
 		(property "Resource" ""
-			(at 186.69 93.98 90)
+			(at 186.69 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1453,7 +1433,7 @@
 			)
 		)
 		(property "pin1" ""
-			(at 186.69 93.98 90)
+			(at 186.69 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1462,7 +1442,7 @@
 			)
 		)
 		(property "pin2" ""
-			(at 186.69 93.98 90)
+			(at 186.69 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1471,7 +1451,7 @@
 			)
 		)
 		(property "pin3" ""
-			(at 186.69 93.98 90)
+			(at 186.69 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1480,7 +1460,7 @@
 			)
 		)
 		(property "pin4" ""
-			(at 186.69 93.98 90)
+			(at 186.69 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1489,7 +1469,7 @@
 			)
 		)
 		(property "pin5" ""
-			(at 186.69 93.98 90)
+			(at 186.69 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1498,7 +1478,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 186.69 93.98 90)
+			(at 186.69 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1507,7 +1487,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 186.69 93.98 90)
+			(at 186.69 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1549,7 +1529,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22pF"
+		(property "Value" "68pF"
 			(at 151.13 90.1762 0)
 			(effects
 				(font
@@ -1567,7 +1547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/1907-0402CG220J500NT/C1555"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-CC0402FRNPO9BN680/C389103"
 			(at 148.59 88.9 0)
 			(effects
 				(font
@@ -1585,7 +1565,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1555"
+		(property "LCSC" "C389103"
 			(at 148.59 88.9 0)
 			(effects
 				(font
@@ -1968,7 +1948,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 186.69 96.52 90)
+		(at 186.69 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1976,7 +1956,7 @@
 		(dnp no)
 		(uuid "8d111233-ece1-41c9-8627-fe204dc3d9fb")
 		(property "Reference" "R30"
-			(at 186.69 100.076 90)
+			(at 186.69 101.346 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1984,7 +1964,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 186.69 98.298 90)
+			(at 186.69 99.568 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1992,7 +1972,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 186.69 96.52 0)
+			(at 186.69 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2001,7 +1981,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/17853-0402WGF0000TCE/C17168"
-			(at 186.69 96.52 0)
+			(at 186.69 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2010,7 +1990,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 186.69 96.52 0)
+			(at 186.69 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2019,7 +1999,7 @@
 			)
 		)
 		(property "LCSC" "C17168"
-			(at 186.69 96.52 90)
+			(at 186.69 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2028,7 +2008,7 @@
 			)
 		)
 		(property "Resource" ""
-			(at 186.69 96.52 90)
+			(at 186.69 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2037,7 +2017,7 @@
 			)
 		)
 		(property "pin1" ""
-			(at 186.69 96.52 90)
+			(at 186.69 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2046,7 +2026,7 @@
 			)
 		)
 		(property "pin2" ""
-			(at 186.69 96.52 90)
+			(at 186.69 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2055,7 +2035,7 @@
 			)
 		)
 		(property "pin3" ""
-			(at 186.69 96.52 90)
+			(at 186.69 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2064,7 +2044,7 @@
 			)
 		)
 		(property "pin4" ""
-			(at 186.69 96.52 90)
+			(at 186.69 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2073,7 +2053,7 @@
 			)
 		)
 		(property "pin5" ""
-			(at 186.69 96.52 90)
+			(at 186.69 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2082,7 +2062,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 186.69 96.52 90)
+			(at 186.69 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2091,7 +2071,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 186.69 96.52 90)
+			(at 186.69 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
