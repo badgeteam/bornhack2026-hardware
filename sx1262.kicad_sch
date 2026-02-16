@@ -4338,9 +4338,9 @@
 		(at 58.42 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3f873ba1-2204-4231-9dfb-c71f2c0f3797")
 		(property "Reference" "C23"
@@ -8567,9 +8567,9 @@
 		(at 31.75 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c1956768-972f-4aca-9723-da8c4d38640f")
 		(property "Reference" "C21"
