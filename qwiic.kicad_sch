@@ -1333,7 +1333,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4.7k"
 			(at 149.352 69.977 0)
 			(effects
 				(font
@@ -1351,7 +1351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26643-0402WGF4701TCE/C25900"
 			(at 151.13 71.12 0)
 			(effects
 				(font
@@ -1369,7 +1369,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C25900"
 			(at 151.13 71.12 0)
 			(effects
 				(font
@@ -1424,6 +1424,24 @@
 			)
 		)
 		(property "pin5" ""
+			(at 151.13 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 151.13 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 151.13 71.12 0)
 			(effects
 				(font
@@ -1697,6 +1715,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 96.52 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 96.52 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "208e1708-daf1-454e-902c-f6dc6432e7fe")
 		)
@@ -1911,6 +1947,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 119.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 119.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "9499c51c-623c-4fa0-ae68-5cc43a383244")
 		)
@@ -2022,7 +2076,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4.7k"
 			(at 141.732 69.977 0)
 			(effects
 				(font
@@ -2040,7 +2094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26643-0402WGF4701TCE/C25900"
 			(at 143.51 71.12 0)
 			(effects
 				(font
@@ -2058,7 +2112,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C25900"
 			(at 143.51 71.12 0)
 			(effects
 				(font
@@ -2113,6 +2167,24 @@
 			)
 		)
 		(property "pin5" ""
+			(at 143.51 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 143.51 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 143.51 71.12 0)
 			(effects
 				(font
