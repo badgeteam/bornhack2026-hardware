@@ -9629,7 +9629,7 @@
 				)
 			)
 		)
-		(property "Value" "TPE4259-63"
+		(property "Value" "ZHHXDZ HXCKRF2179MM26-C4"
 			(at 227.33 78.74 0)
 			(effects
 				(font
@@ -9646,7 +9646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/TECHPUBLIC-TPE425963/C47117600"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/ZHHXDZ-HXCKRF2179MM26C4/C49010109"
 			(at 227.33 86.36 0)
 			(effects
 				(font
@@ -9655,7 +9655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.6dB 0Hz~2.5GHz 30dB 31dBm SPDT SOT-363 RF Switches ROHS"
+		(property "Description" "0.65dB 32dBm 39dB 50MHz~3GHz SPDT SOT-363 RF Switches ROHS"
 			(at 227.33 86.36 0)
 			(effects
 				(font
@@ -9664,7 +9664,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C47117600"
+		(property "LCSC" "C49010109"
 			(at 227.33 99.06 0)
 			(effects
 				(font

@@ -216,10 +216,6 @@
           ""
         ],
         [
-          "shorting_items|-3674751|-28856468|60614242-e1ef-4747-beeb-c135255dc50c|b5c59b5a-f670-4e70-9c99-cfed527e9f71",
-          ""
-        ],
-        [
           "silk_edge_clearance|-32866899|-3904897|f4a6a63b-8abf-45db-a5ad-f461c41f1e7d|3fac9f03-7769-4123-b759-3e2f544ddfdd",
           ""
         ],
@@ -834,9 +830,6 @@
         "Power"
       ],
       "Net-(J2-Pin_7)": [
-        "Power"
-      ],
-      "Net-(J6-Pin_7)": [
         "Power"
       ],
       "Net-(L1-Pad1)": [
