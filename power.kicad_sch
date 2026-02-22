@@ -1759,78 +1759,6 @@
 					)
 				)
 				(pin unspecified line
-					(at -10.16 10.16 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 7.62 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "MODE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at -10.16 0 0)
 					(length 2.54)
 					(name "L1"
@@ -1921,60 +1849,6 @@
 					)
 				)
 				(pin unspecified line
-					(at 12.7 10.16 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 12.7 7.62 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(name "PG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at 12.7 2.54 180)
 					(length 2.54)
 					(name "L2"
@@ -2010,7 +1884,135 @@
 						)
 					)
 				)
-				(pin unspecified line
+			)
+			(symbol "TPS63805YFFR_1_1"
+				(pin input line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "MODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 10.16 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at 12.7 -2.54 180)
 					(length 2.54)
 					(name "FB"
@@ -2252,6 +2254,107 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -2925,6 +3028,16 @@
 		)
 		(uuid "011f7e16-f1f8-4909-a875-569b577002a0")
 	)
+	(text "Max 1mA sink on PG pin"
+		(exclude_from_sim no)
+		(at 226.568 54.356 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "19128f95-be46-4a9b-bba9-b1b7d5ce9864")
+	)
 	(text "IBAT = (1 / 2000) * 1000 = 500mA"
 		(exclude_from_sim no)
 		(at 64.77 182.88 0)
@@ -3096,10 +3209,22 @@
 		(uuid "69dd25df-527f-42fa-9ad1-f6c090fd065d")
 	)
 	(junction
+		(at 57.15 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73c05910-f916-400d-acdf-a0f8c76dabc5")
+	)
+	(junction
 		(at 149.86 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4ec4d7c-f38a-4638-99b3-5985feeac1eb")
+	)
+	(junction
+		(at 120.65 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7a958f5-23a1-4af2-a484-1eaffa5ddf8b")
 	)
 	(junction
 		(at 152.4 57.15)
@@ -3148,6 +3273,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f86a6ec3-f944-434c-93a7-f904b673bb2a")
+	)
+	(junction
+		(at 120.65 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe46c5d9-7bc9-4a5c-9546-58b3f7a6241a")
 	)
 	(wire
 		(pts
@@ -3198,6 +3329,16 @@
 			(type default)
 		)
 		(uuid "08d87859-ef79-4d7d-a464-6ef2227c670e")
+	)
+	(wire
+		(pts
+			(xy 120.65 62.23) (xy 120.65 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b5cd763-b7f1-4ff6-ac9b-bf1e2780b71b")
 	)
 	(wire
 		(pts
@@ -3278,6 +3419,16 @@
 			(type default)
 		)
 		(uuid "1738267a-16aa-4093-b717-029fb8ff3435")
+	)
+	(wire
+		(pts
+			(xy 120.65 59.69) (xy 123.19 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "177f565d-7cbd-4550-b99c-ab623286bc2a")
 	)
 	(wire
 		(pts
@@ -3401,7 +3552,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 154.94) (xy 50.8 154.94)
+			(xy 77.47 154.94) (xy 57.15 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3518,6 +3669,16 @@
 			(type default)
 		)
 		(uuid "63ffdebc-21b7-4aeb-b5f6-7e540ff63105")
+	)
+	(wire
+		(pts
+			(xy 245.11 57.15) (xy 255.27 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65ad5f24-5383-459b-98eb-923855ba6906")
 	)
 	(wire
 		(pts
@@ -3638,6 +3799,16 @@
 			(type default)
 		)
 		(uuid "790322b1-40d0-47bc-a545-de78aca2910b")
+	)
+	(wire
+		(pts
+			(xy 120.65 62.23) (xy 123.19 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7af01c09-b05d-4387-b04d-81ade0cc65fe")
 	)
 	(wire
 		(pts
@@ -3941,6 +4112,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 154.94) (xy 50.8 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cacd1f25-966b-4bef-89d0-5fb3fbc021c5")
+	)
+	(wire
+		(pts
 			(xy 152.4 68.58) (xy 152.4 69.85)
 		)
 		(stroke
@@ -3951,7 +4132,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 57.15) (xy 255.27 57.15)
+			(xy 219.71 57.15) (xy 240.03 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3988,6 +4169,16 @@
 			(type default)
 		)
 		(uuid "dbdbe11e-fd3c-4c7c-9ef0-08e950cd3018")
+	)
+	(wire
+		(pts
+			(xy 120.65 59.69) (xy 120.65 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0a3c2b1-8ac0-4b2b-97db-f5c78fd55759")
 	)
 	(wire
 		(pts
@@ -7120,6 +7311,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 57.15 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7fb9e53-d0df-4a8d-a1d9-4178ead6ce98")
+		(property "Reference" "#FLG01"
+			(at 57.15 153.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 57.15 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 57.15 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14493247-af95-4081-9671-0dbd5dc7c233")
+		)
+		(instances
+			(project ""
+				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/333d98a8-e6a2-433c-bb9c-6f407290c160"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 185.42 57.15 0)
 		(unit 1)
@@ -8869,6 +9126,83 @@
 			(project "bornhack2026-hardware"
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/333d98a8-e6a2-433c-bb9c-6f407290c160"
 					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 242.57 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef26eb15-0f99-4cd6-b3ca-63e1cf793189")
+		(property "Reference" "R20"
+			(at 242.57 52.07 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 242.57 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 242.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26633-0402WGF3301TCE/C25890"
+			(at 242.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 242.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25890"
+			(at 242.57 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fe4ac19f-9ec0-4769-b153-8c7c879507f6")
+		)
+		(pin "1"
+			(uuid "eb2e134d-2e11-4d26-b37d-ae24b7e237b1")
+		)
+		(instances
+			(project ""
+				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/333d98a8-e6a2-433c-bb9c-6f407290c160"
+					(reference "R20")
 					(unit 1)
 				)
 			)

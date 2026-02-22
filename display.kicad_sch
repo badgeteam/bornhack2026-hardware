@@ -160,11 +160,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc:TF31-24S-0.5SH(800)"
+		(symbol "lcsc:GT-F0501SR10-24S1101"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "CN"
+			(property "Reference" "FPC"
 				(at 0 39.37 0)
 				(effects
 					(font
@@ -172,7 +172,7 @@
 					)
 				)
 			)
-			(property "Value" "TF31-24S-0.5SH(800)"
+			(property "Value" "GT-F0501SR10-24S1101"
 				(at 0 -39.37 0)
 				(effects
 					(font
@@ -180,7 +180,7 @@
 					)
 				)
 			)
-			(property "Footprint" "lcsc:FPC-SMD_24P-P0.50_TF31-24S-0.5SH"
+			(property "Footprint" "lcsc:FPC-SMD_24P-P0.50_GT-F0501SR10-24S1101"
 				(at 0 -41.91 0)
 				(effects
 					(font
@@ -207,7 +207,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C3169854"
+			(property "LCSC Part" "C22380687"
 				(at 0 -44.45 0)
 				(effects
 					(font
@@ -216,10 +216,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "TF31-24S-0.5SH(800)_0_1"
+			(symbol "GT-F0501SR10-24S1101_0_1"
 				(rectangle
 					(start -2.54 31.75)
-					(end 7.62 -31.75)
+					(end 6.35 -31.75)
 					(stroke
 						(width 0)
 						(type default)
@@ -672,25 +672,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 6.35 34.29 270)
-					(length 2.54)
-					(name "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 6.35 -34.29 90)
+					(at 3.81 34.29 270)
 					(length 2.54)
 					(name "25"
 						(effects
@@ -700,6 +682,24 @@
 						)
 					)
 					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 -34.29 90)
+					(length 2.54)
+					(name "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1787,7 +1787,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 48.26) (xy 184.15 48.26)
+			(xy 179.07 48.26) (xy 181.61 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1827,7 +1827,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 48.26) (xy 181.61 52.07)
+			(xy 179.07 48.26) (xy 179.07 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1897,7 +1897,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 124.46) (xy 184.15 124.46)
+			(xy 179.07 124.46) (xy 181.61 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2267,7 +2267,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 124.46) (xy 181.61 120.65)
+			(xy 179.07 124.46) (xy 179.07 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3348,7 +3348,7 @@
 	)
 	(symbol
 		(lib_id "symbols2:GND")
-		(at 184.15 124.46 90)
+		(at 181.61 124.46 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3357,7 +3357,7 @@
 		(dnp no)
 		(uuid "48e50023-fa92-4982-8204-fa5276164278")
 		(property "Reference" "#PWR02"
-			(at 190.5 124.46 0)
+			(at 187.96 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3366,7 +3366,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 188.5442 124.587 0)
+			(at 186.0042 124.587 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3374,7 +3374,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 124.46 0)
+			(at 181.61 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3383,7 +3383,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 124.46 0)
+			(at 181.61 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3392,7 +3392,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 124.46 0)
+			(at 181.61 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4169,7 +4169,7 @@
 	)
 	(symbol
 		(lib_id "symbols2:GND")
-		(at 184.15 48.26 90)
+		(at 181.61 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4177,7 +4177,7 @@
 		(dnp no)
 		(uuid "96afb9ba-bb4a-4b60-b473-af7d472f9985")
 		(property "Reference" "#PWR064"
-			(at 190.5 48.26 0)
+			(at 187.96 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4186,7 +4186,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 188.5442 48.133 0)
+			(at 186.0042 48.133 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4194,7 +4194,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 48.26 0)
+			(at 181.61 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4203,7 +4203,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 48.26 0)
+			(at 181.61 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4212,7 +4212,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 48.26 0)
+			(at 181.61 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4377,6 +4377,157 @@
 			(project "bornhack2026-hardware"
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/9cdecd3d-2b1f-4dfc-b0b2-cc7367cb6c39"
 					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc:GT-F0501SR10-24S1101")
+		(at 175.26 86.36 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5b7fed1-d9c2-47f7-b90c-63ebab735052")
+		(property "Reference" "FPC1"
+			(at 182.88 87.6301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GT-F0501SR10-24S1101"
+			(at 182.88 85.0901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc:FPC-SMD_24P-P0.50_GT-F0501SR10-24S1101"
+			(at 175.26 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22380687"
+			(at 175.26 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "6d0e07d1-e460-4d55-b395-840e67677162")
+		)
+		(pin "12"
+			(uuid "21381335-c208-4966-b91d-8a32dcd1ff94")
+		)
+		(pin "19"
+			(uuid "bcb7496a-5615-41b2-83f7-45f4ed6ac774")
+		)
+		(pin "22"
+			(uuid "f3e43e4a-f0cc-4b4f-af9a-6258f6b02504")
+		)
+		(pin "17"
+			(uuid "5934d91d-b715-4365-80d0-b55b18c92c7e")
+		)
+		(pin "4"
+			(uuid "93fd1edd-9264-4973-9b86-9666b67abc30")
+		)
+		(pin "2"
+			(uuid "4db86c46-9fb1-456d-b3e6-74663689f51c")
+		)
+		(pin "14"
+			(uuid "5e70b9ee-dfaa-424b-8f06-7c93b491a3cb")
+		)
+		(pin "18"
+			(uuid "f5271f8b-e673-46d8-adae-cd6774cc26f2")
+		)
+		(pin "21"
+			(uuid "b5cb4e93-1cdb-4584-b359-df6e68ceac96")
+		)
+		(pin "1"
+			(uuid "28d17da9-268d-4439-9372-3750d4b84cd3")
+		)
+		(pin "3"
+			(uuid "34c9824b-69df-4919-bdff-540918dff193")
+		)
+		(pin "15"
+			(uuid "70c62f8b-6aae-4b74-b585-2433e9209993")
+		)
+		(pin "8"
+			(uuid "62639f15-58ee-47e9-9b22-a9832c782c01")
+		)
+		(pin "7"
+			(uuid "2130f241-e379-43a7-b4fb-53e8c9e6bfb0")
+		)
+		(pin "24"
+			(uuid "adb78ab4-401c-4165-b247-f13b880c9d39")
+		)
+		(pin "5"
+			(uuid "d94bc380-58e4-4d80-8dc2-3a0aee14520b")
+		)
+		(pin "25"
+			(uuid "0ccf1473-a237-4d64-af59-8dfce670fffc")
+		)
+		(pin "6"
+			(uuid "4a9f04ad-f4eb-4f37-9841-74e602fff01a")
+		)
+		(pin "13"
+			(uuid "12e39bf3-e1be-4868-a4e9-a452bad01804")
+		)
+		(pin "26"
+			(uuid "a68d689f-5503-41a1-9af1-69375e8c6bda")
+		)
+		(pin "11"
+			(uuid "139ddfd9-429e-488e-81f6-bead0146cbad")
+		)
+		(pin "10"
+			(uuid "bfa6fac6-b730-496f-8d2f-f552ae132e2e")
+		)
+		(pin "23"
+			(uuid "064b5f27-dafb-41a1-a78e-396ee3a24f9a")
+		)
+		(pin "16"
+			(uuid "02199ff8-5108-4d88-aba9-b0bd272167d0")
+		)
+		(pin "20"
+			(uuid "e3f802b8-803a-4d97-9f80-f8165e137141")
+		)
+		(instances
+			(project ""
+				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/9cdecd3d-2b1f-4dfc-b0b2-cc7367cb6c39"
+					(reference "FPC1")
 					(unit 1)
 				)
 			)
@@ -5913,157 +6064,6 @@
 			(project "bornhack2026-hardware"
 				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/9cdecd3d-2b1f-4dfc-b0b2-cc7367cb6c39"
 					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc:TF31-24S-0.5SH(800)")
-		(at 175.26 86.36 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f70f8e8a-63c7-4305-aa2f-b67175abde69")
-		(property "Reference" "CN1"
-			(at 184.15 87.6301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TF31-24S-0.5SH(800)"
-			(at 184.15 85.0901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lcsc:FPC-SMD_24P-P0.50_TF31-24S-0.5SH"
-			(at 175.26 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 175.26 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C3169854"
-			(at 175.26 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "19"
-			(uuid "66244e8b-d5dd-4555-85f5-b9176235b6a5")
-		)
-		(pin "4"
-			(uuid "2c2be678-676d-4cf0-8a7c-c5f9f8f3b6fb")
-		)
-		(pin "21"
-			(uuid "07ae32b3-a4f9-40ff-ac61-651393f8fffc")
-		)
-		(pin "18"
-			(uuid "176fffca-9abc-410b-931f-66254305ccbc")
-		)
-		(pin "9"
-			(uuid "e3412d94-ef99-411d-826a-bfd2ffd79c22")
-		)
-		(pin "26"
-			(uuid "5e073976-a97d-4385-9af4-79f67068d23f")
-		)
-		(pin "25"
-			(uuid "b116eb28-3bad-41e2-acf6-c5b649bd235d")
-		)
-		(pin "13"
-			(uuid "8f240f3c-f5d4-411e-8d2d-908bba10eff8")
-		)
-		(pin "23"
-			(uuid "ca827d16-a2d5-4043-8795-ffa7b4fc27bb")
-		)
-		(pin "5"
-			(uuid "6bcb47fa-a02a-48e6-993f-c576b8157ddb")
-		)
-		(pin "14"
-			(uuid "8cdcfd7a-0ba2-4418-aacd-4f10b64e45ae")
-		)
-		(pin "20"
-			(uuid "e3873a39-5e47-4003-9a6c-f0b3114baaab")
-		)
-		(pin "2"
-			(uuid "b49f25da-24f1-45a6-b4fa-3a30651e88b1")
-		)
-		(pin "1"
-			(uuid "cbbd1ba8-cf6c-439e-ac92-ae2800476f03")
-		)
-		(pin "22"
-			(uuid "8e6e094d-2826-4221-a2cf-3b808d40d86e")
-		)
-		(pin "12"
-			(uuid "d3a59b1b-bd26-4f83-ad33-fc02d4032392")
-		)
-		(pin "15"
-			(uuid "922914f9-2905-4898-b692-adc6910da447")
-		)
-		(pin "24"
-			(uuid "79995465-416d-4d47-9954-a6df1f9d1569")
-		)
-		(pin "17"
-			(uuid "91174c1a-3a8f-4fe8-b50b-1aa1126a3c81")
-		)
-		(pin "6"
-			(uuid "a1c4dbe1-f641-4cf1-95a8-65b548a22cc8")
-		)
-		(pin "10"
-			(uuid "f8539f8b-98b8-4fc8-9158-23eb94f5ae9f")
-		)
-		(pin "7"
-			(uuid "aecbc845-e314-4e30-96bf-2f2b310c938b")
-		)
-		(pin "11"
-			(uuid "3d35e420-f03a-4a33-8bc3-c9a245e39947")
-		)
-		(pin "8"
-			(uuid "ab2909c2-86a2-4246-aef4-125ac3252bf6")
-		)
-		(pin "3"
-			(uuid "91e5ab58-6d70-417e-a866-d03d25082ebf")
-		)
-		(pin "16"
-			(uuid "e1fca716-7ca3-472a-8a46-af498f408f57")
-		)
-		(instances
-			(project ""
-				(path "/23bf5400-d19c-445b-8744-b63ebcca303d/9cdecd3d-2b1f-4dfc-b0b2-cc7367cb6c39"
-					(reference "CN1")
 					(unit 1)
 				)
 			)

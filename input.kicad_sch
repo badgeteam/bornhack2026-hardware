@@ -3926,7 +3926,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "47k"
 			(at 85.09 97.7899 0)
 			(effects
 				(font
@@ -3944,7 +3944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26535-0402WGF4702TCE/C25792"
 			(at 82.55 96.52 0)
 			(effects
 				(font
@@ -3962,7 +3962,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C25792"
 			(at 82.55 96.52 0)
 			(effects
 				(font
