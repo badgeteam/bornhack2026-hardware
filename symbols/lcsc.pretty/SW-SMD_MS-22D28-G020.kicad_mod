@@ -277,7 +277,7 @@
 	)
 	(pad "" thru_hole circle
 		(at -2.25 0)
-		(size 0.9 0.9)
+		(size 1 1)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -285,7 +285,7 @@
 	)
 	(pad "" thru_hole circle
 		(at 2.25 0)
-		(size 0.9 0.9)
+		(size 1 1)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
