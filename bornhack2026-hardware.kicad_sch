@@ -4091,12 +4091,12 @@
 		(uuid "abadc55f-01ab-454a-8371-5ce1e07362c6")
 	)
 	(label "P1.08_CHRG"
-		(at 201.93 72.39 180)
+		(at 116.84 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "b25af605-86c4-4bc2-a826-7103d2dd18d7")
 	)
@@ -4171,12 +4171,12 @@
 		(uuid "cd4d1204-64a9-446f-a4a0-a381707167de")
 	)
 	(label "P0.05_EXP4"
-		(at 116.84 58.42 0)
+		(at 201.93 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d48c3e2e-1dce-487e-ba6c-2c80ea37702f")
 	)
