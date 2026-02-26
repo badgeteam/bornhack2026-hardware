@@ -4419,7 +4419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C22380687.html"
 			(at 175.26 86.36 0)
 			(effects
 				(font
@@ -4439,6 +4439,15 @@
 		)
 		(property "LCSC Part" "C22380687"
 			(at 175.26 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22380687"
+			(at 175.26 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)

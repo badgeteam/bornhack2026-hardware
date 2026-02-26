@@ -4079,7 +4079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Datasheet https://jlcpcb.com/partdetail/HRE-CGA0402C0G1R8C500GT/C22374861"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/HRE-CGA0402C0G1R8C500GT/C22374861"
 			(at 224.79 143.51 0)
 			(effects
 				(font
