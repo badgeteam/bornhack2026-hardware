@@ -83,6 +83,8 @@ Two 10k pull up resistors are provided on the board, when the capacitance is too
 
 ## Pinout
 
+**!! TODO: Update Pinout table for Prototype V2**
+
 | Ball (aQFN73) | nRF pin      | Pin type(s)              | Project net         | Project function                                         |
 | :------------ | :----------- | :----------------------- | :------------------ | :------------------------------------------------------- |
 | A12           | P0.02 AIN0   | Digital I/O Analog input | P0.06/BLUE          | LED blue (GPIO output)                                   |
