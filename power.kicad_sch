@@ -4629,7 +4629,7 @@
 		)
 		(uuid "cb7ac2c2-7eb2-4b91-afa5-89f6d09b2743")
 	)
-	(hierarchical_label "P1.08_CHRG"
+	(hierarchical_label "BAT_CHARGE"
 		(shape output)
 		(at 91.44 165.1 0)
 		(effects
@@ -5514,6 +5514,15 @@
 			)
 		)
 		(property "LCSC" "C963205"
+			(at 130.81 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
 			(at 130.81 62.23 90)
 			(effects
 				(font

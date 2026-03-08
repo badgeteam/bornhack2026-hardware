@@ -2562,6 +2562,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 109.22) (xy 137.16 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12fb2d57-fe69-41b5-b0fd-54266a325bd7")
+	)
+	(wire
+		(pts
 			(xy 265.43 123.19) (xy 265.43 124.46)
 		)
 		(stroke
@@ -2722,7 +2732,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 121.92) (xy 137.16 121.92)
+			(xy 124.46 121.92) (xy 137.16 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2742,7 +2752,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 119.38) (xy 137.16 119.38)
+			(xy 116.84 119.38) (xy 137.16 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2802,7 +2812,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 116.84) (xy 137.16 116.84)
+			(xy 116.84 116.84) (xy 137.16 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3052,7 +3062,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 111.76) (xy 137.16 111.76)
+			(xy 116.84 111.76) (xy 137.16 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3182,7 +3192,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 114.3) (xy 137.16 114.3)
+			(xy 116.84 114.3) (xy 137.16 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3412,16 +3422,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 109.22) (xy 137.16 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7b37583-88c3-4a54-b5c8-bdb2652cc0d4")
-	)
-	(wire
-		(pts
 			(xy 96.52 86.36) (xy 76.2 86.36)
 		)
 		(stroke
@@ -3630,7 +3630,7 @@
 		)
 		(uuid "ff51cd45-d294-42b9-aa11-147d58079004")
 	)
-	(label "P1.10_QWIIC_SDA"
+	(label "QWIIC_SDA"
 		(at 231.14 59.69 0)
 		(effects
 			(font
@@ -3640,7 +3640,7 @@
 		)
 		(uuid "015c59d8-43cb-4f73-a27d-73b1925af600")
 	)
-	(label "P1.01_BTN_JOY_RIGHT"
+	(label "JOY_RIGHT"
 		(at 201.93 57.15 180)
 		(effects
 			(font
@@ -3650,7 +3650,7 @@
 		)
 		(uuid "055097f9-4f87-4043-8a5b-4eff48a5ba98")
 	)
-	(label "P1.11_QWIIC_SCL"
+	(label "QWIIC_SCL"
 		(at 231.14 57.15 0)
 		(effects
 			(font
@@ -3660,8 +3660,8 @@
 		)
 		(uuid "08ff88d2-1eee-41ec-908b-b3d36b27ca32")
 	)
-	(label "P0.28_LORA_BUSY"
-		(at 118.11 114.3 0)
+	(label "LORA_BUSY"
+		(at 116.84 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3670,7 +3670,7 @@
 		)
 		(uuid "0a180e0f-9b79-4116-add1-268cfe46d5d2")
 	)
-	(label "P0.19_EXP3"
+	(label "GPIO_3"
 		(at 140.97 147.32 180)
 		(effects
 			(font
@@ -3680,7 +3680,7 @@
 		)
 		(uuid "0b461df9-9713-40d0-87c2-26ca4571af5f")
 	)
-	(label "{P1.10_QWIIC_SDA P1.11_QWIIC_SCL }"
+	(label "{QWIIC_SDA QWIIC_SCL }"
 		(at 214.63 72.39 0)
 		(effects
 			(font
@@ -3700,7 +3700,7 @@
 		)
 		(uuid "104c8563-7b73-4399-ba1e-3d2138a158b5")
 	)
-	(label "P0.04_LORA_RF_SW1"
+	(label "LORA_RF_SW"
 		(at 116.84 55.88 0)
 		(effects
 			(font
@@ -3740,7 +3740,7 @@
 		)
 		(uuid "133a2bd5-3b79-40ea-a20c-d5cfb4c0911e")
 	)
-	(label "P1.13_LORA_SCK"
+	(label "LORA_SCK"
 		(at 96.52 91.44 180)
 		(effects
 			(font
@@ -3750,7 +3750,7 @@
 		)
 		(uuid "2b4d4290-aacb-4fd6-951b-5b76c7ff466e")
 	)
-	(label "P0.28_LORA_BUSY"
+	(label "LORA_BUSY"
 		(at 20.32 86.36 0)
 		(effects
 			(font
@@ -3760,8 +3760,8 @@
 		)
 		(uuid "2d8ad00e-6496-4ff3-81ec-ddf8707e1683")
 	)
-	(label "P0.29_LORA_DIO1"
-		(at 118.11 116.84 0)
+	(label "LORA_DIO1"
+		(at 116.84 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3770,8 +3770,8 @@
 		)
 		(uuid "383b9064-6b3c-4567-83a8-18060015d0d0")
 	)
-	(label "P0.26_BTN_EXECUTE"
-		(at 118.11 109.22 0)
+	(label "BTN_EXECUTE"
+		(at 116.84 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3780,7 +3780,7 @@
 		)
 		(uuid "3d8ae0de-084b-4caf-a55a-5b05dd74102a")
 	)
-	(label "P1.03_BTN_JOY_DOWN"
+	(label "JOY_DOWN"
 		(at 99.06 156.21 180)
 		(effects
 			(font
@@ -3790,7 +3790,7 @@
 		)
 		(uuid "3fbdace8-4f41-463e-bcf2-f6492521d40a")
 	)
-	(label "P0.19_EXP3"
+	(label "GPIO_3"
 		(at 116.84 91.44 0)
 		(effects
 			(font
@@ -3800,7 +3800,7 @@
 		)
 		(uuid "43a5c206-20ea-46d1-940b-cf3576ec97b0")
 	)
-	(label "P0.08_DSP_SCK"
+	(label "EPD_SCK"
 		(at 81.28 123.19 180)
 		(effects
 			(font
@@ -3810,7 +3810,7 @@
 		)
 		(uuid "43a9ed3d-7853-4074-852d-4aae3d5f46fa")
 	)
-	(label "P0.14_DSP_BUSY"
+	(label "EPD_BUSY"
 		(at 116.84 81.28 0)
 		(effects
 			(font
@@ -3820,7 +3820,7 @@
 		)
 		(uuid "43c3773c-0f53-4196-b3e5-462190c95c46")
 	)
-	(label "P0.30_LORA_RST"
+	(label "LORA_RST"
 		(at 96.52 93.98 180)
 		(effects
 			(font
@@ -3830,7 +3830,7 @@
 		)
 		(uuid "46548dd8-b295-4ec5-9191-9a1e4ca07f6e")
 	)
-	(label "P0.05_EXP4"
+	(label "GPIO_4"
 		(at 140.97 149.86 180)
 		(effects
 			(font
@@ -3840,7 +3840,7 @@
 		)
 		(uuid "4737a725-30bf-40b7-9281-2755abb2fd24")
 	)
-	(label "P1.08_CHRG"
+	(label "BAT_CHARGE"
 		(at 275.59 39.37 180)
 		(effects
 			(font
@@ -3850,7 +3850,7 @@
 		)
 		(uuid "52a76e0d-1dca-4c0e-b113-4939345863ec")
 	)
-	(label "P0.11_DSP_RESETn"
+	(label "EPD_RESET"
 		(at 116.84 73.66 0)
 		(effects
 			(font
@@ -3860,7 +3860,7 @@
 		)
 		(uuid "534405a4-0754-4f05-a80f-374d090006f6")
 	)
-	(label "P1.03_BTN_JOY_DOWN"
+	(label "JOY_DOWN"
 		(at 201.93 62.23 180)
 		(effects
 			(font
@@ -3870,7 +3870,7 @@
 		)
 		(uuid "538ac715-ce2b-4996-b26c-16e73c11252f")
 	)
-	(label "P1.12_LORA_SPI_NSS"
+	(label "LORA_NSS"
 		(at 201.93 82.55 180)
 		(effects
 			(font
@@ -3880,7 +3880,7 @@
 		)
 		(uuid "54fffdff-d3c4-4a08-acea-9d5f9c694374")
 	)
-	(label "P0.17_PS_SYNC"
+	(label "PS_SYNC"
 		(at 116.84 88.9 0)
 		(effects
 			(font
@@ -3890,7 +3890,7 @@
 		)
 		(uuid "5598888d-af47-4752-b720-6131f6100cfb")
 	)
-	(label "P1.14_LORA_MOSI"
+	(label "LORA_MOSI"
 		(at 96.52 88.9 180)
 		(effects
 			(font
@@ -3900,7 +3900,7 @@
 		)
 		(uuid "560f155c-a6cd-4586-bb07-00574a5c48b4")
 	)
-	(label "P0.16_EXP2"
+	(label "GPIO_2"
 		(at 116.84 86.36 0)
 		(effects
 			(font
@@ -3910,7 +3910,7 @@
 		)
 		(uuid "594de769-b1e4-4790-afbf-1d6b9496fc13")
 	)
-	(label "P1.05_BTN_JOY_LEFT"
+	(label "JOY_LEFT"
 		(at 99.06 151.13 180)
 		(effects
 			(font
@@ -3920,7 +3920,7 @@
 		)
 		(uuid "5df9f0eb-f068-4b60-8523-235bef67f221")
 	)
-	(label "P1.10_QWIIC_SDA"
+	(label "QWIIC_SDA"
 		(at 201.93 77.47 180)
 		(effects
 			(font
@@ -3930,7 +3930,7 @@
 		)
 		(uuid "5f7ba4b7-abfa-4e42-bbaa-c8ffe3a9e521")
 	)
-	(label "P1.05_BTN_JOY_LEFT"
+	(label "JOY_LEFT"
 		(at 201.93 67.31 180)
 		(effects
 			(font
@@ -3950,7 +3950,7 @@
 		)
 		(uuid "6425f97a-2b05-462f-9da1-b7467a1e241d")
 	)
-	(label "P1.09_DSP_CSN"
+	(label "EPD_CSN"
 		(at 201.93 74.93 180)
 		(effects
 			(font
@@ -3960,7 +3960,7 @@
 		)
 		(uuid "676494e6-d065-4fb3-b36f-4518f354b99e")
 	)
-	(label "P0.29_LORA_DIO1"
+	(label "LORA_DIO1"
 		(at 20.32 83.82 0)
 		(effects
 			(font
@@ -3980,7 +3980,7 @@
 		)
 		(uuid "71e317a7-a620-45fe-8639-7f03a1707d5c")
 	)
-	(label "P0.03_LORA_MISO"
+	(label "LORA_MISO"
 		(at 116.84 53.34 0)
 		(effects
 			(font
@@ -3990,7 +3990,7 @@
 		)
 		(uuid "7cf2cf2a-3b34-43fa-974c-06d4c1444218")
 	)
-	(label "P0.12_DSP_DC"
+	(label "EPD_DC"
 		(at 116.84 76.2 0)
 		(effects
 			(font
@@ -4000,8 +4000,8 @@
 		)
 		(uuid "7f5e1fbf-df3b-4cab-94e4-68cd10a787c6")
 	)
-	(label "P0.27_DSP_MOSI"
-		(at 118.11 111.76 0)
+	(label "EPD_MOSI"
+		(at 116.84 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4020,7 +4020,7 @@
 		)
 		(uuid "8495c1b8-5bb1-46d2-b200-cb022d62bbf2")
 	)
-	(label "P1.04_BTN_JOY_UP"
+	(label "JOY_UP"
 		(at 201.93 64.77 180)
 		(effects
 			(font
@@ -4030,7 +4030,7 @@
 		)
 		(uuid "88ccf691-5d99-48a3-914b-c57245caf3d9")
 	)
-	(label "P1.11_QWIIC_SCL"
+	(label "QWIIC_SCL"
 		(at 201.93 80.01 180)
 		(effects
 			(font
@@ -4050,7 +4050,7 @@
 		)
 		(uuid "8a45536f-6d30-403a-aaf1-8c09e8416657")
 	)
-	(label "P1.02_BTN_JOY_FIRE"
+	(label "JOY_FIRE"
 		(at 99.06 158.75 180)
 		(effects
 			(font
@@ -4060,7 +4060,7 @@
 		)
 		(uuid "8f1c6116-1bd0-4cdc-8d1d-810135609cbc")
 	)
-	(label "P0.14_DSP_BUSY"
+	(label "EPD_BUSY"
 		(at 81.28 127 180)
 		(effects
 			(font
@@ -4070,7 +4070,7 @@
 		)
 		(uuid "988058cb-f4d0-4449-9ee3-0b561dadcf7b")
 	)
-	(label "P0.04_LORA_RF_SW1"
+	(label "LORA_RF_SW"
 		(at 96.52 83.82 180)
 		(effects
 			(font
@@ -4080,7 +4080,7 @@
 		)
 		(uuid "9c7f95b6-4d92-478e-8cf4-65d3385efff4")
 	)
-	(label "P0.26_BTN_EXECUTE"
+	(label "BTN_EXECUTE"
 		(at 99.06 163.83 180)
 		(effects
 			(font
@@ -4090,7 +4090,7 @@
 		)
 		(uuid "abadc55f-01ab-454a-8371-5ce1e07362c6")
 	)
-	(label "P1.08_CHRG"
+	(label "BAT_CHARGE"
 		(at 116.84 58.42 0)
 		(effects
 			(font
@@ -4100,7 +4100,7 @@
 		)
 		(uuid "b25af605-86c4-4bc2-a826-7103d2dd18d7")
 	)
-	(label "P0.13_BUZZ_IN"
+	(label "BUZZER"
 		(at 116.84 78.74 0)
 		(effects
 			(font
@@ -4110,7 +4110,7 @@
 		)
 		(uuid "b3b717cc-bcfe-4b7e-852a-528012d56cb1")
 	)
-	(label "P0.11_DSP_RESETn"
+	(label "EPD_RESET"
 		(at 81.28 130.81 180)
 		(effects
 			(font
@@ -4120,7 +4120,7 @@
 		)
 		(uuid "b7e752f4-b873-4c75-8c80-589f1afd1b35")
 	)
-	(label "P0.15_EXP1"
+	(label "GPIO_1"
 		(at 116.84 83.82 0)
 		(effects
 			(font
@@ -4130,7 +4130,7 @@
 		)
 		(uuid "bc7c55a4-6d8d-45f1-b32d-0dcc1449d255")
 	)
-	(label "P1.02_BTN_JOY_FIRE"
+	(label "JOY_FIRE"
 		(at 201.93 59.69 180)
 		(effects
 			(font
@@ -4140,7 +4140,7 @@
 		)
 		(uuid "be2e70ca-22ef-4cc3-b4a9-42fca0718aa0")
 	)
-	(label "P0.27_DSP_MOSI"
+	(label "EPD_MOSI"
 		(at 81.28 115.57 180)
 		(effects
 			(font
@@ -4150,7 +4150,7 @@
 		)
 		(uuid "c0ca781e-315d-47fd-9a1b-f3771a6b72af")
 	)
-	(label "P1.01_BTN_JOY_RIGHT"
+	(label "JOY_RIGHT"
 		(at 99.06 148.59 180)
 		(effects
 			(font
@@ -4160,7 +4160,7 @@
 		)
 		(uuid "c1dc2da3-9a8d-41ed-957f-d2cec2bf8637")
 	)
-	(label "P0.15_EXP1"
+	(label "GPIO_1"
 		(at 140.97 142.24 180)
 		(effects
 			(font
@@ -4170,7 +4170,7 @@
 		)
 		(uuid "cd4d1204-64a9-446f-a4a0-a381707167de")
 	)
-	(label "P0.05_EXP4"
+	(label "GPIO_4"
 		(at 201.93 72.39 180)
 		(effects
 			(font
@@ -4190,7 +4190,7 @@
 		)
 		(uuid "d61d87e5-4f6d-4025-b40a-17aadc6ac19f")
 	)
-	(label "P0.03_LORA_MISO"
+	(label "LORA_MISO"
 		(at 96.52 86.36 180)
 		(effects
 			(font
@@ -4200,8 +4200,8 @@
 		)
 		(uuid "d89686d1-0d13-463c-97b4-111be1bdc11e")
 	)
-	(label "P0.30_LORA_RST"
-		(at 118.11 119.38 0)
+	(label "LORA_RST"
+		(at 116.84 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4210,7 +4210,7 @@
 		)
 		(uuid "dcb4e0d4-8c02-420a-884c-6ddd13738b32")
 	)
-	(label "P1.04_BTN_JOY_UP"
+	(label "JOY_UP"
 		(at 99.06 153.67 180)
 		(effects
 			(font
@@ -4220,7 +4220,7 @@
 		)
 		(uuid "e060bef2-6139-4bd1-b13d-be1ddd49a550")
 	)
-	(label "P0.13_BUZZ_IN"
+	(label "BUZZER"
 		(at 167.64 143.51 0)
 		(effects
 			(font
@@ -4230,7 +4230,7 @@
 		)
 		(uuid "e11876bf-d99b-42da-b3a4-42f0476c56d2")
 	)
-	(label "P1.09_DSP_CSN"
+	(label "EPD_CSN"
 		(at 81.28 118.11 180)
 		(effects
 			(font
@@ -4250,7 +4250,7 @@
 		)
 		(uuid "ec58994c-1a5b-405f-b2d5-d6aea218538a")
 	)
-	(label "P0.17_PS_SYNC"
+	(label "PS_SYNC"
 		(at 222.25 35.56 0)
 		(effects
 			(font
@@ -4260,7 +4260,7 @@
 		)
 		(uuid "ec72adf4-3bad-4d12-a5ab-39d5755f6be8")
 	)
-	(label "P1.12_LORA_SPI_NSS"
+	(label "LORA_NSS"
 		(at 96.52 96.52 180)
 		(effects
 			(font
@@ -4270,7 +4270,7 @@
 		)
 		(uuid "ed295cfa-da92-469f-afdf-fb72e3848fe5")
 	)
-	(label "P0.16_EXP2"
+	(label "GPIO_2"
 		(at 140.97 144.78 180)
 		(effects
 			(font
@@ -4280,7 +4280,7 @@
 		)
 		(uuid "efa23e99-897a-4f47-9642-c5af206bcbec")
 	)
-	(label "P0.08_DSP_SCK"
+	(label "EPD_SCK"
 		(at 116.84 66.04 0)
 		(effects
 			(font
@@ -4310,7 +4310,7 @@
 		)
 		(uuid "f5f95a9d-8682-4269-b460-254c59aa2bd1")
 	)
-	(label "P1.14_LORA_MOSI"
+	(label "LORA_MOSI"
 		(at 201.93 87.63 180)
 		(effects
 			(font
@@ -4320,7 +4320,7 @@
 		)
 		(uuid "f6533cb9-61cb-4c50-9e5d-a4d417215bc7")
 	)
-	(label "P0.12_DSP_DC"
+	(label "EPD_DC"
 		(at 81.28 120.65 180)
 		(effects
 			(font
@@ -4330,7 +4330,7 @@
 		)
 		(uuid "fbc63347-00ea-4cd9-9f02-21b70e6f6a85")
 	)
-	(label "P1.13_LORA_SCK"
+	(label "LORA_SCK"
 		(at 201.93 85.09 180)
 		(effects
 			(font
@@ -4340,7 +4340,7 @@
 		)
 		(uuid "fdb50689-87cd-4f5e-8501-d69466c821ee")
 	)
-	(global_label "P0.02{slash}BLUE"
+	(global_label "LED_BLUE"
 		(shape input)
 		(at 60.96 62.23 0)
 		(fields_autoplaced yes)
@@ -4362,7 +4362,7 @@
 			)
 		)
 	)
-	(global_label "P1.07{slash}RED"
+	(global_label "LED_RED"
 		(shape input)
 		(at 201.93 69.85 0)
 		(fields_autoplaced yes)
@@ -4384,7 +4384,7 @@
 			)
 		)
 	)
-	(global_label "P1.07{slash}RED"
+	(global_label "LED_RED"
 		(shape input)
 		(at 60.96 57.15 0)
 		(fields_autoplaced yes)
@@ -4406,7 +4406,7 @@
 			)
 		)
 	)
-	(global_label "P1.15{slash}GREEN"
+	(global_label "LED_GREEN"
 		(shape input)
 		(at 201.93 90.17 0)
 		(fields_autoplaced yes)
@@ -4428,7 +4428,7 @@
 			)
 		)
 	)
-	(global_label "P0.07_READ_BAT"
+	(global_label "BAT_V_READ"
 		(shape input)
 		(at 262.89 30.48 0)
 		(fields_autoplaced yes)
@@ -4450,7 +4450,7 @@
 			)
 		)
 	)
-	(global_label "P0.31{slash}VBAT"
+	(global_label "BAT_V"
 		(shape input)
 		(at 262.89 27.94 0)
 		(fields_autoplaced yes)
@@ -4472,9 +4472,9 @@
 			)
 		)
 	)
-	(global_label "P0.31{slash}VBAT"
+	(global_label "BAT_V"
 		(shape input)
-		(at 118.11 121.92 180)
+		(at 124.46 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4484,7 +4484,7 @@
 		)
 		(uuid "b2a9ac0a-f226-471e-bf4f-c43a4320ada6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.8762 121.92 0)
+			(at 110.2262 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4494,7 +4494,7 @@
 			)
 		)
 	)
-	(global_label "P0.07_READ_BAT"
+	(global_label "BAT_V_READ"
 		(shape input)
 		(at 116.84 63.5 180)
 		(fields_autoplaced yes)
@@ -4516,7 +4516,7 @@
 			)
 		)
 	)
-	(global_label "P0.02{slash}BLUE"
+	(global_label "LED_BLUE"
 		(shape input)
 		(at 116.84 50.8 180)
 		(fields_autoplaced yes)
@@ -4538,7 +4538,7 @@
 			)
 		)
 	)
-	(global_label "P1.15{slash}GREEN"
+	(global_label "LED_GREEN"
 		(shape input)
 		(at 60.96 59.69 0)
 		(fields_autoplaced yes)
@@ -7091,7 +7091,7 @@
 				(justify right)
 			)
 		)
-		(pin "P1.03_BTN_JOY_DOWN" output
+		(pin "JOY_DOWN" output
 			(at 76.2 156.21 0)
 			(uuid "451ca682-56b2-4435-9f8e-87777ab42a59")
 			(effects
@@ -7101,7 +7101,7 @@
 				(justify right)
 			)
 		)
-		(pin "P1.02_BTN_JOY_FIRE" output
+		(pin "JOY_FIRE" output
 			(at 76.2 158.75 0)
 			(uuid "92cbfffc-abc0-49b9-9f84-fa7f5921d3ea")
 			(effects
@@ -7111,7 +7111,7 @@
 				(justify right)
 			)
 		)
-		(pin "P1.05_BTN_JOY_LEFT" output
+		(pin "JOY_LEFT" output
 			(at 76.2 151.13 0)
 			(uuid "7eba67cc-da4c-4489-9b61-61de3f0ed25a")
 			(effects
@@ -7121,7 +7121,7 @@
 				(justify right)
 			)
 		)
-		(pin "P1.01_BTN_JOY_RIGHT" output
+		(pin "JOY_RIGHT" output
 			(at 76.2 148.59 0)
 			(uuid "0d089587-5be5-4b9f-8798-0ba7b1b7e464")
 			(effects
@@ -7131,7 +7131,7 @@
 				(justify right)
 			)
 		)
-		(pin "P1.04_BTN_JOY_UP" output
+		(pin "JOY_UP" output
 			(at 76.2 153.67 0)
 			(uuid "d3f30d8f-a78c-44d0-841d-7b6b829907f9")
 			(effects
@@ -7141,7 +7141,7 @@
 				(justify right)
 			)
 		)
-		(pin "P0.26_BTN_EXECUTE" output
+		(pin "BTN_EXECUTE" output
 			(at 76.2 163.83 0)
 			(uuid "4043acf9-24fb-48d9-83cc-3d7eb6015e0b")
 			(effects
@@ -7203,7 +7203,7 @@
 				(justify left)
 			)
 		)
-		(pin "P1.08_CHRG" output
+		(pin "BAT_CHARGE" output
 			(at 262.89 39.37 0)
 			(uuid "b8ef8835-6c7c-4e1f-8858-a832672f66d4")
 			(effects

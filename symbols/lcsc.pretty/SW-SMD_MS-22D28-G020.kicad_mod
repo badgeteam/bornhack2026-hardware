@@ -222,9 +222,9 @@
 	)
 	(fp_circle
 		(center -3.5 -3)
-		(end -3.4 -2.9)
+		(end -3.258579 -3)
 		(stroke
-			(width 0.156)
+			(width 0.25)
 			(type default)
 		)
 		(fill no)
@@ -252,6 +252,17 @@
 		(fill no)
 		(layer "Cmts.User")
 		(uuid "d071c5e8-2347-4430-afdb-e092cb08beaf")
+	)
+	(fp_rect
+		(start -4.3 -4.5)
+		(end 4.3 4.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "33285d85-c279-41c6-8c9e-42d97def3291")
 	)
 	(fp_circle
 		(center -3.55 -3)

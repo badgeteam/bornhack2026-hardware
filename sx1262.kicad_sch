@@ -1684,6 +1684,16 @@
 		)
 		(uuid "ba5c5cfc-add9-4b4f-b6b4-f0f90e307e11")
 	)
+	(text "LORA_RF_SW1, LOW = RF2 -> RFC"
+		(exclude_from_sim no)
+		(at 225.298 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e492eaa1-bc16-4053-a77f-a30b4fbf00d8")
+	)
 	(junction
 		(at 78.74 101.6)
 		(diameter 0)
@@ -9370,6 +9380,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 227.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet PDF" "https://www.lcsc.com/datasheet/C49010109.pdf"
 			(at 227.33 86.36 0)
 			(effects
 				(font

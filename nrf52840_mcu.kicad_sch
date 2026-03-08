@@ -9646,7 +9646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NRF52840-QIAA-R:XCVR_NRF52840-QIAA-R"
+		(property "Footprint" "lcsc:XCVR_NRF52840-QIAA-R"
 			(at 146.05 90.17 0)
 			(effects
 				(font

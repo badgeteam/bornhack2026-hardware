@@ -83,41 +83,52 @@ Two 10k pull up resistors are provided on the board, when the capacitance is too
 
 ## Pinout
 
-**!! TODO: Update Pinout table for Prototype V2**
-
-| Ball (aQFN73) | nRF pin      | Pin type(s)              | Project net         | Project function                                         |
-| :------------ | :----------- | :----------------------- | :------------------ | :------------------------------------------------------- |
-| A12           | P0.02 AIN0   | Digital I/O Analog input | P0.06/BLUE          | LED blue (GPIO output)                                   |
-| B13           | P0.03 AIN1   | Digital I/O Analog input | P1.14_LORA_MISO     | LoRa (SX1262) SPI MISO (GPIO input)                      |
-| J1            | P0.04 AIN2   | Digital I/O Analog input | P0.04_LORA_RF_SW1   | LoRa RF switch control SW1 (GPIO output)                 |
-| L1            | P0.06        | Digital I/O              | BTN_CANCEL          | Button: cancel (GPIO input)                              |
-| L24           | P0.07        | Digital I/O              | P0.07_READ_BAT      | Battery read enable: pull low to read VBAT (GPIO output) |
-| N1            | P0.08        | Digital I/O              | P0.07_DSP_SCK       | Display (DSP) SPI SCK (GPIO output)                      |
-| L24           | P0.09 NFC1   | NFC input                | NFC1                | NFC antenna connection                                   |
-| J24           | P0.10 NFC2   | NFC input                | NFC2                | NFC antenna connection                                   |
-| U1            | P0.11        | Digital I/O              | P0.11_DSP_BUSY      | Display busy/IRQ (GPIO input)                            |
-| V23           | P0.12        | Digital I/O              | P0.12_DSP_RESET     | Display reset (GPIO output)                              |
-| AC11          | P0.17        | Digital I/O              | P0.17_PS_SYNC       | PS_SYNC (GPIO, sync/control)                             |
-| G1            | P0.26        | Digital I/O              | P0.26_BTN_EXECUTE   | Button: execute (GPIO input)                             |
-| H2            | P0.27        | Digital I/O              | P0.27_DSP_MOSI      | Display (DSP) SPI MOSI (GPIO output)                     |
-| B11           | P0.28 AIN4   | Digital I/O Analog input | P0.28_LORA_BUSY     | LoRa (SX1262) BUSY (GPIO input)                          |
-| A10           | P0.29 AIN5   | Digital I/O Analog input | P0.29_LORA_DIO1     | LoRa (SX1262) DIO1 IRQ (GPIO input)                      |
-| B9            | P0.30 AIN6   | Digital I/O Analog input | P0.30_LORA_RST      | LoRa (SX1262) reset (GPIO output)                        |
-| A8            | P0.31 AIN7   | Digital I/O Analog input | P0.31/VBAT          | Battery voltage sense (ADC input)                        |
-| Y23           | P1.01        | Digital I/O              | P1.01_BTN_JOY_RIGHT | Joystick button: right (GPIO input)                      |
-| W24           | P1.02        | Digital I/O              | P1.02_BTN_JOY_FIRE  | Joystick button: fire (GPIO input)                       |
-| V23           | P1.03        | Digital I/O              | P1.03_BTN_JOY_DOWN  | Joystick button: down (GPIO input)                       |
-| U24           | P1.04        | Digital I/O              | P1.04_BTN_JOY_UP    | Joystick button: up (GPIO input)                         |
-| T23           | P1.05        | Digital I/O              | P1.05_BTN_JOY_LEFT  | Joystick button: left (GPIO input)                       |
-| P23           | P1.07        | Digital I/O              | P1.07/RED           | LED red (GPIO output)                                    |
-| P2            | P1.08        | Digital I/O              | P1.08_CHRG          | Charge status: low when charging (GPIO input)            |
-| R1            | P1.09        | Digital I/O              | P1.09_DSP_CSN       | Display (DSP) SPI CSN (GPIO output)                      |
-| A20           | P1.10        | Digital I/O              | P1.10_QWIIC_SDA     | Qwiic I²C SDA (open-drain)                               |
-| B19           | P1.11        | Digital I/O              | P1.11_QWIIC_SCL     | Qwiic I²C SCL (open-drain)                               |
-| B17           | P1.12        | Digital I/O              | P1.12_LORA_SPI_NSS  | LoRa (SX1262) SPI NSS/CS (GPIO output)                   |
-| A16           | P1.13        | Digital I/O              | P1.13_LORA_SCK      | LoRa (SX1262) SPI SCK (GPIO output)                      |
-| B15           | P1.14        | Digital I/O              | P1.14_LORA_MOSI     | LoRa (SX1262) SPI MOSI (GPIO output)                     |
-| A14           | P1.15        | Digital I/O              | P1.15/GREEN         | LED green (GPIO output)                                  |
-| AC13          | P0.18 nRESET | Digital I/O              | MCU_RESET           | nRESET (active low)                                      |
-| AD6           | D+           | USB                      | USB_D+              | USB data +                                               |
-| AD4           | D-           | USB                      | USB_D-              | USB data -                                               |
+| Ball (aQFN73) | nRF pin      | Pin type(s)              | Project net  | Project function                                         |
+| :------------ | :----------- | :----------------------- | :----------- | :------------------------------------------------------- |
+| A12           | P0.02 AIN0   | Digital I/O Analog input | LED_BLUE     | LED blue (active low, GPIO output)                       |
+| B13           | P0.03 AIN1   | Digital I/O Analog input | LORA_MISO    | LoRa (SX1262) SPI MISO (GPIO input)                      |
+| J1            | P0.04 AIN2   | Digital I/O Analog input | LORA_RF_SW   | LoRa RF switch control (GPIO output)                     |
+| K2            | P0.05 AIN3   | Digital I/O Analog input | BAT_CHARGE   | Charge status: low when charging (GPIO input)            |
+| L1            | P0.06        | Digital I/O              | BTN_CANCEL   | Button: cancel (active low, GPIO input)                  |
+| M2            | P0.07        | Digital I/O              | BAT_V_READ   | Battery read enable: pull low to read VBAT (GPIO output) |
+| N1            | P0.08        | Digital I/O              | EPD_SCK      | EPD (SDD1680) SPI SCK (GPIO output)                      |
+| M24           | P0.09 NFC1   | NFC I/O                  | NFC1         | NFC antenna connection                                   |
+| L24           | P0.10 NFC2   | NFC I/O                  | NFC2         | NFC antenna connection                                   |
+| U1            | P0.11        | Digital I/O              | EPD_RESET    | EPD (SDD1680) reset (GPIO output)                        |
+| V2            | P0.12        | Digital I/O              | EPD_DC       | EPD (SDD1680) data/command (GPIO output)                 |
+| W1            | P0.13        | Digital I/O              | BUZZER       | Buzzer square wave output (PWM/GPIO output)              |
+| X2            | P0.14        | Digital I/O              | EPD_BUSY     | EPD (SDD1680) busy signal (GPIO input)                   |
+| AC12          | P0.15        | Digital I/O              | GPIO_1       | General purpose I/O 1                                    |
+| AB13          | P0.16        | Digital I/O              | GPIO_2       | General purpose I/O 2                                    |
+| AC11          | P0.17        | Digital O                | PS_SYNC      | Power mode buck/boost hi/low power mode                  |
+| AC13          | P0.18 nRESET | Digital O                | MCU_RESET    | nRESET (active low)                                      |
+| AB11          | P0.19        | Digital I/O              | GPIO_3       | General purpose I/O 3                                    |
+| AC9           | P0.20        | Digital I/O (QSPI)       | FLASH_IO0    | QSPI Flash IO0/D0                                        |
+| AB9           | P0.21        | Digital I/O (QSPI)       | FLASH_SCK    | QSPI Flash clock (GPIO output)                           |
+| AC7           | P0.22        | Digital I/O (QSPI)       | FLASH_IO2    | QSPI Flash IO2/D2                                        |
+| AB7           | P0.23        | Digital I/O (QSPI)       | FLASH_IO3    | QSPI Flash IO3/D3                                        |
+| AC5           | P0.24        | Digital I/O (QSPI)       | FLASH_IO1    | QSPI Flash IO1/D1                                        |
+| AB5           | P0.25        | Digital I/O (QSPI)       | FLASH_CSN    | QSPI Flash chip select (active low, GPIO output)         |
+| G1            | P0.26        | Digital I/O              | BTN_EXECUTE  | Button: execute (active low, GPIO input)                 |
+| H2            | P0.27        | Digital I/O              | EPD_MOSI     | EPD (SDD1680) SPI MOSI (GPIO output)                     |
+| B11           | P0.28 AIN4   | Digital I/O Analog input | LORA_BUSY    | LoRa (SX1262) busy (GPIO input)                          |
+| A10           | P0.29 AIN5   | Digital I/O Analog input | LORA_DIO1    | LoRa (SX1262) DIO1 IRQ (GPIO input)                      |
+| B9            | P0.30 AIN6   | Digital I/O Analog input | LORA_RST     | LoRa (SX1262) reset (GPIO output)                        |
+| A8            | P0.31 AIN7   | Digital I/O Analog input | VBAT_V       | Battery voltage sense (ADC input)                        |
+| AD22          | P1.00        | SWD                      | P1.00_SWO    | SWO pin SWD NRF52840                                     |
+| Y23           | P1.01        | Digital I/O              | JOY_RIGHT    | Joystick: right (active low, GPIO input)                 |
+| W24           | P1.02        | Digital I/O              | JOY_FIRE     | Joystick: fire (active low, GPIO input)                  |
+| V24           | P1.03        | Digital I/O              | JOY_DOWN     | Joystick: down (active low, GPIO input)                  |
+| U24           | P1.04        | Digital I/O              | JOY_UP       | Joystick: up (active low, GPIO input)                    |
+| T23           | P1.05        | Digital I/O              | JOY_LEFT     | Joystick: left (active low, GPIO input)                  |
+| P23           | P1.07        | Digital I/O              | LED_RED      | LED red (active low, GPIO output)                        |
+| P2            | P1.08        | Digital I/O              | GPIO_4       | General purpose I/O 4                                    |
+| R1            | P1.09        | Digital I/O              | EPD_CSN      | EPD (SDD1680) SPI CSN (active low, GPIO output)          |
+| A20           | P1.10        | Digital I/O              | QWIIC_SDA    | Qwiic I²C SDA (open-drain)                               |
+| B19           | P1.11        | Digital I/O              | QWIIC_SCL    | Qwiic I²C SCL (open-drain)                               |
+| B17           | P1.12        | Digital I/O              | LORA_NSS     | LoRa (SX1262) SPI NSS/CS (active low, GPIO output)       |
+| A16           | P1.13        | Digital I/O              | LORA_SCK     | LoRa (SX1262) SPI SCK (GPIO output)                      |
+| B15           | P1.14        | Digital I/O              | LORA_MOSI    | LoRa (SX1262) SPI MOSI (GPIO output)                     |
+| A14           | P1.15        | Digital I/O              | LED_GREEN    | LED green (active low, GPIO output)                      |
+| AD6           | D+           | USB                      | USB_D+       | USB data +                                               |
+| AD4           | D-           | USB                      | USB_D-       | USB data -                                               |
