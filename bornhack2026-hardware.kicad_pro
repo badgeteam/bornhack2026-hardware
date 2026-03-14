@@ -208,10 +208,6 @@
           ""
         ],
         [
-          "nonmirrored_text_on_back_layer|24639626|28254092|bd57ee27-5412-455e-b598-b987dc049a44|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "shorting_items|-3674751|-28856468|60614242-e1ef-4747-beeb-c135255dc50c|b5c59b5a-f670-4e70-9c99-cfed527e9f71",
           ""
         ],
@@ -914,7 +910,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "bornhack2026-hardware.step",
       "svg": "",
       "vrml": ""
     },
@@ -1235,6 +1231,10 @@
     [
       "b21ff704-9000-4580-ba18-c8ea70926409",
       "NRF52840_MCU"
+    ],
+    [
+      "68dd69bb-2eb6-4b03-b40a-4244e460d9da",
+      "RGB_LED1"
     ],
     [
       "333d98a8-e6a2-433c-bb9c-6f407290c160",
