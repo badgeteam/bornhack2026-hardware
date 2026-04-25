@@ -1,0 +1,27 @@
+(version 1)
+
+(rule "neck_down"
+    (condition "A.intersectsCourtyard('U6')")
+    (constraint clearance (min 0.1mm)))
+
+(rule "AE3 antenna internal clearance"
+  (condition "A.memberOfFootprint('AE3') && B.memberOfFootprint('AE3')")
+  (constraint clearance (min -1mm))
+  (constraint hole_clearance (min 0mm))
+  (constraint physical_hole_clearance (min 0mm))
+  (severity ignore)
+)
+
+(rule "AE1 antenna internal clearance"
+  (condition "A.memberOfFootprint('AE1') && B.memberOfFootprint('AE1')")
+  (constraint clearance (min -1mm))
+  (constraint physical_hole_clearance (min -1mm))
+  (constraint hole_clearance (min -1mm))
+)
+
+(rule "N4 silkscreen ignore"
+  (condition "A.memberOfFootprint('N4') || B.memberOfFootprint('N4')")
+  (constraint silk_clearance (min -1mm))
+  (constraint edge_clearance (min -1mm))
+  (severity ignore)
+)

@@ -1,13 +1,13 @@
 (footprint "egg-edge-silk"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "4379784b-42dd-4ec7-9897-eed859811990")
+		(uuid "064f1904-61ba-4c98-a391-d42042d7757f")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "94422a89-eef7-4a95-bb69-cf0d39600b99")
+		(uuid "7d38bc7b-3480-4be6-8087-7182986e5bfa")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7d7a4768-d9cb-4319-88a0-a5ab8225d3c7")
+		(uuid "8ac7c7c0-a77d-4290-8e48-e1ba406f3e6c")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6d4dd50c-1e90-434e-a20e-63eaa777edf4")
+		(uuid "5e479ed6-e3b5-462d-a9d4-8d6f36ff520a")
 		(effects
 			(font
 				(size 1 1)
@@ -53,7 +53,10 @@
 			)
 		)
 	)
-	(attr through_hole)
+	(attr through_hole exclude_from_pos_files exclude_from_bom allow_missing_courtyard
+		dnp
+	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy 1.5 -45) (xy 3.043437 -44.724919) (xy 4.583621 -44.302493) (xy 6.117411 -43.73753) (xy 7.641662 -43.034842)
@@ -92,7 +95,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "cf6df7fb-fe79-4031-a262-9cf841573749")
+		(uuid "0c1e08a2-1b7e-48f9-8d00-f74d36693fdc")
 	)
 	(fp_poly
 		(pts
@@ -132,13 +135,13 @@
 		)
 		(fill no)
 		(layer "B.SilkS")
-		(uuid "748d4955-7d9b-4be4-a811-a1a64c93528c")
+		(uuid "5e7d7d15-6a2a-4a7f-b414-bc8ca672a3be")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "92c5776d-eece-47e1-9cb0-8a20418154d3")
+		(uuid "a558b29e-ddb9-4ecf-8744-09e9fc02b07d")
 		(effects
 			(font
 				(size 1 1)
