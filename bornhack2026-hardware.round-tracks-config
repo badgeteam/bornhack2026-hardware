@@ -1,0 +1,9 @@
+Default	False	2.0	3
+BT-ANT	False	2.0	3
+BT-RF	True	2.0	3
+GND	False	2.0	3
+GPIO	False	2.0	3
+LORA-RF	False	2.0	3
+Power	False	2.0	3
+USB diff	False	2.0	3
+False	True	False

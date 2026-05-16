@@ -1,23 +1,34 @@
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
 
-# Temporary files
+# Temporary / autosave / lock files
 *.000
 *.bak
 *.bck
+*.tmp
+*~
+_autosave-*
+\#auto_saved_files\#
+*.lck
+~*.lck
+*-save.pro
+*-save.kicad_pcb
+
+# Per-user local state (not portable between machines)
+*.kicad_prl
+
+# Backup files (legacy + KiCad 6+)
+*-backups/
+*.pro-bak
+*.sch-bak
 *.kicad_pcb-bak
 *.kicad_sch-bak
 *.kicad_sch_old
-*-backups
-*.kicad_prl
-*.sch-bak
-*~
-_autosave-*
-*.tmp
-*-save.pro
-*-save.kicad_pcb
+*.kicad_pcb_old
+*.pro_old
+
+# Caches
 fp-info-cache
-*.lck
 .svg2shenzhen-cache
 
 # Netlist files (exported from Eeschema)
@@ -27,8 +38,21 @@ fp-info-cache
 *.dsn
 *.ses
 
-# Exported BOM files
+# Exported BOM / reports
 *.xml
-#auto_saved_files#
+*.rpt
 
-production/backups
+# Fabrication backups (production zips/CSVs themselves are kept)
+production/backups/
+
+# Interactive HTML BOM output
+ibom/**
+
+# Editor / IDE local state
+.vscode/
+.history/
+.history_trim/
+
+# OS junk
+.DS_Store
+Thumbs.db

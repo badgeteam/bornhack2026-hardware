@@ -81,6 +81,39 @@ Pins used for the SDA and SCL pins are listed below.
 
 Two 10k pull up resistors are provided on the board, when the capacitance is too high on the I2C lines, the internal pull-ups can also be enabled (the provide an extra 10k pull-up resistance).
 
+## Production
+
+!! Very important: The vias on the board must be filled with epoxy and capped for proper soldering. !!
+
+### JLCPCB production settings
+
+#### PCB production settings
+
+| Item         | Value        |
+| :----------- | :----------- |
+| Base Material | FR-3 |
+| Product type | Industrial / Consumer electronics  |
+| PCB Thickness | 1.6mm |
+| Material Type      | FR4 TG135 |
+| Gold thickness | 1 U" |
+| Outer Copper Weight | 1 oz |
+| Inner Copper Weight | 0.5 oz |
+| Surface Finish | ENIG |
+| Specify Stackup | JLC0461H-7628 (Prepreg 0.21mm, Core 1.065mm) |
+| Impedance Control | No requirement |
+| Via Covering | Epoxy Filled & Capped |
+| Via Plating Method | Horizontal Electroless Copper Plating |
+| Min via hole size/diameter | 0.2mm |
+| Board outline Tolerance | 0.2mm |
+ 
+#### PCBA production settings
+
+| Item | Value |
+| :--- | :---- |
+| PCBA Type | Standard      |
+| Assembly Side | Both Sides           |
+| Parts Selection | By Customer |
+
 ## Pinout
 
 | Ball (aQFN73) | nRF pin      | Pin type(s)              | Project net  | Project function                                         |
@@ -91,13 +124,13 @@ Two 10k pull up resistors are provided on the board, when the capacitance is too
 | K2            | P0.05 AIN3   | Digital I/O Analog input | BAT_CHARGE   | Charge status: low when charging (GPIO input)            |
 | L1            | P0.06        | Digital I/O              | BTN_CANCEL   | Button: cancel (active low, GPIO input)                  |
 | M2            | P0.07        | Digital I/O              | BAT_V_READ   | Battery read enable: pull low to read VBAT (GPIO output) |
-| N1            | P0.08        | Digital I/O              | EPD_SCK      | EPD (SDD1680) SPI SCK (GPIO output)                      |
+| N1            | P0.08        | Digital I/O              | EPD_SCK      | EPD (SSD1675) SPI SCK (GPIO output)                      |
 | M24           | P0.09 NFC1   | NFC I/O                  | NFC1         | NFC antenna connection                                   |
 | L24           | P0.10 NFC2   | NFC I/O                  | NFC2         | NFC antenna connection                                   |
-| U1            | P0.11        | Digital I/O              | EPD_RESET    | EPD (SDD1680) reset (GPIO output)                        |
-| V2            | P0.12        | Digital I/O              | EPD_DC       | EPD (SDD1680) data/command (GPIO output)                 |
+| U1            | P0.11        | Digital I/O              | EPD_RESET    | EPD (SSD1675) reset (GPIO output)                        |
+| V2            | P0.12        | Digital I/O              | EPD_DC       | EPD (SSD1675) data/command (GPIO output)                 |
 | W1            | P0.13        | Digital I/O              | BUZZER       | Buzzer square wave output (PWM/GPIO output)              |
-| X2            | P0.14        | Digital I/O              | EPD_BUSY     | EPD (SDD1680) busy signal (GPIO input)                   |
+| X2            | P0.14        | Digital I/O              | EPD_BUSY     | EPD (SSD1675) busy signal (GPIO input)                   |
 | AC12          | P0.15        | Digital I/O              | GPIO_1       | General purpose I/O 1                                    |
 | AB13          | P0.16        | Digital I/O              | GPIO_2       | General purpose I/O 2                                    |
 | AC11          | P0.17        | Digital O                | PS_SYNC      | Power mode buck/boost hi/low power mode                  |
@@ -110,7 +143,7 @@ Two 10k pull up resistors are provided on the board, when the capacitance is too
 | AC5           | P0.24        | Digital I/O (QSPI)       | FLASH_IO1    | QSPI Flash IO1/D1                                        |
 | AB5           | P0.25        | Digital I/O (QSPI)       | FLASH_CSN    | QSPI Flash chip select (active low, GPIO output)         |
 | G1            | P0.26        | Digital I/O              | BTN_EXECUTE  | Button: execute (active low, GPIO input)                 |
-| H2            | P0.27        | Digital I/O              | EPD_MOSI     | EPD (SDD1680) SPI MOSI (GPIO output)                     |
+| H2            | P0.27        | Digital I/O              | EPD_MOSI     | EPD (SDD1675) SPI MOSI (GPIO output)                     |
 | B11           | P0.28 AIN4   | Digital I/O Analog input | LORA_BUSY    | LoRa (SX1262) busy (GPIO input)                          |
 | A10           | P0.29 AIN5   | Digital I/O Analog input | LORA_DIO1    | LoRa (SX1262) DIO1 IRQ (GPIO input)                      |
 | B9            | P0.30 AIN6   | Digital I/O Analog input | LORA_RST     | LoRa (SX1262) reset (GPIO output)                        |
@@ -122,8 +155,8 @@ Two 10k pull up resistors are provided on the board, when the capacitance is too
 | U24           | P1.04        | Digital I/O              | JOY_UP       | Joystick: up (active low, GPIO input)                    |
 | T23           | P1.05        | Digital I/O              | JOY_LEFT     | Joystick: left (active low, GPIO input)                  |
 | P23           | P1.07        | Digital I/O              | LED_RED      | LED red (active low, GPIO output)                        |
-| P2            | P1.08        | Digital I/O              | GPIO_4       | General purpose I/O 4                                    |
-| R1            | P1.09        | Digital I/O              | EPD_CSN      | EPD (SDD1680) SPI CSN (active low, GPIO output)          |
+| P2            | P1.08        | Digital I/O              | EPD_MOSI     | EPD (SSD1675) MISO/MOSI line EPD                         |
+| R1            | P1.09        | Digital I/O              | EPD_CSN      | EPD (SSD1675) SPI CSN (active low, GPIO output)          |
 | A20           | P1.10        | Digital I/O              | QWIIC_SDA    | Qwiic I²C SDA (open-drain)                               |
 | B19           | P1.11        | Digital I/O              | QWIIC_SCL    | Qwiic I²C SCL (open-drain)                               |
 | B17           | P1.12        | Digital I/O              | LORA_NSS     | LoRa (SX1262) SPI NSS/CS (active low, GPIO output)       |
