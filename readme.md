@@ -132,3 +132,53 @@ Two 10k pull up resistors are provided on the board, when the capacitance is too
 | A14           | P1.15        | Digital I/O              | LED_GREEN    | LED green (active low, GPIO output)                      |
 | AD6           | D+           | USB                      | USB_D+       | USB data +                                               |
 | AD4           | D-           | USB                      | USB_D-       | USB data -                                               |
+
+## 3D model export
+
+The badge's full 3D model is available as a glTF binary (`.glb`) and a Collada
+(`.dae`). Both are *generated* from the PCB - they are not checked in (see
+`.gitignore`) - so regenerate them whenever the layout changes.
+
+KiCad has no DAE/Collada export target, and Blender 5.0 dropped its own native
+Collada exporter (`bpy.ops.wm.collada_export` is now a non-functional stub). So
+we go in two steps:
+
+1. **PCB -> GLB** with `kicad-cli` (KiCad 10 exports GLB natively).
+2. **GLB -> DAE** inside Blender, importing the GLB and writing the Collada file
+   with [`pycollada`](https://pypi.org/project/pycollada/) (a pure-Python
+   library, so it loads on top of Blender's bundled numpy with no compiled
+   extensions and no changes to your Blender install).
+
+### Usage
+
+One command, from anywhere in the repo:
+
+```sh
+tools/export-3d.sh
+```
+
+This writes `bornhack2026-hardware.glb` and `bornhack2026-hardware.dae` to the
+repo root and prints their final paths and sizes. To convert a different board,
+pass it as the first argument: `tools/export-3d.sh path/to/other.kicad_pcb`.
+
+### Prerequisites
+
+- **KiCad 10** (`kicad-cli` on your `PATH`).
+- **Blender >= 4** (it ships its own Python 3.11+ / 5.0 ships 3.13). The script
+  finds `blender`, `blender-5.0`, `blender-4.5`, etc. on your `PATH`, and on
+  macOS also probes `/Applications/Blender.app`.
+- **python3** to create a small throwaway venv for `pycollada`. On Debian/Ubuntu
+  this means the `python3-venv` package.
+- **Network access on the first run only**, so that venv can `pip install`
+  `pycollada` (pinned for reproducibility). Subsequent runs reuse the cached venv.
+
+You can override the autodetection with environment variables if needed:
+`KICAD_CLI`, `BLENDER`, `KICAD9_3DMODEL_DIR`, `VENV_DIR`, and `OUTDIR`.
+
+### Notes
+
+- The generated `.glb` / `.dae` files and the tooling venv (`tools/.venv-3d/`)
+  are git-ignored - they are large and fully regenerable.
+- During the GLB export KiCad warns that the `FPC1` and `L1` component models are
+  missing. That is **expected and harmless**: those two footprints are not in the
+  standard KiCad 3D model library, so they simply do not appear in the model.

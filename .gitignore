@@ -32,3 +32,15 @@ fp-info-cache
 #auto_saved_files#
 
 production/backups
+
+# Generated 3D models (regenerate with tools/export-3d.sh)
+/bornhack2026-hardware.glb
+/bornhack2026-hardware.dae
+
+# pycollada venv used by the 3D export tooling
+tools/.venv-3d/
+pip-wheel-metadata/
+
+# Python bytecode caches
+__pycache__/
+*.pyc
