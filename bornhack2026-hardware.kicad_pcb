@@ -5555,7 +5555,7 @@
 	(footprint "symbols:stamp"
 		(layer "F.Cu")
 		(uuid "b903f269-9896-4039-94f3-a8cdbf1246c3")
-		(at 4.945566 5.726802)
+		(at 0.390364 -2.459272)
 		(property "Reference" "N2"
 			(at -0.104434 0 0)
 			(layer "F.SilkS")
