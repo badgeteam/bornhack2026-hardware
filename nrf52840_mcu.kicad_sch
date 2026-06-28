@@ -7626,7 +7626,7 @@
 			(justify left bottom)
 		)
 		(uuid "7b808935-65f7-4d4a-8c80-dd8d79354b7d")
-		(property "Net Class" "GND"
+		(property "Netclass" "GND"
 			(at 77.4065 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7661,7 +7661,7 @@
 			(justify left bottom)
 		)
 		(uuid "9fc89e5a-18dd-46b6-b7ea-a2c3e32fa4e2")
-		(property "Net Class" "BT-RF"
+		(property "Netclass" "BT-RF"
 			(at 82.4865 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7695,7 +7695,7 @@
 			(justify left bottom)
 		)
 		(uuid "c0e589eb-3165-48c1-8d93-c5f998b0dfd0")
-		(property "Net Class" "BT-RF"
+		(property "Netclass" "BT-RF"
 			(at 50.546 149.606 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7729,7 +7729,7 @@
 			(justify left bottom)
 		)
 		(uuid "fc52dfef-1745-4a21-b695-fc7acf2e3fa8")
-		(property "Net Class" "BT-RF"
+		(property "Netclass" "BT-RF"
 			(at 27.686 149.606 0)
 			(show_name no)
 			(do_not_autoplace no)
