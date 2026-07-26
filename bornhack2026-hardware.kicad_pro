@@ -1133,7 +1133,7 @@
         "uuid": "23bf5400-d19c-445b-8744-b63ebcca303d"
       }
     ],
-    "used_designators": "FPC2,N5,R24,R47",
+    "used_designators": "SW5,FPC2,N5,R24,R47",
     "variants": []
   },
   "sheets": [
